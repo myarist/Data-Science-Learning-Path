@@ -1,0 +1,204 @@
+city,education,age
+"Brooklyn, NY",college,31
+"Brooklyn, NY",graduate degree,31
+"Brooklyn, NY",graduate degree,32
+"Brooklyn, NY",college,37
+"Brooklyn, NY",college,21
+"Austin, TX",college,25
+"Oakland, CA",graduate degree,29
+"Pittsburgh, PA",college,29
+"Pittsburgh, PA",college,27
+"Pittsburgh, PA",graduate degree,28
+"Ames, IA",college,31
+"Albany, NY",graduate degree,31
+"Lancaster, PA",college,31
+"Reno, NV",high school,31
+"Houston, TX",high school,31
+"Tulsa, OK",high school,31
+Kansas City,graduate degree,21
+"Lincoln, NB",college,22
+"Fort Wayne, ID",graduate degree,23
+"Memphis, TN",high school,24
+"Birmingham, AL",college,25
+"Wichita, KS",college,26
+"Tampa, FL",high school,27
+"Bakersfield, CA",high school,28
+"Charlotte, NC",college,29
+"Columbus, OH",graduate degree,30
+"Philadelphia, PA",graduate degree,31
+"Philadelphia, PA",graduate degree,32
+"Philadelphia, PA",graduate degree,33
+"Plano, TX",graduate degree,34
+"Boston, MA",college,35
+"Fresno, CA",college,36
+"Scottsdale, AZ",graduate degree,37
+"Milwaukee, WI",graduate degree,21
+"Huntington, NY",college,22
+"Boston, MA",college,23
+"Cleveland, OH",graduate degree,24
+"Santa Ana, CA",college,25
+"North Hempstead, NY",graduate degree,26
+"Toledo, OH",high school,27
+"Laredo, TX",college,28
+"Denver, CO",college,29
+"Denver, CO",college,30
+"Denver, CO",graduate degree,31
+"Denver, CO",college,32
+"Milwaukee, WI",college,33
+"Philadelphia, PA",graduate degree,34
+"Philadelphia, PA",graduate degree,35
+"Philadelphia, PA",graduate degree,36
+"Boston, MA",graduate degree,37
+"Milwaukee, WI",college,21
+"Baton Rouge, LA",graduate degree,22
+"Newark, NJ",college,23
+"Miami, FL",graduate degree,24
+"Honolulu, HI",college,25
+"Jersey City, NJ",college,26
+"Omaha, Nebraska",college,27
+Albuquerque,graduate degree,28
+"Detroit, MI",college,29
+"Baltimore, MD",college,30
+"Baltimore, MD",graduate degree,31
+"Milwaukee, WI",college,32
+"New York, NY",college,33
+"New York, NY",graduate degree,34
+"New York, NY",college,35
+"New York, NY",graduate degree,36
+"Los Angeles, CA",graduate degree,37
+"Baltimore, MD",college,21
+"Baltimore, MD",graduate degree,22
+"Los Angeles, CA",graduate degree,23
+"Chicago, IL",graduate degree,24
+"Detroit, MI",college,25
+"St. Louis, MO",graduate degree,26
+"Philadelphia, PA",college,27
+"Minneapolis, MN",college,28
+"Boston, MA",graduate degree,29
+"Minneapolis, MN",college,30
+"St. Petersburg, FL",college,31
+"New York, NY",high school,32
+"New York, NY",graduate degree,33
+"New York, NY",graduate degree,34
+"New York, NY",graduate degree,35
+"Los Angeles, CA",graduate degree,36
+"Chicago, IL",college,37
+"Boston, MA",college,21
+"Boston, MA",college,22
+"Boston, MA",graduate degree,23
+"Boston, MA",college,24
+"Boston, MA",graduate degree,25
+"Boston, MA",graduate degree,26
+"Boston, MA",college,27
+"Boston, MA",graduate degree,28
+"Boston, MA",college,29
+"Chicago, IL",graduate degree,30
+"Chicago, IL",graduate degree,31
+"Baltimore, MD",college,32
+"Baltimore, MD",college,33
+"Los Angeles, CA",college,34
+"Los Angeles, CA",college,35
+"Los Angeles, CA",college,36
+"Los Angeles, CA",graduate degree,37
+"Los Angeles, CA",graduate degree,21
+"Reno, NV",college,22
+"Rochester, NY",graduate degree,23
+"Omaha, Nebraska",college,24
+"Rochester, NY",graduate degree,25
+"Charlotte, NC",graduate degree,26
+"Philadelphia, PA",graduate degree,27
+"Durham, NC",graduate degree,28
+"Scottsdale, AZ",graduate degree,29
+"Lincoln, NB",graduate degree,30
+"Stockton, CA",graduate degree,31
+"Baltimore, MD",graduate degree,32
+"Baltimore, MD",graduate degree,33
+"Chicago, IL",graduate degree,34
+"Chicago, IL",graduate degree,35
+"Chicago, IL",graduate degree,36
+"Chicago, IL",graduate degree,37
+"Houston, TX",high school,21
+"San Jose, CA",graduate degree,22
+"Milwaukee, WI",college,23
+"St. Paul, MN",college,24
+"Los Angeles, CA",graduate degree,25
+"Houston, TX",graduate degree,26
+"Las Vegas, NV",college,27
+"Baton Rouge, LA",college,28
+"Long Beach, CA",graduate degree,29
+"Philadelphia, PA",graduate degree,30
+"Boston, MA",college,31
+"Atlanta, GA",graduate degree,32
+"Atlanta, GA",graduate degree,33
+"Atlanta, GA",graduate degree,34
+"Oklahoma City, OK",college,35
+"Pittsburgh, PA",graduate degree,36
+"Baltimore, MD",graduate degree,37
+"Philadelphia, PA",graduate degree,21
+"Philadelphia, PA",graduate degree,22
+"Philadelphia, PA",graduate degree,23
+"Philadelphia, PA",college,24
+"Lexington-Fayette, KY",college,25
+"Greensboro, NC",college,26
+"Miami, FL",college,27
+"San Jose, CA",college,28
+"Kansas City, MO",college,29
+"Minneapolis, MN",college,30
+"Mesa, AZ",graduate degree,31
+"Newark, NJ",college,32
+"Nashville, TN",college,33
+"Las Vegas, NV",graduate degree,34
+"Santa Ana, CA",high school,32
+"Chula Vista, CA",high school,29
+"Janesville, WI",college,28
+"Fort Lee, NJ",high school,31
+"Rocklin, CA",college,28
+"Wilson, NC
+",college,31
+"Dallas, GA
+",graduate degree,32
+"Birmingham, AL",graduate degree,34
+"Washington, DC",college,35
+"Washington, DC",graduate degree,21
+"Washington, DC",college,36
+"St. Louis, MO",graduate degree,34
+"Cleveland, OH",graduate degree,37
+"Phoenix, AZ",college,38
+"Phoenix, AZ",graduate degree,26
+"Modesto, CA",high school,26
+"Portland, OR",college,38
+"Portland, OR",graduate degree,38
+"Seattle, WA",graduate degree,35
+"Seattle, WA",college,22
+"Seattle, WA",graduate degree,24
+"Washington, DC",graduate degree,31
+"Jacksonville, FL",graduate degree,23
+"St. Paul, MN",college,27
+"Anchorage, AK",college,21
+"St. Paul, MN",college,32
+"Albuquerque, NM",college,32
+"San Francisco, CA",college,36
+"San Francisco, CA",graduate degree,37
+"San Francisco, CA",college,22
+"San Francisco, CA",college,31
+"San Francisco, CA",graduate degree,34
+"San Francisco, CA",graduate degree,24
+"San Francisco, CA",graduate degree,33
+"San Francisco, CA",college,34
+"Sacramento, CA",graduate degree,27
+"Iowa City, IA",graduate degree,38
+"Orlando, FL",college,24
+"Scottsdale, AZ",college,33
+"Detroit, MI",college,25
+"Arlington, TX",high school,21
+"Jersey City, NJ",college,37
+"Rochester, NY",college,34
+"Nashville, TN",graduate degree,22
+"Austin, TX",graduate degree,22
+"Madison, WI",graduate degree,28
+"Buffalo, NY",graduate degree,24
+"Durham, NC",graduate degree,34
+"Honolulu, HI",high school,35
+"Corpus Christi, TX",high school,38
+"Memphis, TN",high school,44
+"Birmingham, AL",college,45
