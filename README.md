@@ -7,15 +7,11 @@
 <br />
 
 <p align="justify">
-  <a href="https://www.codecademy.com/">Codecademy</a> want to create a world where anyone can build something meaningful with technology, and everyone has the learning tools, resources, and opportunities to do so. Code contains a world of possibilities — all that’s required is the curiosity and drive to learn.
+  <a href="https://www.codecademy.com/">Codecademy</a> want to create a world where anyone can build something meaningful with technology, and everyone has the learning tools, resources, and opportunities to do so. Code contains a world of possibilities — all that’s required is the curiosity and drive to learn. At Codecademy, we are committed to empowering all people, regardless of where they are in their coding journeys, to continue to learn, grow, and make an impact on the world around them.
 </p>
 
 <p align="center">
   <img src="README/banner.png">
-</p>
-
-<p align="justify">
-  At Codecademy, we are committed to empowering all people, regardless of where they are in their coding journeys, to continue to learn, grow, and make an impact on the world around them.
 </p>
 
 <br> 
@@ -47,12 +43,12 @@ Apply your learning with real-world projects and test your knowledge with tailor
 ## 5. Land Your Dream Job <a href='README/5.webp'><img src='README/5.webp' align="right" width="90" /></a>
 Coding skills have never been more in-demand. Learn everything you need to take your career to the next level.
 
-<br>
+<br><br>
 
 <!-- ################################################################ -->
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\Certificate.png" width="500px">
+  <img src="Data%20Scientist%20Career%20Path\Certificate.png">
 </p>
 
 <h1 align="center">Data Scientist Learning Path</h1>
@@ -190,4 +186,234 @@ As you can see, there are many different applications and kinds of projects that
 - Natural Language Processing - ways of analyzing text to gain insights as well as support applications, such as chatbots
 
 Of course, there are many applications beyond just the ones that we’ve covered here. So no matter your interest or professional industry, data science thinking can create impact.
+
+## **3. Python Fundamentals**
+
+### **a. Python Syntax and Variable Types**
+
+Python is a programming language. Like other languages, it gives us a way to communicate ideas. In the case of a programming language, these ideas are “commands” that people use to communicate with a computer!
+
+0) [Welcome](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\1.%20welcome.py)
+1) [Comment](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\2.%20comments.py)
+2) [Print](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\3.%20print.py)
+3) [String](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\4.%20strings.py)
+4) [Variables](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\5.%20variables.py)
+5) [Errors](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\6.%20errors.py)
+6) [Numbers](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\7.%20numbers.py)
+7) [Calculations](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\8.%20calculations.py)
+8) [Changing Numbers](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\9.%20changing%20numbers.py)
+9) [Exponents](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\10.%20exponents.py)
+10) [Modulo](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\11.%20modulo.py)
+11) [Concatenation](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\12.%20concenation.py)
+12) [Plus Equals](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\13.%20plus%20equals.py)
+13) [Multi-line Strings](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\14.%20multi-line%20string.py)
+14) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\15.%20review.py)
+
+Two common errors that we encounter while writing Python are `SyntaxError` and `NameError`.
+
+- `SyntaxError` means there is something wrong with the way your program is written — punctuation that does not belong, a command where it is not expected, or a missing parenthesis can all trigger a `SyntaxError`.
+
+- A `NameError` occurs when the Python interpreter sees a word it does not recognize. Code that contains something that looks like a variable but was never defined will throw a `NameError`.
+
+#### **Documentation**
+
+[Python Documentation - Built-in Types](https://docs.python.org/3/library/stdtypes.html)
+
+In this documentation, you will learn about the built-in data types of Python. This is helpful if you would like to learn about data types that you can use when programming in Python.
+
+### **b. Python Functions**
+
+Let’s imagine we were building an application to help people plan trips! When using a trip planning application we can say a simple procedure could look like this:
+
+```
+ 1. Establish your origin and destination
+ 2. Calculate the distance/route
+ 3. Return the best route to the user
+```
+
+We will perform these three steps every time users have to travel between two points using our trip application. In our programs, we could rewrite the same procedures over and over (and over) for each time we want to travel, but there’s a better way! Python gives us a useful concept called *functions*.
+
+1) [Why Functions?](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\1.%20why%20function.py)
+2) [Defining a Function](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\2.%20defining%20function.py)
+3) [Calling Function](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\3.%20calling%20function.py)
+4) [Whitespace & Execution Flow](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\4.%20whitespace.py)
+5) [Parameters & Arguments](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\5.%20parameters%20n%20arguments.py)
+6) [Multiple Parameters](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\6.%20multiple%20parameters.py)
+7) [Types of Arguments](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\7.%20types%20of%20arguments.py)
+8) [Built-in vs User Defined Functions](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\8.%20builtin%20n%20user%20defined%20function.py)
+9) [Variable Access](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\9.%20variable%20access.py)
+10) [Returns](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\10.%20returns.py)
+11) [Multiple Returns](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\11.%20multiple%20returns.py)
+12) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\12.%20review.py)
+
+Here’s an example of a function definition:
+
+```
+def function_name():
+    # functions tasks go here
+```
+
+There are some key components we want to note here:
+- The `def` keyword indicates the beginning of a function (also known as a function header). The function header is followed by a name in snake_case format that describes the task the function performs. It’s best practice to give your functions a descriptive yet concise name.
+
+- Following the function name is a pair of parenthesis `( )` that can hold input values known as parameters (more on parameters later in the lesson!). In this example function, we have no parameters.
+
+- A colon `:` to mark the end of the function header.
+
+- Lastly, we have one or more valid python statements that make up the function body (where we have our python comment).
+
+**Python Code Challenges: Functions**
+
+1. [Tenth Power](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\2.%20Challenge\1.%20tenth%20power.py)
+2. [Square Root](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\2.%20Challenge\2.%20square%20root.py)
+3. [Win Percentage](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\2.%20Challenge\3.%20win%20percentage.py)
+4. [Average](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\2.%20Challenge\4.%20average.py)
+5. [Remainder](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\2.%20Challenge\5.%20remainder.py)
+
+**Python Code Challenges: Functions (Advanced)**
+
+1. [First Three Multiples](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\3.%20Challenge%20(Advanced)\1.%20first%20three%20multiples.py)
+2. [Tip](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\3.%20Challenge%20(Advanced)\2.%20tip.py)
+3. [Bond, James Bond](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\3.%20Challenge%20(Advanced)\3.%20james%20bond.py)
+4. [Dog Years](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\3.%20Challenge%20(Advanced)\4.%20dog%20years.py)
+5. [All Operations](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\3.%20Challenge%20(Advanced)\5.%20all%20operations.py)
+
+### **c. Python Control Flow**
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\control-flow.svg">
+</p>
+
+1) [Boolean Expressions](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\1.%20boolean%20expressions.py)
+2) [Relational Operators: Equals and Not Equals](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\2.%20relational%20operators.py)
+3) [Boolean Variables](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\3.%20boolean%20variables.py)
+4) [If Statement](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\4.%20if.py)
+5) [Relational Operators II](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\5.%20relational%20operators%202.py)
+6) [Boolean Operators: and](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\6.%20and.py)
+7) [Boolean Operators: or](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\7.%20or.py)
+8) [Boolean Operators: not](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\8.%20not.py)
+9) [Else Statements](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\9.%20else.py)
+10) [Else If Statements](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\10.%20else%20if.py)
+11) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\11.%20review.py)
+
+Let’s review what we’ve learned this lesson:
+
+- Boolean expressions are statements that can be either `True` or `False`
+- A boolean variable is a variable that is set to either `True` or `False`.
+- We can create boolean expressions using relational operators:
+    - `==` : Equals
+    - `!=` : Not equals
+    - `>` : Greater than
+    - `>=` : Greater than or equal to
+    - `<` : Less than
+    - `<=` : Less than or equal to
+- `if` statements can be used to create control flow in your code.
+- `else` statements can be used to execute code when the conditions of an `if` statement are not met.
+- `elif` statements can be used to build additional checks into your `if` statements
+
+#### **Documentation**
+
+[Python Tutorial - More Control Flow Tools](https://docs.python.org/3/tutorial/controlflow.html)
+
+In this documentation, you will learn about the different flow control statements of Python. This is helpful if you would like to conditionally execute blocks of code in a Python program.
+
+**Python Code Challenges: Control Flow**
+
+1. [Large Power](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\2.%20Challenge\1.%20large%20power.py)
+2. [Over Budget](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\2.%20Challenge\2.%20over%20budget.py)
+3. [Twice As Large](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\2.%20Challenge\3.%20twice%20as%20large.py)
+4. [Divisible By Ten](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\2.%20Challenge\4.%20divisible%20by%20ten.py)
+5. [Not Sum To Ten](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\2.%20Challenge\5.%20not%20sum%20to%20ten.py)
+
+**Python Code Challenges: Control Flow (Advanced)**
+
+1. [In Range](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\3.%20Challenge%20(Advanced)\1.%20in%20range.py)
+2. [Same Name](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\3.%20Challenge%20(Advanced)\2.%20same%20name.py)
+3. [Always False](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\3.%20Challenge%20(Advanced)\3.%20always%20false.py)
+4. [Movie Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\3.%20Challenge%20(Advanced)\4.%20movie%20review.py)
+5. [Max Number](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\3.%20Challenge%20(Advanced)\5.%20max%20number.py)
+
+### **d. Getting Started Off-Platform**
+
+#### **1) Command Line Interface Setup**
+
+Windows has a different CLI, called Command Prompt. While this has many of the same features as Bash, Bash is much more popular. Because of the strength of the open source community and the tools they provide, mastering Bash is a better investment than mastering Command Prompt.
+
+To use Bash on a Windows computer, we will download and install a program called Git Bash. Git Bash allows us to easily access Bash as well as another tool we’ll be using later called Git, inside the Windows environment.
+
+For more detailed tutorial, please watch [this video](https://www.youtube.com/watch?v=sQY0g7s2hac).
+
+#### **2) Introducing Jupyter Notebook**
+
+Jupyter Notebook (sometimes called IPython Notebook) is a popular way to write and run Python code, especially for data analysis, data science and machine learning. Jupyter Notebooks are easy-to-use because they let you execute code and review the output quickly. This iterative process is central to data analytics and makes it easy to test hypotheses and record the results (just like a notebook).
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\4.%20Getting%20Started%20Off-Platform\jupyter.gif">
+</p>
+
+Above is the Jupyter Notebook interface. A Jupyter Notebook has two parts:
+
+- the front-end interface (what you see in the gif)
+- the back-end kernel
+
+The `front-end interface` loads in a web browser and consists of “cells” where you enter your code. The browser is just for display, so you do not need to be connected to the internet.
+
+Jupyter Notebook uses a `back-end kernel` called `IPython`. The ‘I’ stands for ‘Interactive’, which means that a program or script can be broken up into smaller pieces, and those pieces can be run independently from the rest of the program.
+
+You do not need to worry about the difference between `Python` and `IPython`. The important thing to know is that you can run small pieces of code, which can be helpful when working with data.
+
+#### **3) Setting up Jupyter Notebook**
+
+**Windows Anaconda**
+
+Go to the [Anaconda Downloads page](https://www.anaconda.com/products/individual#Downloads) and download the appropriate version of Anaconda (32- or 64-Bit Graphical Installer)
+
+1. Double click on the **.exe** file and click `Install`.
+2. Read and agree to the licensing terms.
+3. Select if you want to install for 'Just Me' or 'All Users'. If you are installing for 'All Users', you must have Administrator privileges.
+4. You will be prompted to select the installation location. By default, Anaconda should try to install in your home directory. We recommend accepting this default. Click `Install`.
+5. You will be asked if you want to add Anaconda to your PATH environment variable. Do not add Anaconda to the PATH because it can interfere with other software.
+6. You will be asked if you want Anaconda to be your default version of Python. We recommend 'Yes'. There are some rare instances where you might not make Anaconda the default version, but they are beyond the scope of this article.
+7. Click the Install button.
+8. Go ahead and finish the installation.
+
+Now you can verify your installation. Go to the Windows Start menu and search for ‘Anaconda Navigator’ (not the Anaconda Prompt).
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\4.%20Getting%20Started%20Off-Platform\logo.png" height='100px'>
+</p>
+
+If it appears, it is installed. Congratulations!
+
+Double click on it, and the Anaconda Navigator window should appear.
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\4.%20Getting%20Started%20Off-Platform\anaconda.webp">
+</p>
+
+Your applications screen may look slightly different from this one, but that is ok. Click the Launch button under Jupyter Notebook. A Jupyter Notebook interface will appear in your default browser.
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\4.%20Getting%20Started%20Off-Platform\jupyter.webp">
+</p>
+
+An Anaconda Prompt might also open and display a url. If it does, do not close it until you are done working with Jupyter Notebook. If it does not appear, don’t worry - this has to do with your operating system and will not affect Jupyter Notebook’s performance.
+
+Congratulations!! You are ready to move on to the next article and get started using Jupyter Notebook!
+
+#### **4) Getting Started with Jupyter**
+
+For many more helpful tools and features, check out [the documentation](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html), and if you want to be inspired to do more with Jupyter notebook, check out [A gallery of interesting Jupyter Notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks).
+
+Have fun coding with Jupyter Notebook!
+
+#### **5) Getting More out of Jupyter Notebook**
+
+There are numerous ways to enhance your Jupyter Notebook and make it more readable and standardized. We have covered some of the methods, but there are many others that can be found in the [Jupyter Notebook User’s Manual](https://jupyter.brynmawr.edu/services/public/dblank/Jupyter%20Notebook%20Users%20Manual.ipynb).
+
+**Documentation**
+
+[Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/en/stable/)
+
+In this documentation, you will learn about how to install, configure, and use Jupyter Notebook for Python programming. This is helpful if you would like to quickly validate Python code or prototype visualizations.
 
