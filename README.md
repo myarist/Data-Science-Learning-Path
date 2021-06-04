@@ -14,8 +14,6 @@
   <img src="README/banner.png">
 </p>
 
-<br> 
-
 <!-- ################################################################ -->
 
 <h1 align="center">Best System for Learning to Code</h1>
@@ -47,13 +45,25 @@ Coding skills have never been more in-demand. Learn everything you need to take 
 
 <!-- ################################################################ -->
 
+---
+
+<details><summary>Certificate 📃</summary>
+
 <p align="center">
   <img src="Data%20Scientist%20Career%20Path\Certificate.png">
 </p>
 
+</details>
+
+---
+
+<br>
+
 <h1 align="center">Data Scientist Learning Path</h1>
 
 ## **1. Welcome to the Data Scientist Career Path**
+
+<details><summary>Details</summary>
 
 The Data Scientist Career Path is designed for you to gain the technical skills, knowledge, resources, and confidence you need to get your start as a data scientist.
 
@@ -72,6 +82,8 @@ The Data Scientist Career Path is designed for you to gain the technical skills,
 - Build, train, and test a variety of supervised and unsupervised machine learning models
 - Understand the fundamentals of deep learning
 - Work with aggregate functions and joins in SQL
+
+---
 
 **Popular Data Science Resources**
 
@@ -103,7 +115,11 @@ As you go through the path, we’ll suggest certain resources for you to use, li
     - [Python Feature Engineering Cookbook, Soledad Galli](https://bookshop.org/books/weapons-of-math-destruction-how-big-data-increases-inequality-and-threatens-democracy/9780553418835)
     - [Deep Learning with Python, François Chollet](https://bookshop.org/books/deep-learning-with-python/9781617294433)
 
+</details><br>
+
 ## **2. Getting Started with Data Science**
+
+<details><summary>Details</summary>
 
 ### **a. Introduction to Data Science**
 
@@ -170,6 +186,8 @@ If you are interested in learning more about these topics, here are some additio
 - Article: [What Data Scientists Really Do, According to 35 Data Scientists](https://hbr.org/2018/08/what-data-scientists-really-do-according-to-35-data-scientists)
 - Article: [Achieving business impact with data](https://www.mckinsey.com/business-functions/mckinsey-analytics/our-insights/achieving-business-impact-with-data#)
 
+---
+
 ### **b. Data Science Process**
 
 <p align="center">
@@ -187,9 +205,13 @@ As you can see, there are many different applications and kinds of projects that
 
 Of course, there are many applications beyond just the ones that we’ve covered here. So no matter your interest or professional industry, data science thinking can create impact.
 
+</details><br>
+
 ## **3. Python Fundamentals**
 
 ### **a. Python Syntax and Variable Types**
+
+<details><summary>Details</summary>
 
 Python is a programming language. Like other languages, it gives us a way to communicate ideas. In the case of a programming language, these ideas are “commands” that people use to communicate with a computer!
 
@@ -221,7 +243,11 @@ Two common errors that we encounter while writing Python are `SyntaxError` and `
 
 In this documentation, you will learn about the built-in data types of Python. This is helpful if you would like to learn about data types that you can use when programming in Python.
 
+</details><br>
+
 ### **b. Python Functions**
+
+<details><summary>Details</summary>
 
 Let’s imagine we were building an application to help people plan trips! When using a trip planning application we can say a simple procedure could look like this:
 
@@ -278,7 +304,11 @@ There are some key components we want to note here:
 4. [Dog Years](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\3.%20Challenge%20(Advanced)\4.%20dog%20years.py)
 5. [All Operations](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\3.%20Challenge%20(Advanced)\5.%20all%20operations.py)
 
+</details><br>
+
 ### **c. Python Control Flow**
+
+<details><summary>Details</summary>
 
 <p align="center">
   <img src="Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\control-flow.svg">
@@ -311,6 +341,7 @@ Let’s review what we’ve learned this lesson:
 - `else` statements can be used to execute code when the conditions of an `if` statement are not met.
 - `elif` statements can be used to build additional checks into your `if` statements
 
+
 #### **Documentation**
 
 [Python Tutorial - More Control Flow Tools](https://docs.python.org/3/tutorial/controlflow.html)
@@ -333,7 +364,11 @@ In this documentation, you will learn about the different flow control statement
 4. [Movie Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\3.%20Challenge%20(Advanced)\4.%20movie%20review.py)
 5. [Max Number](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\3.%20Challenge%20(Advanced)\5.%20max%20number.py)
 
+</details><br>
+
 ### **d. Getting Started Off-Platform**
+
+<details><summary>Details</summary>
 
 #### **1) Command Line Interface Setup**
 
@@ -416,4 +451,44 @@ There are numerous ways to enhance your Jupyter Notebook and make it more readab
 [Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/en/stable/)
 
 In this documentation, you will learn about how to install, configure, and use Jupyter Notebook for Python programming. This is helpful if you would like to quickly validate Python code or prototype visualizations.
+
+</details><br>
+
+### **e. Python List**
+
+In programming, it is common to want to work with collections of data. In Python, a list is one of the many built-in [data structures](https://en.wikipedia.org/wiki/Data_structure) that allows us to work with a collection of data in sequential order.
+
+Suppose we want to make a list of the heights of students in a class:
+
+- Noelle is 61 inches tall
+- Ava is 70 inches tall
+- Sam is 67 inches tall
+- Mia is 64 inches tall
+
+In Python, we can create a variable called heights to store these integers into a list:
+
+```
+heights = [61, 70, 67, 64]
+```
+
+Notice that:
+
+1. A list begins and ends with square brackets `([` and `])`.
+2. Each item (i.e., `67` or `70`) is separated by a comma (,)
+3. It’s considered good practice to insert a space `()` after each comma, but your code will run just fine if you forget the space.
+
+1) [What is a List?](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\1.%20list.py)
+2) [What can a List contain?](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\2.%20list%20contain.py)
+3) [Empty Lists](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\3.%20empty%20list.py)
+4) [List Methods](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\4.%20list%20method.py)
+5) [Growing a List: Append](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\5.%20list%20append.py)
+6) [Growing a List: Plus (+)](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\6.%20list%20plus.py)
+7) [Accessing List Elements](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\7.%20list%20access.py)
+8) [Accessing List Elements: Negative Index](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\8.%20list%20access%20negative.py)
+9) [Modifying List Elements](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\9.%20list%20modify.py)
+10) [Shrinking a List: Remove](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\10.%20list%20remove.py)
+11) [Two-Dimensional (2D) Lists](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\11.%20list%202d.py)
+12) [Accessing 2D Lists](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\12.%20list%202d%20access.py)
+13) [Modifying 2D Lists](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\13.%20list%202d%20modify.py)
+14) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\14.%20review.py)
 
