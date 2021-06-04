@@ -115,7 +115,7 @@ As you go through the path, we’ll suggest certain resources for you to use, li
     - [Python Feature Engineering Cookbook, Soledad Galli](https://bookshop.org/books/weapons-of-math-destruction-how-big-data-increases-inequality-and-threatens-democracy/9780553418835)
     - [Deep Learning with Python, François Chollet](https://bookshop.org/books/deep-learning-with-python/9781617294433)
 
-</details><br>
+</details>
 
 ## **2. Getting Started with Data Science**
 
@@ -205,9 +205,11 @@ As you can see, there are many different applications and kinds of projects that
 
 Of course, there are many applications beyond just the ones that we’ve covered here. So no matter your interest or professional industry, data science thinking can create impact.
 
-</details><br>
+</details>
 
 ## **3. Python Fundamentals**
+
+<details><summary>Details</summary>
 
 ### **a. Python Syntax and Variable Types**
 
@@ -243,7 +245,7 @@ Two common errors that we encounter while writing Python are `SyntaxError` and `
 
 In this documentation, you will learn about the built-in data types of Python. This is helpful if you would like to learn about data types that you can use when programming in Python.
 
-</details><br>
+</details>
 
 ### **b. Python Functions**
 
@@ -304,7 +306,7 @@ There are some key components we want to note here:
 4. [Dog Years](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\3.%20Challenge%20(Advanced)\4.%20dog%20years.py)
 5. [All Operations](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\3.%20Challenge%20(Advanced)\5.%20all%20operations.py)
 
-</details><br>
+</details>
 
 ### **c. Python Control Flow**
 
@@ -364,7 +366,7 @@ In this documentation, you will learn about the different flow control statement
 4. [Movie Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\3.%20Challenge%20(Advanced)\4.%20movie%20review.py)
 5. [Max Number](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\3.%20Challenge%20(Advanced)\5.%20max%20number.py)
 
-</details><br>
+</details>
 
 ### **d. Getting Started Off-Platform**
 
@@ -452,9 +454,11 @@ There are numerous ways to enhance your Jupyter Notebook and make it more readab
 
 In this documentation, you will learn about how to install, configure, and use Jupyter Notebook for Python programming. This is helpful if you would like to quickly validate Python code or prototype visualizations.
 
-</details><br>
+</details>
 
 ### **e. Python List**
+
+<details><summary>Details</summary>
 
 In programming, it is common to want to work with collections of data. In Python, a list is one of the many built-in [data structures](https://en.wikipedia.org/wiki/Data_structure) that allows us to work with a collection of data in sequential order.
 
@@ -477,6 +481,8 @@ Notice that:
 2. Each item (i.e., `67` or `70`) is separated by a comma (,)
 3. It’s considered good practice to insert a space `()` after each comma, but your code will run just fine if you forget the space.
 
+**Intro to List in Python:**
+
 1) [What is a List?](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\1.%20list.py)
 2) [What can a List contain?](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\2.%20list%20contain.py)
 3) [Empty Lists](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\3.%20empty%20list.py)
@@ -492,3 +498,322 @@ Notice that:
 13) [Modifying 2D Lists](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\13.%20list%202d%20modify.py)
 14) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\14.%20review.py)
 
+**Combining Lists: The Zip Function**
+
+Use `zip()` to create a new variable called `names_and_dogs_names` that combines owners and dogs_names lists into a zip object.
+
+Then, create a new variable named `list_of_names_and_dogs_names` by calling the `list()` function on `names_and_dogs_names`.
+
+Print `list_of_names_and_dogs_names`.
+
+See the code [here](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\2.%20Combined%20with%20ZIP%20Function\list%20with%20zip%20function.py).
+
+**Documentation**
+
+[Python Tutorial - Sequence Types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
+
+In this documentation, you will learn about the built-in sequence types available in Python. This is helpful when you are working with a sequence of data in Python.
+
+**Python List Methods:**
+
+- `.count()` - A list method to count the number of occurrences of an element in a list.
+- `.insert()` - A list method to insert an element into a specific index of a list.
+- `.pop()` - A list method to remove an element from a specific index or from the end of a list.
+- `range()` - A built-in Python function to create a sequence of integers.
+- `len()` - A built-in Python function to get the length of a list.
+- `.sort() / sorted()` - A method and a built-in function to sort a list.
+
+**Working with the List in Python:**
+
+1) [Adding by Index: Insert](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\1.%20list%20insert.py)
+2) [Removing by Index: Pop](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\2.%20list%20pop.py)
+3) [Consecutive Lists: Range](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\3.%20list%20range.py)
+4) [The Power of Range!](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\4.%20list%20power%20range.py)
+5) [Length](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\5.%20list%20length.py)
+6) [Slicing Lists I](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\6.%20list%20slice%201.py)
+7) [Slicing Lists II](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\7.%20list%20slice%202.py)
+8) [Counting in a List](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\8.%20list%20count.py)
+9) [Sorting Lists I](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\9.%20list%20sort%201.py)
+10) [Sorting Lists II](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\10.%20list%20sort%202.py)
+11) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\11.%20review.py)
+
+**Python Code Challenges: Lists**
+
+1. [Append Size](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\4.%20Challenge\1.%20append%20size.py)
+2. [Append Sum](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\4.%20Challenge\2.%20append%20sum.py)
+3. [Larger List](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\4.%20Challenge\3.%20larger%20list.py)
+4. [More Than N](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\4.%20Challenge\4.%20more%20than%20n.py)
+5. [Combine Sort](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\4.%20Challenge\5.%20combine%20sort.py)
+
+**Python Code Challenges: Lists (Advanced)**
+
+1. [Every Three Numbers](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\5.%20Challenge%20(Advanced)\1.%20every%203%20number.py)
+2. [Remove Middle](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\5.%20Challenge%20(Advanced)\2.%20remove%20middle.py)
+3. [More Frequent Item](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\5.%20Challenge%20(Advanced)\3.%20more%20frequent%20item.py)
+4. [Double Index](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\5.%20Challenge%20(Advanced)\4.%20double%20index.py)
+5. [Middle Item](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\5.%20Challenge%20(Advanced)\5.%20middle%20item.py)
+
+</details>
+
+### **e. Python Loop**
+
+<details><summary>Details</summary>
+
+In programming, this process of using an initialization, repetitions, and an ending condition is called a `loop`. In a loop, we perform a process of iteration (repeating tasks).
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\loop.svg">
+</p>
+
+Programming languages like Python implement two types of iteration:
+
+- `Indefinite iteration`, where the number of times the loop is executed depends on how many times a condition is met.
+
+- `Definite iteration`, where the number of times the loop will be executed is defined in advance (usually based on the collection size).
+
+**Intro to Loop:**
+
+1) [Why Loops?](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\1.%20loop.py)
+2) [For Loops: Introduction](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\2.%20for%20loop.py)
+3) [For Loops: Using Range](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\3.%20loop%20using%20range.py)
+4) [While Loops: Introduction](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\4.%20while%20loop.py)
+5) [While Loops: Lists](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\5.%20while%20loop%20list.py)
+6) [Infinite Loops](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\6.%20infinite%20loop.py)
+7) [Loop Control: Break](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\7.%20loop%20break.py)
+8) [Loop Control: Continue](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\8.%20loop%20continue.py)
+9) [Nested Loops](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\9.%20nested%20loop.py)
+10) [List Comprehensions: Introduction](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\10.%20list%20comprehension.py)
+11) [List Comprehensions: Conditionals](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\11.%20list%20comprehension%20conditional.py)
+12) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\12.%20review.py)
+
+**Documentation**
+
+[Python Tutorial - Data Structures : Looping Techniques](https://docs.python.org/3/tutorial/datastructures.html#looping-techniques)
+
+In this documentation, you will learn about the different Python looping techniques. This is helpful if you would like to repeatedly execute a code block in a program for a sequence of values.
+
+**List Comprehension - Code Challenge:**
+
+1) [Double](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\1.%20double.py)
+2) [Squares](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\2.%20squares.py)
+3) [Add Ten](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\3.%20add%20ten.py)
+4) [Divide By Two](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\4.%20divide%20by%20two.py)
+5) [Parity](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\5.%20parity.py)
+6) [Add Hello](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\6.%20add%20hello.py)
+7) [First Character](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\7.%20first%20character.py)
+8) [Size](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\8.%20size.py)
+9) [Opposite](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\9.%20opposite.py)
+10) [Same String](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\10.%20same%20string.py)
+11) [Greater Than Two](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\11.%20greater%20than%202.py)
+12) [Product](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\12.%20product.py)
+13) [Greater Than](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\13.%20greater%20than.py)
+14) [First Only](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\14.%20first%20only.py)
+15) [Add With Zip](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\15.%20add%20with%20zip.py)
+16) [Divide With Zip](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\16.%20divide%20with%20zip.py)
+17) [Capitals](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\17.%20capitals.py)
+18) [Ages](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\18.%20ages.py)
+19) [Greater Than With Zip](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\19.%20greater%20than%20with%20zip.py)
+
+</details>
+
+### **f. Python Strings**
+
+<details><summary>Details</summary>
+
+In Python, the way we store something like a word, a sentence, or even a whole paragraph is as a string. A string is a sequence of characters contained within a pair of `'single quotes'` or `"double quotes"`. A string can be any length and can contain any letters, numbers, symbols, and spaces.
+
+**Intro to String:**
+
+1) [String](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\1.%20string.py)
+2) [They're all Lists!](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\2.%20string%202.py)
+3) [Cut Me a Slice of String](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\3.%20string%20slice.py)
+4) [Concatenating Strings](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\4.%20string%20concatenate.py)
+5) [More and More String Slicing](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\5.%20string%20slice%20more.py)
+6) [Negative Indices](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\6.%20negative%20indices.py)
+7) [Strings are Immutable](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\7.%20immutable%20string.py)
+8) [Escape Characters](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\8.%20escape%20character.py)
+9) [Iterating through Strings](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\9.%20iterate%20string.py)
+10) [Strings and Conditionals (Part One)](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\10.%20conditional%20string%201.py)
+11) [Strings and Conditionals (Part Two)](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\11.%20conditional%20string%202.py)
+12) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\12.%20review.py)
+
+**String Methods:**
+
+1) [Formatting Methods](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\1.%20formating%20methods.py)
+2) [Splitting Strings](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\2.%20splitting%20string.py)
+3) [Splitting Strings II](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\3.%20splitting%20string%202.py)
+4) [Splitting Strings III](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\4.%20splitting%20string%203.py)
+5) [Joining Strings](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\5.%20joining%20string.py)
+6) [Joining Strings II](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\6.%20joining%20string%202.py)
+7) [.strip()](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\7.%20strip.py)
+8) [Replace](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\8.%20replace.py)
+9) [.find()](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\9.%20find.py)
+10) [.format()](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\10.%20format.py)
+11) [.format() II](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\11.%20format%202.py)
+12) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\12.%20review.py)
+
+**Documentation**
+
+[Python Documentation - Common String Operations](https://docs.python.org/3/library/string.html)
+
+In this documentation, you will learn about common string operations in Python. This is helpful if you would like to manipulate strings using Python code.
+
+**Code Challenge - String Methods:**
+
+1) [Count Letters](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\3.%20Code%20Challenge%20-%20String%20Methods\1.%20count%20letters.py)
+2) [Count X](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\3.%20Code%20Challenge%20-%20String%20Methods\2.%20count%20x.py)
+3) [Count Multi X](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\3.%20Code%20Challenge%20-%20String%20Methods\3.%20count%20multi%20x.py)
+4) [Substring Between](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\3.%20Code%20Challenge%20-%20String%20Methods\4.%20substring%20between.py)
+5) [X Length](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\3.%20Code%20Challenge%20-%20String%20Methods\5.%20x%20length.py)
+6) [Check Name](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\3.%20Code%20Challenge%20-%20String%20Methods\6.%20check%20name.py)
+7) [Every Other Letter](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\3.%20Code%20Challenge%20-%20String%20Methods\7.%20every%20other%20letter.py)
+8) [Reverse](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\3.%20Code%20Challenge%20-%20String%20Methods\8.%20reverse.py)
+9) [Make Spoonerism](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\3.%20Code%20Challenge%20-%20String%20Methods\9.%20make%20spoonerism.py)
+10) [Add Exclamation](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\3.%20Code%20Challenge%20-%20String%20Methods\10.%20add%20exclamation.py)
+
+</details>
+
+### **g. Python Dictionaries**
+
+<details><summary>Details</summary>
+
+A dictionary is an unordered set of `key: value` pairs.
+
+It provides us with a way to map pieces of data to each other so that we can quickly find values that are associated with one another.
+
+Suppose we want to store the prices of various items sold at a cafe:
+
+- Avocado Toast is 6 dollars
+- Carrot Juice is 5 dollars
+- Blueberry Muffin is 2 dollars
+
+In Python, we can create a dictionary called menu to store this data:
+
+```
+menu = {"avocado toast": 6, "carrot juice": 5, "blueberry muffin": 2}
+```
+
+Notice that:
+
+1. A dictionary begins and ends with curly braces `{` and `}`.
+2. Each item consists of a key (`"avocado toast"`) and a value (`6`).
+3. Each `key: value` pair is separated by a comma.
+
+It’s considered good practice to insert a space (` `) after each comma, but our code will still run without the space.
+
+**Intro to Dictionaries:**
+
+1) [Make a Dictionary](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\1.%20Intro%20to%20Dictionaries\1.%20dictionary.py)
+2) [Invalid Keys](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\1.%20Intro%20to%20Dictionaries\2.%20invalid%20keys.py)
+3) [Empty Dictionary](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\1.%20Intro%20to%20Dictionaries\3.%20empty%20dictionary.py)
+4) [Add A Key](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\1.%20Intro%20to%20Dictionaries\4.%20add%20a%20key.py)
+5) [Add Multiple Keys](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\1.%20Intro%20to%20Dictionaries\5.%20add%20multiple%20key.py)
+6) [Overwrite Values](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\1.%20Intro%20to%20Dictionaries\6.%20overwrite%20values.py)
+7) [List Comprehensions to Dictionaries](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\1.%20Intro%20to%20Dictionaries\7.%20list%20comprehension.py)
+8) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\1.%20Intro%20to%20Dictionaries\8.%20review.py)
+
+**Documentation**
+
+[Python Tutorial - Data Structures - Dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
+
+In this documentation, you will learn about Python’s built-in dictionary datatype. This is helpful if you would like to store the data as a set of key:value pairs, and later extract a value given its key.
+
+**Using Dictionaries:**
+
+1) [Get A Key](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\2.%20Using%20Dictionaries\1.%20get%20a%20key.py)
+2) [Get an Invalid Key](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\2.%20Using%20Dictionaries\2.%20get%20an%20invalid%20key.py)
+3) [Try/Except to Get a Key](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\2.%20Using%20Dictionaries\3.%20try%20except.py)
+4) [Safely Get a Key](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\2.%20Using%20Dictionaries\4.%20safely.py)
+5) [Delete a Key](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\2.%20Using%20Dictionaries\5.%20delete.py)
+6) [Get All Keys](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\2.%20Using%20Dictionaries\6.%20get%20all%20keys.py)
+7) [Get All Values](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\2.%20Using%20Dictionaries\7.%20get%20all%20values.py)
+8) [Get All Items](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\2.%20Using%20Dictionaries\8.%20get%20all%20items.py)
+9) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\2.%20Using%20Dictionaries\9.%20review.py)
+
+</details>
+
+### **h. Python Classes**
+
+<details><summary>Details</summary>
+
+**Intro to Classes:**
+
+1) [Types](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\1.%20types.py)
+2) [Class](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\2.%20class.py)
+3) [Instantiation](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\3.%20instantiation.py)
+4) [Object-Oriented Programming](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\4.%20oop.py)
+5) [Class Variables](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\5.%20class%20variables.py)
+6) [Methods](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\6.%20methods.py)
+7) [Methods with Arguments](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\7.%20methods%20with%20arguments.py)
+8) [Constructors](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\8.%20constructors.py)
+9) [Instance Variables](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\9.%20instance%20variables.py)
+10) [Attribute Functions](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\10.%20attribute%20functions.py)
+11) [Self](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\11.%20self.py)
+12) [Everything is an Object](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\12.%20object.py)
+13) [String Representation](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\13.%20string%20representation.py)
+14) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\14.%20review.py)
+
+</details>
+
+### **i. Python Modules**
+
+<details><summary>Details</summary>
+
+A module is a collection of Python declarations intended broadly to be used as a tool. Modules are also often referred to as “libraries” or “packages” — a package is really a directory that holds a collection of modules.
+
+Usually, to use a module in a file, the basic syntax you need at the top of that file is:
+
+```
+from module_name import object_name
+```
+
+Often, a library will include a lot of code that you don’t need that may slow down your program or conflict with existing code. Because of this, it makes sense to only import what you need.
+
+**Intro to Modules:**
+
+1) [Modules Python Introduction](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\10.%20Python%20Modules\1.%20modules.py)
+2) [Modules Python Random](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\10.%20Python%20Modules\2.%20random.py)
+3) [Modules Python Namespaces](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\10.%20Python%20Modules\3.%20namespaces.py)
+4) [Modules Python Decimals](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\10.%20Python%20Modules\4.%20decimals.py)
+5) [Modules Python Files and Scope](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\10.%20Python%20Modules\5.%20files.py)
+
+**Documentation**
+
+[Python Tutorial - Modules](https://docs.python.org/3/tutorial/modules.html)
+
+In this documentation you will learn about Python modules. This is helpful if you would like to split long program code into logically grouped files and import the files to reference the classes and functions within.
+
+</details>
+
+### **j. Python Files**
+
+<details><summary>Details</summary>
+
+**Learn Python Files:**
+
+1) [Reading a File](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\1.%20reading%20a%20file.py)
+2) [Iterating Through Lines](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\2.%20iterate%20through%20lines.py)
+3) [Reading a Line](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\3.%20reading%20a%20line.py)
+4) [Writing a File](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\4.%20writing%20a%20file.py)
+5) [Appending to a File](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\5.%20appending%20a%20file.py)
+6) [What's With "with"?](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\6.%20with.py)
+7) [What Is a CSV File?](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\7.%20csv.py)
+8) [Reading a CSV File](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\8.%20read%20csv.py)
+9) [Reading Different Types of CSV Files](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\9.%20read%20csv%20files.py)
+10) [Writing a CSV File](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\10.%20writing%20csv.py)
+11) [Reading a JSON File](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\11.%20reading%20json.py)
+12) [Writing a JSON File](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\12.%20writing%20json.py)
+
+**Documentation**
+
+[Python Tutorial - Input and Output - Reading and Writing Files](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
+
+In this documentation you will learn about reading and writing the data in files using Python. This is helpful if you would like to read the file’s contents into the program or write data you’ve generated into a file.
+
+</details>
+
+</details>
+
+## **4. Data Acquisition**
+
+<!-- <details><summary>Details</summary> -->
