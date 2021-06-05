@@ -50,7 +50,7 @@ Coding skills have never been more in-demand. Learn everything you need to take 
 <details><summary>Certificate 📃</summary>
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\Certificate.png">
+  <img src="Data%20Scientist%20Career%20Path/Certificate.png">
 </p>
 
 </details>
@@ -59,7 +59,7 @@ Coding skills have never been more in-demand. Learn everything you need to take 
 
 <br>
 
-<h1 align="center">Data Scientist Learning Path</h1>
+<h1 align="center"><a href="https://www.codecademy.com/learn/paths/data-science">Data Scientist Learning Path</a></h1>
 
 ## **1. Welcome to the Data Scientist Career Path**
 
@@ -83,8 +83,6 @@ The Data Scientist Career Path is designed for you to gain the technical skills,
 - Understand the fundamentals of deep learning
 - Work with aggregate functions and joins in SQL
 
----
-
 **Popular Data Science Resources**
 
 As you go through the path, we’ll suggest certain resources for you to use, like articles, videos, tutorials, and documentation. Here are some additional resources that are considered groundbreaking, significant, or classics in the industry and will help you throughout your Path:
@@ -103,7 +101,7 @@ As you go through the path, we’ll suggest certain resources for you to use, li
     - [Regex Cheatsheet](https://www.codecademy.com/learn/practical-data-cleaning/modules/data-cleaning-with-pandas/cheatsheet)
     - [Hypothesis Testing Cheatsheet](https://www.codecademy.com/learn/stats-hypothesis-testing/modules/hypothesis-testing-testing-a-sample-statistic/cheatsheet)
     - [Statistics for Data Analysis Cheatsheet](https://www.codecademy.com/learn/ida-6-statistics-for-data-analysis/modules/ida-6-1-variance-and-standard-deviation/cheatsheet)
-    - [More ...](Data%20Scientist%20Career%20Path\1.%20Welcome%20to%20the%20Data%20Scientist%20Career%20Path\Cheatsheets)
+    - [More ...](Data%20Scientist%20Career%20Path/1.%20Welcome%20to%20the%20Data%20Scientist%20Career%20Path/Cheatsheets)
 
 - Books:
     - [A Whirlwind Tour of Python, Jake VanderPlas](https://nbviewer.jupyter.org/github/jakevdp/WhirlwindTourOfPython/blob/master/Index.ipynb)
@@ -126,7 +124,7 @@ As you go through the path, we’ll suggest certain resources for you to use, li
 Data science enables us to take data and transform it into meaningful information that can help us make decisions. Data science is interdisciplinary and combines other well-known fields such as probability, statistics, analytics, and computer science. The work that you might do could range from writing up reports to building machine learning models. No matter what your interests are, data science is applicable - because these days, we have data on everything!
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\2.%20Getting Started%20with%20Data%20Science\Data%20Science%20Venn%20Diagram.png" width="500px">
+  <img src="Data%20Scientist%20Career%20Path/2.%20Getting Started%20with%20Data%20Science/Data%20Science%20Venn%20Diagram.png" width="500px">
 </p>
 
 #### **1) Statistics**
@@ -149,7 +147,7 @@ Another field that informs the field of data science is probability. Probability
 
 In data science, probability calculations are used to build models. Models are able to help us understand data that has yet to exist - either data we hadn’t previously collected or data that has yet to be created. Data scientists create models to help calculate the probability of a certain action and then they use that probability to make informed decisions.
 
-[Example of Probability Application](Data%20Scientist%20Career%20Path\2.%20Getting%20Started%20with%20Data%20Science\1.%20Introduction%20to%20Data%20Science\probability.py)
+[Example of Probability Application](Data%20Scientist%20Career%20Path/2.%20Getting%20Started%20with%20Data%20Science/1.%20Introduction%20to%20Data%20Science/probability.py)
 
 #### **3) Programming**
 
@@ -157,14 +155,14 @@ Given that we’re a “learn to code” website, this one may seem fairly obvio
 
 Programming is the practice of writing commands for a computer to execute. Computer Science is the discipline of interacting with computation systems.
 
-[Example of Programming Application](Data%20Scientist%20Career%20Path\2.%20Getting%20Started%20with%20Data%20Science\1.%20Introduction%20to%20Data%20Science\programming.py)
+[Example of Programming Application](Data%20Scientist%20Career%20Path/2.%20Getting%20Started%20with%20Data%20Science/1.%20Introduction%20to%20Data%20Science/programming.py)
 
 #### **4) Domain Expertise**
 
 One of the reasons that data science is one of the most interesting fields to go into is that it doesn’t limit you to a specific industry. Interested in airplanes? Work for a company on ticket pricing! Like fashion? Create a model that predicts the latest trends.
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\2.%20Getting%20Started%20with%20Data%20Science\Domain.svg">
+  <img src="Data%20Scientist%20Career%20Path/2.%20Getting%20Started%20with%20Data%20Science/Domain.svg">
 </p>
 
 Domain Expertise refers to the particular set of knowledge that someone cultivates in order to understand their data. You may be able to crunch the numbers, but in order to understand their meaning, you’re going to need a lot of context. Sometimes this context comes from your research, your teammates, or the knowledge that you gain after working in a particular industry.
@@ -186,12 +184,10 @@ If you are interested in learning more about these topics, here are some additio
 - Article: [What Data Scientists Really Do, According to 35 Data Scientists](https://hbr.org/2018/08/what-data-scientists-really-do-according-to-35-data-scientists)
 - Article: [Achieving business impact with data](https://www.mckinsey.com/business-functions/mckinsey-analytics/our-insights/achieving-business-impact-with-data#)
 
----
-
 ### **b. Data Science Process**
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\2.%20Getting%20Started%20with%20Data%20Science\Data%20Science%20Process%20Diagram.webp">
+  <img src="Data%20Scientist%20Career%20Path/2.%20Getting%20Started%20with%20Data%20Science/Data%20Science%20Process%20Diagram.webp">
 </p>
 
 ### **c. Data Science Applications**
@@ -217,21 +213,21 @@ Of course, there are many applications beyond just the ones that we’ve covered
 
 Python is a programming language. Like other languages, it gives us a way to communicate ideas. In the case of a programming language, these ideas are “commands” that people use to communicate with a computer!
 
-0) [Welcome](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\1.%20welcome.py)
-1) [Comment](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\2.%20comments.py)
-2) [Print](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\3.%20print.py)
-3) [String](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\4.%20strings.py)
-4) [Variables](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\5.%20variables.py)
-5) [Errors](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\6.%20errors.py)
-6) [Numbers](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\7.%20numbers.py)
-7) [Calculations](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\8.%20calculations.py)
-8) [Changing Numbers](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\9.%20changing%20numbers.py)
-9) [Exponents](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\10.%20exponents.py)
-10) [Modulo](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\11.%20modulo.py)
-11) [Concatenation](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\12.%20concenation.py)
-12) [Plus Equals](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\13.%20plus%20equals.py)
-13) [Multi-line Strings](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\14.%20multi-line%20string.py)
-14) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\1.%20Python%20Syntax%20and%20Variable%20Types\15.%20review.py)
+0) [Welcome](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/1.%20Python%20Syntax%20and%20Variable%20Types/1.%20welcome.py)
+1) [Comment](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/1.%20Python%20Syntax%20and%20Variable%20Types/2.%20comments.py)
+2) [Print](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/1.%20Python%20Syntax%20and%20Variable%20Types/3.%20print.py)
+3) [String](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/1.%20Python%20Syntax%20and%20Variable%20Types/4.%20strings.py)
+4) [Variables](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/1.%20Python%20Syntax%20and%20Variable%20Types/5.%20variables.py)
+5) [Errors](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/1.%20Python%20Syntax%20and%20Variable%20Types/6.%20errors.py)
+6) [Numbers](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/1.%20Python%20Syntax%20and%20Variable%20Types/7.%20numbers.py)
+7) [Calculations](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/1.%20Python%20Syntax%20and%20Variable%20Types/8.%20calculations.py)
+8) [Changing Numbers](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/1.%20Python%20Syntax%20and%20Variable%20Types/9.%20changing%20numbers.py)
+9) [Exponents](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/1.%20Python%20Syntax%20and%20Variable%20Types/10.%20exponents.py)
+10) [Modulo](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/1.%20Python%20Syntax%20and%20Variable%20Types/11.%20modulo.py)
+11) [Concatenation](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/1.%20Python%20Syntax%20and%20Variable%20Types/12.%20concenation.py)
+12) [Plus Equals](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/1.%20Python%20Syntax%20and%20Variable%20Types/13.%20plus%20equals.py)
+13) [Multi-line Strings](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/1.%20Python%20Syntax%20and%20Variable%20Types/14.%20multi-line%20string.py)
+14) [Review](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/1.%20Python%20Syntax%20and%20Variable%20Types/15.%20review.py)
 
 Two common errors that we encounter while writing Python are `SyntaxError` and `NameError`.
 
@@ -261,18 +257,18 @@ Let’s imagine we were building an application to help people plan trips! When 
 
 We will perform these three steps every time users have to travel between two points using our trip application. In our programs, we could rewrite the same procedures over and over (and over) for each time we want to travel, but there’s a better way! Python gives us a useful concept called *functions*.
 
-1) [Why Functions?](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\1.%20why%20function.py)
-2) [Defining a Function](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\2.%20defining%20function.py)
-3) [Calling Function](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\3.%20calling%20function.py)
-4) [Whitespace & Execution Flow](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\4.%20whitespace.py)
-5) [Parameters & Arguments](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\5.%20parameters%20n%20arguments.py)
-6) [Multiple Parameters](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\6.%20multiple%20parameters.py)
-7) [Types of Arguments](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\7.%20types%20of%20arguments.py)
-8) [Built-in vs User Defined Functions](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\8.%20builtin%20n%20user%20defined%20function.py)
-9) [Variable Access](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\9.%20variable%20access.py)
-10) [Returns](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\10.%20returns.py)
-11) [Multiple Returns](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\11.%20multiple%20returns.py)
-12) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\1.%20Intro%20to%20Function\12.%20review.py)
+1) [Why Functions?](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/1.%20Intro%20to%20Function/1.%20why%20function.py)
+2) [Defining a Function](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/1.%20Intro%20to%20Function/2.%20defining%20function.py)
+3) [Calling Function](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/1.%20Intro%20to%20Function/3.%20calling%20function.py)
+4) [Whitespace & Execution Flow](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/1.%20Intro%20to%20Function/4.%20whitespace.py)
+5) [Parameters & Arguments](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/1.%20Intro%20to%20Function/5.%20parameters%20n%20arguments.py)
+6) [Multiple Parameters](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/1.%20Intro%20to%20Function/6.%20multiple%20parameters.py)
+7) [Types of Arguments](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/1.%20Intro%20to%20Function/7.%20types%20of%20arguments.py)
+8) [Built-in vs User Defined Functions](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/1.%20Intro%20to%20Function/8.%20builtin%20n%20user%20defined%20function.py)
+9) [Variable Access](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/1.%20Intro%20to%20Function/9.%20variable%20access.py)
+10) [Returns](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/1.%20Intro%20to%20Function/10.%20returns.py)
+11) [Multiple Returns](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/1.%20Intro%20to%20Function/11.%20multiple%20returns.py)
+12) [Review](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/1.%20Intro%20to%20Function/12.%20review.py)
 
 Here’s an example of a function definition:
 
@@ -292,19 +288,19 @@ There are some key components we want to note here:
 
 **Python Code Challenges: Functions**
 
-1. [Tenth Power](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\2.%20Challenge\1.%20tenth%20power.py)
-2. [Square Root](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\2.%20Challenge\2.%20square%20root.py)
-3. [Win Percentage](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\2.%20Challenge\3.%20win%20percentage.py)
-4. [Average](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\2.%20Challenge\4.%20average.py)
-5. [Remainder](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\2.%20Challenge\5.%20remainder.py)
+1. [Tenth Power](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/2.%20Challenge/1.%20tenth%20power.py)
+2. [Square Root](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/2.%20Challenge/2.%20square%20root.py)
+3. [Win Percentage](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/2.%20Challenge/3.%20win%20percentage.py)
+4. [Average](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/2.%20Challenge/4.%20average.py)
+5. [Remainder](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/2.%20Challenge/5.%20remainder.py)
 
 **Python Code Challenges: Functions (Advanced)**
 
-1. [First Three Multiples](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\3.%20Challenge%20(Advanced)\1.%20first%20three%20multiples.py)
-2. [Tip](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\3.%20Challenge%20(Advanced)\2.%20tip.py)
-3. [Bond, James Bond](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\3.%20Challenge%20(Advanced)\3.%20james%20bond.py)
-4. [Dog Years](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\3.%20Challenge%20(Advanced)\4.%20dog%20years.py)
-5. [All Operations](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\2.%20Python%20Functions\3.%20Challenge%20(Advanced)\5.%20all%20operations.py)
+1. [First Three Multiples](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/3.%20Challenge%20(Advanced)/1.%20first%20three%20multiples.py)
+2. [Tip](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/3.%20Challenge%20(Advanced)/2.%20tip.py)
+3. [Bond, James Bond](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/3.%20Challenge%20(Advanced)/3.%20james%20bond.py)
+4. [Dog Years](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/3.%20Challenge%20(Advanced)/4.%20dog%20years.py)
+5. [All Operations](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/2.%20Python%20Functions/3.%20Challenge%20(Advanced)/5.%20all%20operations.py)
 
 </details>
 
@@ -313,20 +309,20 @@ There are some key components we want to note here:
 <details><summary>Details</summary>
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\control-flow.svg">
+  <img src="Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/control-flow.svg">
 </p>
 
-1) [Boolean Expressions](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\1.%20boolean%20expressions.py)
-2) [Relational Operators: Equals and Not Equals](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\2.%20relational%20operators.py)
-3) [Boolean Variables](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\3.%20boolean%20variables.py)
-4) [If Statement](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\4.%20if.py)
-5) [Relational Operators II](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\5.%20relational%20operators%202.py)
-6) [Boolean Operators: and](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\6.%20and.py)
-7) [Boolean Operators: or](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\7.%20or.py)
-8) [Boolean Operators: not](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\8.%20not.py)
-9) [Else Statements](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\9.%20else.py)
-10) [Else If Statements](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\10.%20else%20if.py)
-11) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\1.%20Intro%20to%20Control%20Flow\11.%20review.py)
+1) [Boolean Expressions](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/1.%20Intro%20to%20Control%20Flow/1.%20boolean%20expressions.py)
+2) [Relational Operators: Equals and Not Equals](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/1.%20Intro%20to%20Control%20Flow/2.%20relational%20operators.py)
+3) [Boolean Variables](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/1.%20Intro%20to%20Control%20Flow/3.%20boolean%20variables.py)
+4) [If Statement](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/1.%20Intro%20to%20Control%20Flow/4.%20if.py)
+5) [Relational Operators II](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/1.%20Intro%20to%20Control%20Flow/5.%20relational%20operators%202.py)
+6) [Boolean Operators: and](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/1.%20Intro%20to%20Control%20Flow/6.%20and.py)
+7) [Boolean Operators: or](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/1.%20Intro%20to%20Control%20Flow/7.%20or.py)
+8) [Boolean Operators: not](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/1.%20Intro%20to%20Control%20Flow/8.%20not.py)
+9) [Else Statements](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/1.%20Intro%20to%20Control%20Flow/9.%20else.py)
+10) [Else If Statements](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/1.%20Intro%20to%20Control%20Flow/10.%20else%20if.py)
+11) [Review](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/1.%20Intro%20to%20Control%20Flow/11.%20review.py)
 
 Let’s review what we’ve learned this lesson:
 
@@ -352,19 +348,19 @@ In this documentation, you will learn about the different flow control statement
 
 **Python Code Challenges: Control Flow**
 
-1. [Large Power](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\2.%20Challenge\1.%20large%20power.py)
-2. [Over Budget](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\2.%20Challenge\2.%20over%20budget.py)
-3. [Twice As Large](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\2.%20Challenge\3.%20twice%20as%20large.py)
-4. [Divisible By Ten](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\2.%20Challenge\4.%20divisible%20by%20ten.py)
-5. [Not Sum To Ten](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\2.%20Challenge\5.%20not%20sum%20to%20ten.py)
+1. [Large Power](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/2.%20Challenge/1.%20large%20power.py)
+2. [Over Budget](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/2.%20Challenge/2.%20over%20budget.py)
+3. [Twice As Large](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/2.%20Challenge/3.%20twice%20as%20large.py)
+4. [Divisible By Ten](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/2.%20Challenge/4.%20divisible%20by%20ten.py)
+5. [Not Sum To Ten](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/2.%20Challenge/5.%20not%20sum%20to%20ten.py)
 
 **Python Code Challenges: Control Flow (Advanced)**
 
-1. [In Range](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\3.%20Challenge%20(Advanced)\1.%20in%20range.py)
-2. [Same Name](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\3.%20Challenge%20(Advanced)\2.%20same%20name.py)
-3. [Always False](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\3.%20Challenge%20(Advanced)\3.%20always%20false.py)
-4. [Movie Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\3.%20Challenge%20(Advanced)\4.%20movie%20review.py)
-5. [Max Number](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\3.%20Python%20Control%20Flow\3.%20Challenge%20(Advanced)\5.%20max%20number.py)
+1. [In Range](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/3.%20Challenge%20(Advanced)/1.%20in%20range.py)
+2. [Same Name](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/3.%20Challenge%20(Advanced)/2.%20same%20name.py)
+3. [Always False](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/3.%20Challenge%20(Advanced)/3.%20always%20false.py)
+4. [Movie Review](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/3.%20Challenge%20(Advanced)/4.%20movie%20review.py)
+5. [Max Number](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/3.%20Python%20Control%20Flow/3.%20Challenge%20(Advanced)/5.%20max%20number.py)
 
 </details>
 
@@ -385,7 +381,7 @@ For more detailed tutorial, please watch [this video](https://www.youtube.com/wa
 Jupyter Notebook (sometimes called IPython Notebook) is a popular way to write and run Python code, especially for data analysis, data science and machine learning. Jupyter Notebooks are easy-to-use because they let you execute code and review the output quickly. This iterative process is central to data analytics and makes it easy to test hypotheses and record the results (just like a notebook).
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\4.%20Getting%20Started%20Off-Platform\jupyter.gif">
+  <img src="Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/4.%20Getting%20Started%20Off-Platform/jupyter.gif">
 </p>
 
 Above is the Jupyter Notebook interface. A Jupyter Notebook has two parts:
@@ -417,7 +413,7 @@ Go to the [Anaconda Downloads page](https://www.anaconda.com/products/individual
 Now you can verify your installation. Go to the Windows Start menu and search for ‘Anaconda Navigator’ (not the Anaconda Prompt).
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\4.%20Getting%20Started%20Off-Platform\logo.png" height='100px'>
+  <img src="Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/4.%20Getting%20Started%20Off-Platform/logo.png" height='100px'>
 </p>
 
 If it appears, it is installed. Congratulations!
@@ -425,13 +421,13 @@ If it appears, it is installed. Congratulations!
 Double click on it, and the Anaconda Navigator window should appear.
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\4.%20Getting%20Started%20Off-Platform\anaconda.webp">
+  <img src="Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/4.%20Getting%20Started%20Off-Platform/anaconda.webp">
 </p>
 
 Your applications screen may look slightly different from this one, but that is ok. Click the Launch button under Jupyter Notebook. A Jupyter Notebook interface will appear in your default browser.
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\4.%20Getting%20Started%20Off-Platform\jupyter.webp">
+  <img src="Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/4.%20Getting%20Started%20Off-Platform/jupyter.webp">
 </p>
 
 An Anaconda Prompt might also open and display a url. If it does, do not close it until you are done working with Jupyter Notebook. If it does not appear, don’t worry - this has to do with your operating system and will not affect Jupyter Notebook’s performance.
@@ -483,20 +479,20 @@ Notice that:
 
 **Intro to List in Python:**
 
-1) [What is a List?](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\1.%20list.py)
-2) [What can a List contain?](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\2.%20list%20contain.py)
-3) [Empty Lists](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\3.%20empty%20list.py)
-4) [List Methods](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\4.%20list%20method.py)
-5) [Growing a List: Append](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\5.%20list%20append.py)
-6) [Growing a List: Plus (+)](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\6.%20list%20plus.py)
-7) [Accessing List Elements](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\7.%20list%20access.py)
-8) [Accessing List Elements: Negative Index](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\8.%20list%20access%20negative.py)
-9) [Modifying List Elements](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\9.%20list%20modify.py)
-10) [Shrinking a List: Remove](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\10.%20list%20remove.py)
-11) [Two-Dimensional (2D) Lists](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\11.%20list%202d.py)
-12) [Accessing 2D Lists](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\12.%20list%202d%20access.py)
-13) [Modifying 2D Lists](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\13.%20list%202d%20modify.py)
-14) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\1.%20Intro%20to%20List\14.%20review.py)
+1) [What is a List?](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/1.%20Intro%20to%20List/1.%20list.py)
+2) [What can a List contain?](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/1.%20Intro%20to%20List/2.%20list%20contain.py)
+3) [Empty Lists](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/1.%20Intro%20to%20List/3.%20empty%20list.py)
+4) [List Methods](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/1.%20Intro%20to%20List/4.%20list%20method.py)
+5) [Growing a List: Append](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/1.%20Intro%20to%20List/5.%20list%20append.py)
+6) [Growing a List: Plus (+)](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/1.%20Intro%20to%20List/6.%20list%20plus.py)
+7) [Accessing List Elements](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/1.%20Intro%20to%20List/7.%20list%20access.py)
+8) [Accessing List Elements: Negative Index](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/1.%20Intro%20to%20List/8.%20list%20access%20negative.py)
+9) [Modifying List Elements](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/1.%20Intro%20to%20List/9.%20list%20modify.py)
+10) [Shrinking a List: Remove](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/1.%20Intro%20to%20List/10.%20list%20remove.py)
+11) [Two-Dimensional (2D) Lists](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/1.%20Intro%20to%20List/11.%20list%202d.py)
+12) [Accessing 2D Lists](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/1.%20Intro%20to%20List/12.%20list%202d%20access.py)
+13) [Modifying 2D Lists](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/1.%20Intro%20to%20List/13.%20list%202d%20modify.py)
+14) [Review](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/1.%20Intro%20to%20List/14.%20review.py)
 
 **Combining Lists: The Zip Function**
 
@@ -506,7 +502,7 @@ Then, create a new variable named `list_of_names_and_dogs_names` by calling the 
 
 Print `list_of_names_and_dogs_names`.
 
-See the code [here](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\2.%20Combined%20with%20ZIP%20Function\list%20with%20zip%20function.py).
+See the code [here](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/2.%20Combined%20with%20ZIP%20Function/list%20with%20zip%20function.py).
 
 **Documentation**
 
@@ -525,33 +521,33 @@ In this documentation, you will learn about the built-in sequence types availabl
 
 **Working with the List in Python:**
 
-1) [Adding by Index: Insert](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\1.%20list%20insert.py)
-2) [Removing by Index: Pop](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\2.%20list%20pop.py)
-3) [Consecutive Lists: Range](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\3.%20list%20range.py)
-4) [The Power of Range!](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\4.%20list%20power%20range.py)
-5) [Length](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\5.%20list%20length.py)
-6) [Slicing Lists I](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\6.%20list%20slice%201.py)
-7) [Slicing Lists II](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\7.%20list%20slice%202.py)
-8) [Counting in a List](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\8.%20list%20count.py)
-9) [Sorting Lists I](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\9.%20list%20sort%201.py)
-10) [Sorting Lists II](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\10.%20list%20sort%202.py)
-11) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\3.%20Working%20with%20List\11.%20review.py)
+1) [Adding by Index: Insert](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/3.%20Working%20with%20List/1.%20list%20insert.py)
+2) [Removing by Index: Pop](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/3.%20Working%20with%20List/2.%20list%20pop.py)
+3) [Consecutive Lists: Range](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/3.%20Working%20with%20List/3.%20list%20range.py)
+4) [The Power of Range!](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/3.%20Working%20with%20List/4.%20list%20power%20range.py)
+5) [Length](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/3.%20Working%20with%20List/5.%20list%20length.py)
+6) [Slicing Lists I](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/3.%20Working%20with%20List/6.%20list%20slice%201.py)
+7) [Slicing Lists II](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/3.%20Working%20with%20List/7.%20list%20slice%202.py)
+8) [Counting in a List](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/3.%20Working%20with%20List/8.%20list%20count.py)
+9) [Sorting Lists I](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/3.%20Working%20with%20List/9.%20list%20sort%201.py)
+10) [Sorting Lists II](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/3.%20Working%20with%20List/10.%20list%20sort%202.py)
+11) [Review](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/3.%20Working%20with%20List/11.%20review.py)
 
 **Python Code Challenges: Lists**
 
-1. [Append Size](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\4.%20Challenge\1.%20append%20size.py)
-2. [Append Sum](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\4.%20Challenge\2.%20append%20sum.py)
-3. [Larger List](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\4.%20Challenge\3.%20larger%20list.py)
-4. [More Than N](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\4.%20Challenge\4.%20more%20than%20n.py)
-5. [Combine Sort](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\4.%20Challenge\5.%20combine%20sort.py)
+1. [Append Size](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/4.%20Challenge/1.%20append%20size.py)
+2. [Append Sum](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/4.%20Challenge/2.%20append%20sum.py)
+3. [Larger List](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/4.%20Challenge/3.%20larger%20list.py)
+4. [More Than N](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/4.%20Challenge/4.%20more%20than%20n.py)
+5. [Combine Sort](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/4.%20Challenge/5.%20combine%20sort.py)
 
 **Python Code Challenges: Lists (Advanced)**
 
-1. [Every Three Numbers](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\5.%20Challenge%20(Advanced)\1.%20every%203%20number.py)
-2. [Remove Middle](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\5.%20Challenge%20(Advanced)\2.%20remove%20middle.py)
-3. [More Frequent Item](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\5.%20Challenge%20(Advanced)\3.%20more%20frequent%20item.py)
-4. [Double Index](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\5.%20Challenge%20(Advanced)\4.%20double%20index.py)
-5. [Middle Item](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\5.%20Python%20List\5.%20Challenge%20(Advanced)\5.%20middle%20item.py)
+1. [Every Three Numbers](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/5.%20Challenge%20(Advanced)/1.%20every%203%20number.py)
+2. [Remove Middle](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/5.%20Challenge%20(Advanced)/2.%20remove%20middle.py)
+3. [More Frequent Item](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/5.%20Challenge%20(Advanced)/3.%20more%20frequent%20item.py)
+4. [Double Index](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/5.%20Challenge%20(Advanced)/4.%20double%20index.py)
+5. [Middle Item](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/5.%20Python%20List/5.%20Challenge%20(Advanced)/5.%20middle%20item.py)
 
 </details>
 
@@ -562,7 +558,7 @@ In this documentation, you will learn about the built-in sequence types availabl
 In programming, this process of using an initialization, repetitions, and an ending condition is called a `loop`. In a loop, we perform a process of iteration (repeating tasks).
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\loop.svg">
+  <img src="Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/loop.svg">
 </p>
 
 Programming languages like Python implement two types of iteration:
@@ -573,18 +569,18 @@ Programming languages like Python implement two types of iteration:
 
 **Intro to Loop:**
 
-1) [Why Loops?](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\1.%20loop.py)
-2) [For Loops: Introduction](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\2.%20for%20loop.py)
-3) [For Loops: Using Range](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\3.%20loop%20using%20range.py)
-4) [While Loops: Introduction](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\4.%20while%20loop.py)
-5) [While Loops: Lists](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\5.%20while%20loop%20list.py)
-6) [Infinite Loops](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\6.%20infinite%20loop.py)
-7) [Loop Control: Break](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\7.%20loop%20break.py)
-8) [Loop Control: Continue](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\8.%20loop%20continue.py)
-9) [Nested Loops](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\9.%20nested%20loop.py)
-10) [List Comprehensions: Introduction](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\10.%20list%20comprehension.py)
-11) [List Comprehensions: Conditionals](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\11.%20list%20comprehension%20conditional.py)
-12) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\1.%20Intro%20to%20Loop\12.%20review.py)
+1) [Why Loops?](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/1.%20Intro%20to%20Loop/1.%20loop.py)
+2) [For Loops: Introduction](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/1.%20Intro%20to%20Loop/2.%20for%20loop.py)
+3) [For Loops: Using Range](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/1.%20Intro%20to%20Loop/3.%20loop%20using%20range.py)
+4) [While Loops: Introduction](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/1.%20Intro%20to%20Loop/4.%20while%20loop.py)
+5) [While Loops: Lists](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/1.%20Intro%20to%20Loop/5.%20while%20loop%20list.py)
+6) [Infinite Loops](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/1.%20Intro%20to%20Loop/6.%20infinite%20loop.py)
+7) [Loop Control: Break](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/1.%20Intro%20to%20Loop/7.%20loop%20break.py)
+8) [Loop Control: Continue](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/1.%20Intro%20to%20Loop/8.%20loop%20continue.py)
+9) [Nested Loops](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/1.%20Intro%20to%20Loop/9.%20nested%20loop.py)
+10) [List Comprehensions: Introduction](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/1.%20Intro%20to%20Loop/10.%20list%20comprehension.py)
+11) [List Comprehensions: Conditionals](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/1.%20Intro%20to%20Loop/11.%20list%20comprehension%20conditional.py)
+12) [Review](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/1.%20Intro%20to%20Loop/12.%20review.py)
 
 **Documentation**
 
@@ -594,25 +590,25 @@ In this documentation, you will learn about the different Python looping techniq
 
 **List Comprehension - Code Challenge:**
 
-1) [Double](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\1.%20double.py)
-2) [Squares](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\2.%20squares.py)
-3) [Add Ten](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\3.%20add%20ten.py)
-4) [Divide By Two](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\4.%20divide%20by%20two.py)
-5) [Parity](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\5.%20parity.py)
-6) [Add Hello](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\6.%20add%20hello.py)
-7) [First Character](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\7.%20first%20character.py)
-8) [Size](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\8.%20size.py)
-9) [Opposite](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\9.%20opposite.py)
-10) [Same String](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\10.%20same%20string.py)
-11) [Greater Than Two](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\11.%20greater%20than%202.py)
-12) [Product](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\12.%20product.py)
-13) [Greater Than](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\13.%20greater%20than.py)
-14) [First Only](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\14.%20first%20only.py)
-15) [Add With Zip](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\15.%20add%20with%20zip.py)
-16) [Divide With Zip](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\16.%20divide%20with%20zip.py)
-17) [Capitals](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\17.%20capitals.py)
-18) [Ages](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\18.%20ages.py)
-19) [Greater Than With Zip](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\6.%20Python%20Loop\2.%20List%20Comprehension%20Code%20Challenge\19.%20greater%20than%20with%20zip.py)
+1) [Double](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/2.%20List%20Comprehension%20Code%20Challenge/1.%20double.py)
+2) [Squares](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/2.%20List%20Comprehension%20Code%20Challenge/2.%20squares.py)
+3) [Add Ten](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/2.%20List%20Comprehension%20Code%20Challenge/3.%20add%20ten.py)
+4) [Divide By Two](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/2.%20List%20Comprehension%20Code%20Challenge/4.%20divide%20by%20two.py)
+5) [Parity](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/2.%20List%20Comprehension%20Code%20Challenge/5.%20parity.py)
+6) [Add Hello](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/2.%20List%20Comprehension%20Code%20Challenge/6.%20add%20hello.py)
+7) [First Character](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/2.%20List%20Comprehension%20Code%20Challenge/7.%20first%20character.py)
+8) [Size](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/2.%20List%20Comprehension%20Code%20Challenge/8.%20size.py)
+9) [Opposite](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/2.%20List%20Comprehension%20Code%20Challenge/9.%20opposite.py)
+10) [Same String](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/2.%20List%20Comprehension%20Code%20Challenge/10.%20same%20string.py)
+11) [Greater Than Two](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/2.%20List%20Comprehension%20Code%20Challenge/11.%20greater%20than%202.py)
+12) [Product](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/2.%20List%20Comprehension%20Code%20Challenge/12.%20product.py)
+13) [Greater Than](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/2.%20List%20Comprehension%20Code%20Challenge/13.%20greater%20than.py)
+14) [First Only](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/2.%20List%20Comprehension%20Code%20Challenge/14.%20first%20only.py)
+15) [Add With Zip](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/2.%20List%20Comprehension%20Code%20Challenge/15.%20add%20with%20zip.py)
+16) [Divide With Zip](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/2.%20List%20Comprehension%20Code%20Challenge/16.%20divide%20with%20zip.py)
+17) [Capitals](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/2.%20List%20Comprehension%20Code%20Challenge/17.%20capitals.py)
+18) [Ages](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/2.%20List%20Comprehension%20Code%20Challenge/18.%20ages.py)
+19) [Greater Than With Zip](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/6.%20Python%20Loop/2.%20List%20Comprehension%20Code%20Challenge/19.%20greater%20than%20with%20zip.py)
 
 </details>
 
@@ -624,33 +620,33 @@ In Python, the way we store something like a word, a sentence, or even a whole p
 
 **Intro to String:**
 
-1) [String](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\1.%20string.py)
-2) [They're all Lists!](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\2.%20string%202.py)
-3) [Cut Me a Slice of String](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\3.%20string%20slice.py)
-4) [Concatenating Strings](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\4.%20string%20concatenate.py)
-5) [More and More String Slicing](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\5.%20string%20slice%20more.py)
-6) [Negative Indices](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\6.%20negative%20indices.py)
-7) [Strings are Immutable](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\7.%20immutable%20string.py)
-8) [Escape Characters](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\8.%20escape%20character.py)
-9) [Iterating through Strings](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\9.%20iterate%20string.py)
-10) [Strings and Conditionals (Part One)](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\10.%20conditional%20string%201.py)
-11) [Strings and Conditionals (Part Two)](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\11.%20conditional%20string%202.py)
-12) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\1.%20Intro%20to%20String\12.%20review.py)
+1) [String](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/1.%20Intro%20to%20String/1.%20string.py)
+2) [They're all Lists!](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/1.%20Intro%20to%20String/2.%20string%202.py)
+3) [Cut Me a Slice of String](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/1.%20Intro%20to%20String/3.%20string%20slice.py)
+4) [Concatenating Strings](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/1.%20Intro%20to%20String/4.%20string%20concatenate.py)
+5) [More and More String Slicing](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/1.%20Intro%20to%20String/5.%20string%20slice%20more.py)
+6) [Negative Indices](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/1.%20Intro%20to%20String/6.%20negative%20indices.py)
+7) [Strings are Immutable](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/1.%20Intro%20to%20String/7.%20immutable%20string.py)
+8) [Escape Characters](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/1.%20Intro%20to%20String/8.%20escape%20character.py)
+9) [Iterating through Strings](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/1.%20Intro%20to%20String/9.%20iterate%20string.py)
+10) [Strings and Conditionals (Part One)](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/1.%20Intro%20to%20String/10.%20conditional%20string%201.py)
+11) [Strings and Conditionals (Part Two)](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/1.%20Intro%20to%20String/11.%20conditional%20string%202.py)
+12) [Review](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/1.%20Intro%20to%20String/12.%20review.py)
 
 **String Methods:**
 
-1) [Formatting Methods](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\1.%20formating%20methods.py)
-2) [Splitting Strings](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\2.%20splitting%20string.py)
-3) [Splitting Strings II](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\3.%20splitting%20string%202.py)
-4) [Splitting Strings III](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\4.%20splitting%20string%203.py)
-5) [Joining Strings](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\5.%20joining%20string.py)
-6) [Joining Strings II](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\6.%20joining%20string%202.py)
-7) [.strip()](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\7.%20strip.py)
-8) [Replace](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\8.%20replace.py)
-9) [.find()](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\9.%20find.py)
-10) [.format()](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\10.%20format.py)
-11) [.format() II](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\11.%20format%202.py)
-12) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\2.%20String%20Methods\12.%20review.py)
+1) [Formatting Methods](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/2.%20String%20Methods/1.%20formating%20methods.py)
+2) [Splitting Strings](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/2.%20String%20Methods/2.%20splitting%20string.py)
+3) [Splitting Strings II](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/2.%20String%20Methods/3.%20splitting%20string%202.py)
+4) [Splitting Strings III](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/2.%20String%20Methods/4.%20splitting%20string%203.py)
+5) [Joining Strings](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/2.%20String%20Methods/5.%20joining%20string.py)
+6) [Joining Strings II](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/2.%20String%20Methods/6.%20joining%20string%202.py)
+7) [.strip()](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/2.%20String%20Methods/7.%20strip.py)
+8) [Replace](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/2.%20String%20Methods/8.%20replace.py)
+9) [.find()](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/2.%20String%20Methods/9.%20find.py)
+10) [.format()](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/2.%20String%20Methods/10.%20format.py)
+11) [.format() II](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/2.%20String%20Methods/11.%20format%202.py)
+12) [Review](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/2.%20String%20Methods/12.%20review.py)
 
 **Documentation**
 
@@ -660,16 +656,16 @@ In this documentation, you will learn about common string operations in Python. 
 
 **Code Challenge - String Methods:**
 
-1) [Count Letters](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\3.%20Code%20Challenge%20-%20String%20Methods\1.%20count%20letters.py)
-2) [Count X](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\3.%20Code%20Challenge%20-%20String%20Methods\2.%20count%20x.py)
-3) [Count Multi X](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\3.%20Code%20Challenge%20-%20String%20Methods\3.%20count%20multi%20x.py)
-4) [Substring Between](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\3.%20Code%20Challenge%20-%20String%20Methods\4.%20substring%20between.py)
-5) [X Length](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\3.%20Code%20Challenge%20-%20String%20Methods\5.%20x%20length.py)
-6) [Check Name](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\3.%20Code%20Challenge%20-%20String%20Methods\6.%20check%20name.py)
-7) [Every Other Letter](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\3.%20Code%20Challenge%20-%20String%20Methods\7.%20every%20other%20letter.py)
-8) [Reverse](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\3.%20Code%20Challenge%20-%20String%20Methods\8.%20reverse.py)
-9) [Make Spoonerism](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\3.%20Code%20Challenge%20-%20String%20Methods\9.%20make%20spoonerism.py)
-10) [Add Exclamation](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\7.%20Python%20Strings\3.%20Code%20Challenge%20-%20String%20Methods\10.%20add%20exclamation.py)
+1) [Count Letters](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/3.%20Code%20Challenge%20-%20String%20Methods/1.%20count%20letters.py)
+2) [Count X](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/3.%20Code%20Challenge%20-%20String%20Methods/2.%20count%20x.py)
+3) [Count Multi X](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/3.%20Code%20Challenge%20-%20String%20Methods/3.%20count%20multi%20x.py)
+4) [Substring Between](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/3.%20Code%20Challenge%20-%20String%20Methods/4.%20substring%20between.py)
+5) [X Length](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/3.%20Code%20Challenge%20-%20String%20Methods/5.%20x%20length.py)
+6) [Check Name](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/3.%20Code%20Challenge%20-%20String%20Methods/6.%20check%20name.py)
+7) [Every Other Letter](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/3.%20Code%20Challenge%20-%20String%20Methods/7.%20every%20other%20letter.py)
+8) [Reverse](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/3.%20Code%20Challenge%20-%20String%20Methods/8.%20reverse.py)
+9) [Make Spoonerism](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/3.%20Code%20Challenge%20-%20String%20Methods/9.%20make%20spoonerism.py)
+10) [Add Exclamation](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/7.%20Python%20Strings/3.%20Code%20Challenge%20-%20String%20Methods/10.%20add%20exclamation.py)
 
 </details>
 
@@ -703,14 +699,14 @@ It’s considered good practice to insert a space (` `) after each comma, but ou
 
 **Intro to Dictionaries:**
 
-1) [Make a Dictionary](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\1.%20Intro%20to%20Dictionaries\1.%20dictionary.py)
-2) [Invalid Keys](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\1.%20Intro%20to%20Dictionaries\2.%20invalid%20keys.py)
-3) [Empty Dictionary](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\1.%20Intro%20to%20Dictionaries\3.%20empty%20dictionary.py)
-4) [Add A Key](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\1.%20Intro%20to%20Dictionaries\4.%20add%20a%20key.py)
-5) [Add Multiple Keys](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\1.%20Intro%20to%20Dictionaries\5.%20add%20multiple%20key.py)
-6) [Overwrite Values](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\1.%20Intro%20to%20Dictionaries\6.%20overwrite%20values.py)
-7) [List Comprehensions to Dictionaries](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\1.%20Intro%20to%20Dictionaries\7.%20list%20comprehension.py)
-8) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\1.%20Intro%20to%20Dictionaries\8.%20review.py)
+1) [Make a Dictionary](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/8.%20Python%20Dictionaries/1.%20Intro%20to%20Dictionaries/1.%20dictionary.py)
+2) [Invalid Keys](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/8.%20Python%20Dictionaries/1.%20Intro%20to%20Dictionaries/2.%20invalid%20keys.py)
+3) [Empty Dictionary](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/8.%20Python%20Dictionaries/1.%20Intro%20to%20Dictionaries/3.%20empty%20dictionary.py)
+4) [Add A Key](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/8.%20Python%20Dictionaries/1.%20Intro%20to%20Dictionaries/4.%20add%20a%20key.py)
+5) [Add Multiple Keys](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/8.%20Python%20Dictionaries/1.%20Intro%20to%20Dictionaries/5.%20add%20multiple%20key.py)
+6) [Overwrite Values](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/8.%20Python%20Dictionaries/1.%20Intro%20to%20Dictionaries/6.%20overwrite%20values.py)
+7) [List Comprehensions to Dictionaries](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/8.%20Python%20Dictionaries/1.%20Intro%20to%20Dictionaries/7.%20list%20comprehension.py)
+8) [Review](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/8.%20Python%20Dictionaries/1.%20Intro%20to%20Dictionaries/8.%20review.py)
 
 **Documentation**
 
@@ -720,15 +716,15 @@ In this documentation, you will learn about Python’s built-in dictionary datat
 
 **Using Dictionaries:**
 
-1) [Get A Key](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\2.%20Using%20Dictionaries\1.%20get%20a%20key.py)
-2) [Get an Invalid Key](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\2.%20Using%20Dictionaries\2.%20get%20an%20invalid%20key.py)
-3) [Try/Except to Get a Key](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\2.%20Using%20Dictionaries\3.%20try%20except.py)
-4) [Safely Get a Key](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\2.%20Using%20Dictionaries\4.%20safely.py)
-5) [Delete a Key](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\2.%20Using%20Dictionaries\5.%20delete.py)
-6) [Get All Keys](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\2.%20Using%20Dictionaries\6.%20get%20all%20keys.py)
-7) [Get All Values](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\2.%20Using%20Dictionaries\7.%20get%20all%20values.py)
-8) [Get All Items](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\2.%20Using%20Dictionaries\8.%20get%20all%20items.py)
-9) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\8.%20Python%20Dictionaries\2.%20Using%20Dictionaries\9.%20review.py)
+1) [Get A Key](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/8.%20Python%20Dictionaries/2.%20Using%20Dictionaries/1.%20get%20a%20key.py)
+2) [Get an Invalid Key](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/8.%20Python%20Dictionaries/2.%20Using%20Dictionaries/2.%20get%20an%20invalid%20key.py)
+3) [Try/Except to Get a Key](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/8.%20Python%20Dictionaries/2.%20Using%20Dictionaries/3.%20try%20except.py)
+4) [Safely Get a Key](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/8.%20Python%20Dictionaries/2.%20Using%20Dictionaries/4.%20safely.py)
+5) [Delete a Key](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/8.%20Python%20Dictionaries/2.%20Using%20Dictionaries/5.%20delete.py)
+6) [Get All Keys](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/8.%20Python%20Dictionaries/2.%20Using%20Dictionaries/6.%20get%20all%20keys.py)
+7) [Get All Values](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/8.%20Python%20Dictionaries/2.%20Using%20Dictionaries/7.%20get%20all%20values.py)
+8) [Get All Items](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/8.%20Python%20Dictionaries/2.%20Using%20Dictionaries/8.%20get%20all%20items.py)
+9) [Review](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/8.%20Python%20Dictionaries/2.%20Using%20Dictionaries/9.%20review.py)
 
 </details>
 
@@ -738,20 +734,20 @@ In this documentation, you will learn about Python’s built-in dictionary datat
 
 **Intro to Classes:**
 
-1) [Types](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\1.%20types.py)
-2) [Class](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\2.%20class.py)
-3) [Instantiation](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\3.%20instantiation.py)
-4) [Object-Oriented Programming](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\4.%20oop.py)
-5) [Class Variables](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\5.%20class%20variables.py)
-6) [Methods](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\6.%20methods.py)
-7) [Methods with Arguments](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\7.%20methods%20with%20arguments.py)
-8) [Constructors](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\8.%20constructors.py)
-9) [Instance Variables](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\9.%20instance%20variables.py)
-10) [Attribute Functions](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\10.%20attribute%20functions.py)
-11) [Self](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\11.%20self.py)
-12) [Everything is an Object](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\12.%20object.py)
-13) [String Representation](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\13.%20string%20representation.py)
-14) [Review](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\9.%20Python%20Classes\14.%20review.py)
+1) [Types](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/9.%20Python%20Classes/1.%20types.py)
+2) [Class](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/9.%20Python%20Classes/2.%20class.py)
+3) [Instantiation](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/9.%20Python%20Classes/3.%20instantiation.py)
+4) [Object-Oriented Programming](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/9.%20Python%20Classes/4.%20oop.py)
+5) [Class Variables](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/9.%20Python%20Classes/5.%20class%20variables.py)
+6) [Methods](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/9.%20Python%20Classes/6.%20methods.py)
+7) [Methods with Arguments](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/9.%20Python%20Classes/7.%20methods%20with%20arguments.py)
+8) [Constructors](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/9.%20Python%20Classes/8.%20constructors.py)
+9) [Instance Variables](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/9.%20Python%20Classes/9.%20instance%20variables.py)
+10) [Attribute Functions](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/9.%20Python%20Classes/10.%20attribute%20functions.py)
+11) [Self](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/9.%20Python%20Classes/11.%20self.py)
+12) [Everything is an Object](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/9.%20Python%20Classes/12.%20object.py)
+13) [String Representation](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/9.%20Python%20Classes/13.%20string%20representation.py)
+14) [Review](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/9.%20Python%20Classes/14.%20review.py)
 
 </details>
 
@@ -771,11 +767,11 @@ Often, a library will include a lot of code that you don’t need that may slow 
 
 **Intro to Modules:**
 
-1) [Modules Python Introduction](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\10.%20Python%20Modules\1.%20modules.py)
-2) [Modules Python Random](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\10.%20Python%20Modules\2.%20random.py)
-3) [Modules Python Namespaces](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\10.%20Python%20Modules\3.%20namespaces.py)
-4) [Modules Python Decimals](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\10.%20Python%20Modules\4.%20decimals.py)
-5) [Modules Python Files and Scope](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\10.%20Python%20Modules\5.%20files.py)
+1) [Modules Python Introduction](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/10.%20Python%20Modules/1.%20modules.py)
+2) [Modules Python Random](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/10.%20Python%20Modules/2.%20random.py)
+3) [Modules Python Namespaces](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/10.%20Python%20Modules/3.%20namespaces.py)
+4) [Modules Python Decimals](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/10.%20Python%20Modules/4.%20decimals.py)
+5) [Modules Python Files and Scope](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/10.%20Python%20Modules/5.%20files.py)
 
 **Documentation**
 
@@ -791,18 +787,18 @@ In this documentation you will learn about Python modules. This is helpful if yo
 
 **Learn Python Files:**
 
-1) [Reading a File](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\1.%20reading%20a%20file.py)
-2) [Iterating Through Lines](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\2.%20iterate%20through%20lines.py)
-3) [Reading a Line](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\3.%20reading%20a%20line.py)
-4) [Writing a File](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\4.%20writing%20a%20file.py)
-5) [Appending to a File](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\5.%20appending%20a%20file.py)
-6) [What's With "with"?](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\6.%20with.py)
-7) [What Is a CSV File?](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\7.%20csv.py)
-8) [Reading a CSV File](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\8.%20read%20csv.py)
-9) [Reading Different Types of CSV Files](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\9.%20read%20csv%20files.py)
-10) [Writing a CSV File](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\10.%20writing%20csv.py)
-11) [Reading a JSON File](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\11.%20reading%20json.py)
-12) [Writing a JSON File](Data%20Scientist%20Career%20Path\3.%20Python%20Fundamentals\11.%20Python%20Files\12.%20writing%20json.py)
+1) [Reading a File](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/11.%20Python%20Files/1.%20reading%20a%20file.py)
+2) [Iterating Through Lines](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/11.%20Python%20Files/2.%20iterate%20through%20lines.py)
+3) [Reading a Line](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/11.%20Python%20Files/3.%20reading%20a%20line.py)
+4) [Writing a File](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/11.%20Python%20Files/4.%20writing%20a%20file.py)
+5) [Appending to a File](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/11.%20Python%20Files/5.%20appending%20a%20file.py)
+6) [What's With "with"?](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/11.%20Python%20Files/6.%20with.py)
+7) [What Is a CSV File?](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/11.%20Python%20Files/7.%20csv.py)
+8) [Reading a CSV File](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/11.%20Python%20Files/8.%20read%20csv.py)
+9) [Reading Different Types of CSV Files](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/11.%20Python%20Files/9.%20read%20csv%20files.py)
+10) [Writing a CSV File](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/11.%20Python%20Files/10.%20writing%20csv.py)
+11) [Reading a JSON File](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/11.%20Python%20Files/11.%20reading%20json.py)
+12) [Writing a JSON File](Data%20Scientist%20Career%20Path/3.%20Python%20Fundamentals/11.%20Python%20Files/12.%20writing%20json.py)
 
 **Documentation**
 
@@ -825,7 +821,7 @@ In this documentation you will learn about reading and writing the data in files
 Data acquisition, or data mining, is the step of the Data Science Life Cycle where we identify and obtain the raw data that will later be cleaned for exploration and modeling.
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\acquisition.svg">
+  <img src="Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/acquisition.svg">
 </p>
 
 Data Science is viewed as such a powerful tool because data is often the most valuable resource we have when attempting to gain insight from our environment. In the frame of business, once a question has been defined and objectives set through the business understanding phase of the data science life cycle, the right data must be acquired to answer the business needs. In the diagram above, the arrows between the business understanding phase and data acquisition phase indicate that there is often an iterative relationship between the two. You need to understand how the questions you’re asking relate to your goals before collecting data. However after acquiring your data, that data may shift your understanding of your business, where you may revisit the business understanding phase. Some aspects to consider when acquiring data are:
@@ -974,7 +970,7 @@ SELECT * FROM celebs;
 ```
 
 <p align="center">
-  <img src="Data Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\1.%20Intro%20to%20SQL\result.jpg">
+  <img src="Data Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/1.%20Intro%20to%20SQL/result.jpg">
 </p>
 
 A *relational database* is a database that organizes information into one or more tables. Here, the relational database contains one table.
@@ -1142,51 +1138,51 @@ CREATE TABLE celebs (
 
 **Intro to SQL:**
 
-1) [Introduction](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\1.%20intro.sql)
-2) [Select](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\2.%20select.sql)
-3) [As](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\3.%20as.sql)
-4) [Distinct](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\4.%20distinct.sql)
-5) [Where](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\5.%20where.sql)
-6) [Like I](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\6.%20like%201.sql)
-7) [Like II](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\7.%20like%202.sql)
-8) [Is Null](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\8.%20is%20null.sql)
-9) [Between](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\9.%20between.sql)
-10) [And](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\10.%20and.sql)
-11) [Or](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\11.%20or.sql)
-12) [Order By](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\12.%20order%20by.sql)
-13) [Limit](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\13.%20limit.sql)
-14) [Case](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\14.%20case.sql)
+1) [Introduction](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/2.%20Queries/1.%20intro.sql)
+2) [Select](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/2.%20Queries/2.%20select.sql)
+3) [As](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/2.%20Queries/3.%20as.sql)
+4) [Distinct](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/2.%20Queries/4.%20distinct.sql)
+5) [Where](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/2.%20Queries/5.%20where.sql)
+6) [Like I](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/2.%20Queries/6.%20like%201.sql)
+7) [Like II](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/2.%20Queries/7.%20like%202.sql)
+8) [Is Null](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/2.%20Queries/8.%20is%20null.sql)
+9) [Between](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/2.%20Queries/9.%20between.sql)
+10) [And](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/2.%20Queries/10.%20and.sql)
+11) [Or](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/2.%20Queries/11.%20or.sql)
+12) [Order By](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/2.%20Queries/12.%20order%20by.sql)
+13) [Limit](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/2.%20Queries/13.%20limit.sql)
+14) [Case](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/2.%20Queries/14.%20case.sql)
 
 **SQL Commands:**
 
-1) [ALTER TABLE](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\1.%20alter.sql)
-2) [AND](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\2.%20and.sql)
-3) [AS](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\3.%20as.sql)
-4) [AVG()](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\4.%20avg.sql)
-5) [BETWEEN](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\5.%20between.sql)
-6) [CASE](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\6.%20case.sql)
-7) [COUNT()](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\7.%20count.sql)
-8) [CREATE TABLE](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\8.%20create.sql)
-9) [DELETE](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\9.%20delete.sql)
-10) [GROUP BY](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\10.%20groupby.sql)
-11) [HAVING](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\11.%20having.sql)
-12) [INNER JOIN](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\12.%20inner.sql)
-13) [INSERT](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\13.%20insert.sql)
-14) [IS NULL / IS NOT NULL](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\14.%20null.sql)
-15) [LIKE](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\15.%20like.sql)
-16) [LIMIT](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\16.%20limit.sql)
-17) [MAX()](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\17.%20max.sql)
-18) [MIN()](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\18.%20min.sql)
-19) [OR](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\19.%20or.sql)
-20) [ORDER BY](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\20.%20orderby.sql)
-21) [OUTER JOIN](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\21.%20outer.sql)
-22) [ROUND()](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\22.%20round.sql)
-23) [SELECT](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\23.%20select.sql)
-24) [SELECT DISTINCT](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\24.%20distinct.sql)
-25) [SUM](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\25.%20sum.sql)
-26) [UPDATE](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\26.%20update.sql)
-27) [WHERE](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\27.%20where.sql)
-28) [WITH](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\28.%20with.sql)
+1) [ALTER TABLE](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/1.%20alter.sql)
+2) [AND](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/2.%20and.sql)
+3) [AS](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/3.%20as.sql)
+4) [AVG()](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/4.%20avg.sql)
+5) [BETWEEN](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/5.%20between.sql)
+6) [CASE](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/6.%20case.sql)
+7) [COUNT()](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/7.%20count.sql)
+8) [CREATE TABLE](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/8.%20create.sql)
+9) [DELETE](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/9.%20delete.sql)
+10) [GROUP BY](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/10.%20groupby.sql)
+11) [HAVING](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/11.%20having.sql)
+12) [INNER JOIN](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/12.%20inner.sql)
+13) [INSERT](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/13.%20insert.sql)
+14) [IS NULL / IS NOT NULL](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/14.%20null.sql)
+15) [LIKE](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/15.%20like.sql)
+16) [LIMIT](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/16.%20limit.sql)
+17) [MAX()](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/17.%20max.sql)
+18) [MIN()](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/18.%20min.sql)
+19) [OR](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/19.%20or.sql)
+20) [ORDER BY](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/20.%20orderby.sql)
+21) [OUTER JOIN](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/21.%20outer.sql)
+22) [ROUND()](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/22.%20round.sql)
+23) [SELECT](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/23.%20select.sql)
+24) [SELECT DISTINCT](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/24.%20distinct.sql)
+25) [SUM](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/25.%20sum.sql)
+26) [UPDATE](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/26.%20update.sql)
+27) [WHERE](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/27.%20where.sql)
+28) [WITH](Data%20Scientist%20Career%20Path/4.%20Data%20Acquisition/1.%20SQL/3.%20Commands/28.%20with.sql)
 
 **Thinking in SQL vs Thinking in Python**
 
@@ -1265,16 +1261,16 @@ Let’s break this syntax down:
 
 **Lambda Function Code Challenge:**
 
-1) [Contains A](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\1.%20Python%20Lambda%20Function\1.%20contains%20a.py)
-2) [Long String](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\1.%20Python%20Lambda%20Function\2.%20long%20string.py)
-3) [Ends With A](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\1.%20Python%20Lambda%20Function\3.%20ends%20with%20a.py)
-4) [Double Or Zero](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\1.%20Python%20Lambda%20Function\4.%20double%20or%20zero.py)
-5) [Even/Odd](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\1.%20Python%20Lambda%20Function\5.%20even%20odd.py)
-6) [Multiple of Three](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\1.%20Python%20Lambda%20Function\6.%20multiple%20of%203.py)
-7) [Movie Rating](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\1.%20Python%20Lambda%20Function\7.%20movie%20rating.py)
-8) [Ones' Place](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\1.%20Python%20Lambda%20Function\8.%20ones%20place.py)
-9) [Double Square](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\1.%20Python%20Lambda%20Function\9.%20double%20square.py)
-10) [Add Random](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\1.%20Python%20Lambda%20Function\10.%20add%20random.py)
+1) [Contains A](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/1.%20Python%20Lambda%20Function/1.%20contains%20a.py)
+2) [Long String](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/1.%20Python%20Lambda%20Function/2.%20long%20string.py)
+3) [Ends With A](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/1.%20Python%20Lambda%20Function/3.%20ends%20with%20a.py)
+4) [Double Or Zero](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/1.%20Python%20Lambda%20Function/4.%20double%20or%20zero.py)
+5) [Even/Odd](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/1.%20Python%20Lambda%20Function/5.%20even%20odd.py)
+6) [Multiple of Three](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/1.%20Python%20Lambda%20Function/6.%20multiple%20of%203.py)
+7) [Movie Rating](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/1.%20Python%20Lambda%20Function/7.%20movie%20rating.py)
+8) [Ones' Place](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/1.%20Python%20Lambda%20Function/8.%20ones%20place.py)
+9) [Double Square](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/1.%20Python%20Lambda%20Function/9.%20double%20square.py)
+10) [Add Random](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/1.%20Python%20Lambda%20Function/10.%20add%20random.py)
 
 </details>
 
@@ -1284,33 +1280,33 @@ Let’s break this syntax down:
 
 **Creating, Loading, Selecting Data with Pandas:**
 
-1) [Create a DataFrame I](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\1.%20create%201.py)
-2) [Create a DataFrame II](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\2.%20create%202.py)
-3) [Loading and Saving CSVs](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\3.%20load%20csv.py)
-4) [Inspect a DataFrame](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\4.%20inspect%20data.py)
-5) [Select Columns](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\5.%20select%20columns.py)
-6) [Selecting Multiple Columns](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\6.%20select%20multiple%20columns.py)
-7) [Select Rows](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\7.%20select%20rows.py)
-8) [Selecting Multiple Rows](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\8.%20select%20multiple%20rows.py)
-9) [Select Rows with Logic I](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\9.%20select%20rows%20logic%201.py)
-10) [Select Rows with Logic II](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\10.%20select%20rows%20logic%202.py)
-11) [Select Rows with Logic III](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\11.%20select%20rows%20logic%203.py)
-12) [Setting indices](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\12.%20setting%20indices.py)
-13) [Review](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\13.%20review.py)
+1) [Create a DataFrame I](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/1.%20Creating/1.%20create%201.py)
+2) [Create a DataFrame II](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/1.%20Creating/2.%20create%202.py)
+3) [Loading and Saving CSVs](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/1.%20Creating/3.%20load%20csv.py)
+4) [Inspect a DataFrame](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/1.%20Creating/4.%20inspect%20data.py)
+5) [Select Columns](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/1.%20Creating/5.%20select%20columns.py)
+6) [Selecting Multiple Columns](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/1.%20Creating/6.%20select%20multiple%20columns.py)
+7) [Select Rows](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/1.%20Creating/7.%20select%20rows.py)
+8) [Selecting Multiple Rows](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/1.%20Creating/8.%20select%20multiple%20rows.py)
+9) [Select Rows with Logic I](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/1.%20Creating/9.%20select%20rows%20logic%201.py)
+10) [Select Rows with Logic II](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/1.%20Creating/10.%20select%20rows%20logic%202.py)
+11) [Select Rows with Logic III](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/1.%20Creating/11.%20select%20rows%20logic%203.py)
+12) [Setting indices](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/1.%20Creating/12.%20setting%20indices.py)
+13) [Review](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/1.%20Creating/13.%20review.py)
 
 **Modifying Dataframe:**
 
-1) [Adding a Column I](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\1.%20add%201.py)
-2) [Adding a Column II](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\2.%20add%202.py)
-3) [Adding a Column III](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\3.%20add%203.py)
-4) [Performing Column Operations](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\4.%20column.py)
-5) [Reviewing Lambda Function](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\5.%20lambda.py)
-6) [Reviewing Lambda Function: If Statements](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\6.%20lambda%20if.py)
-7) [Applying a Lambda to a Column](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\7.%20lambda%20column.py)
-8) [Applying a Lambda to a Row](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\8.%20lambda%20row.py)
-9) [Renaming Columns](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\9.%20rename.py)
-10) [Renaming Columns II](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\10.%20rename%202.py)
-11) [Review](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\11.%20review.py)
+1) [Adding a Column I](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/2.%20Modifying/1.%20add%201.py)
+2) [Adding a Column II](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/2.%20Modifying/2.%20add%202.py)
+3) [Adding a Column III](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/2.%20Modifying/3.%20add%203.py)
+4) [Performing Column Operations](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/2.%20Modifying/4.%20column.py)
+5) [Reviewing Lambda Function](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/2.%20Modifying/5.%20lambda.py)
+6) [Reviewing Lambda Function: If Statements](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/2.%20Modifying/6.%20lambda%20if.py)
+7) [Applying a Lambda to a Column](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/2.%20Modifying/7.%20lambda%20column.py)
+8) [Applying a Lambda to a Row](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/2.%20Modifying/8.%20lambda%20row.py)
+9) [Renaming Columns](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/2.%20Modifying/9.%20rename.py)
+10) [Renaming Columns II](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/2.%20Modifying/10.%20rename%202.py)
+11) [Review](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/2.%20Hands%20On%20with%20Pandas/2.%20Modifying/11.%20review.py)
 
 **Documentation - Pandas**
 
@@ -1338,13 +1334,13 @@ You will also learn how to rearrange a DataFrame into a *pivot table*, which is 
 
 **Aggregates:**
 
-1) [Calculating Column Statistics](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\3.%20Aggregates%20in%20Pandas\1.%20column.py)
-2) [Calculating Aggregate Functions I](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\3.%20Aggregates%20in%20Pandas\2.%20aggregate%201.py)
-3) [Calculating Aggregate Functions II](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\3.%20Aggregates%20in%20Pandas\3.%20aggregate%202.py)
-4) [Calculating Aggregate Functions III](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\3.%20Aggregates%20in%20Pandas\4.%20aggregate%203.py)
-5) [Calculating Aggregate Functions IV](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\3.%20Aggregates%20in%20Pandas\5.%20aggregate%204.py)
-6) [Pivot Tables](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\3.%20Aggregates%20in%20Pandas\6.%20pivot%20table.py)
-7) [Review](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\3.%20Aggregates%20in%20Pandas\7.%20review.py)
+1) [Calculating Column Statistics](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/3.%20Aggregates%20in%20Pandas/1.%20column.py)
+2) [Calculating Aggregate Functions I](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/3.%20Aggregates%20in%20Pandas/2.%20aggregate%201.py)
+3) [Calculating Aggregate Functions II](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/3.%20Aggregates%20in%20Pandas/3.%20aggregate%202.py)
+4) [Calculating Aggregate Functions III](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/3.%20Aggregates%20in%20Pandas/4.%20aggregate%203.py)
+5) [Calculating Aggregate Functions IV](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/3.%20Aggregates%20in%20Pandas/5.%20aggregate%204.py)
+6) [Pivot Tables](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/3.%20Aggregates%20in%20Pandas/6.%20pivot%20table.py)
+7) [Review](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/3.%20Aggregates%20in%20Pandas/7.%20review.py)
 
 **Documentation**
 
@@ -1366,25 +1362,25 @@ In this documentation, you will learn about reshaping dataframe objects to visua
 
 Instead, we can split our data into three tables:
 
-- [orders](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\orders.csv) would contain the information necessary to describe an order: `order_id`, `customer_id`, `product_id`, `quantity`, and `timestamp`
-- [products](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\products.csv) would contain the information to describe each product: `product_id`, `product_description` and `product_price`
-- [customers](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\customers.csv) would contain the information for each customer: `customer_id`, `customer_name`, `customer_address`, and `customer_phone_number`
+- [orders](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/4.%20Multiple%20Tables%20in%20Pandas/orders.csv) would contain the information necessary to describe an order: `order_id`, `customer_id`, `product_id`, `quantity`, and `timestamp`
+- [products](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/4.%20Multiple%20Tables%20in%20Pandas/products.csv) would contain the information to describe each product: `product_id`, `product_description` and `product_price`
+- [customers](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/4.%20Multiple%20Tables%20in%20Pandas/customers.csv) would contain the information for each customer: `customer_id`, `customer_name`, `customer_address`, and `customer_phone_number`
 
 In this lesson, we will learn the Pandas commands that help us work with data stored in multiple tables.
 
 **Multiple Tables:**
 
-1) [Intro](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\1.%20intro.py)
-2) [Inner Merge I](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\2.%20inner.py)
-3) [Inner Merge II](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\3.%20inner%202.py)
-4) [Inner Merge III](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\4.%20inner%203.py)
-5) [Merge on Specific Columns](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\5.%20specific.py)
-6) [Merge on Specific Columns II](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\6.%20specific%202.py)
-7) [Mismatched Merges](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\7.%20mismatched.py)
-8) [Outer Merge](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\8.%20outer.py)
-9) [Left and Right Merge](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\9.%20left%20right.py)
-10) [Concatenate DataFrames](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\10.%20concatenate.py)
-11) [Review](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\11.%20review.py)
+1) [Intro](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/4.%20Multiple%20Tables%20in%20Pandas/1.%20intro.py)
+2) [Inner Merge I](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/4.%20Multiple%20Tables%20in%20Pandas/2.%20inner.py)
+3) [Inner Merge II](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/4.%20Multiple%20Tables%20in%20Pandas/3.%20inner%202.py)
+4) [Inner Merge III](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/4.%20Multiple%20Tables%20in%20Pandas/4.%20inner%203.py)
+5) [Merge on Specific Columns](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/4.%20Multiple%20Tables%20in%20Pandas/5.%20specific.py)
+6) [Merge on Specific Columns II](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/4.%20Multiple%20Tables%20in%20Pandas/6.%20specific%202.py)
+7) [Mismatched Merges](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/4.%20Multiple%20Tables%20in%20Pandas/7.%20mismatched.py)
+8) [Outer Merge](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/4.%20Multiple%20Tables%20in%20Pandas/8.%20outer.py)
+9) [Left and Right Merge](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/4.%20Multiple%20Tables%20in%20Pandas/9.%20left%20right.py)
+10) [Concatenate DataFrames](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/4.%20Multiple%20Tables%20in%20Pandas/10.%20concatenate.py)
+11) [Review](Data%20Scientist%20Career%20Path/5.%20Data%20Manipulation%20with%20Pandas/4.%20Multiple%20Tables%20in%20Pandas/11.%20review.py)
 
 **Documentation**
 
@@ -1421,7 +1417,7 @@ Regular Expressions have a variety of use cases including:
 4. *Character sets*, denoted by a pair of brackets `[]`, let us match one character from a series of characters
 5. *Wildcards*, represented by the period or dot `.`, will match any single character (letter, number, symbol or whitespace)
 6. *Ranges* allow us to specify a range of characters in which we can make a match
-7. *Shorthand character* classes like `\w`, `\d` and `\s` represent the ranges representing word characters, digit characters, and whitespace characters, respectively
+7. *Shorthand character* classes like `/w`, `/d` and `/s` represent the ranges representing word characters, digit characters, and whitespace characters, respectively
 8. *Groupings*, denoted with parentheses `()`, group parts of a regular expression together, and allows us to limit alternation to part of a regex
 9. *Fixed quantifiers*, represented with curly braces `{}`, let us indicate the exact quantity or a range of quantity of a character we wish to match
 10. *Optional quantifiers*, indicated by the question mark `?`, allow us to indicate a character in a regex is optional, or can appear either 0 times or 1 time
@@ -1454,17 +1450,17 @@ We will go through the techniques data scientists use to accomplish these goals 
 
 **Cleaning Data:**
 
-1) [Intro](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\1.%20intro.py)
-2) [Diagnose the Data](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\2.%20diagnose.py)
-3) [Dealing with Multiple Files](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\3.%20multiple.py)
-4) [Reshaping your Data](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\4.%20reshape.py)
-5) [Dealing with Duplicates](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\5.%20duplicate.py)
-6) [Splitting by Index](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\6.%20split%20id.py)
-7) [Splitting by Character](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\7.%20split%20char.py)
-8) [Looking at Types](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\8.%20type.py)
-9) [String Parsing](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\9.%20parse.py)
-10) [More String Parsing](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\10.%20parse%202.py)
-11) [Missing Values](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\11.%20missval.py)
+1) [Intro](Data%20Scientist%20Career%20Path/6.%20Data%20Wrangling%20and%20Tidying/1.%20Clean%20Data%20with%20Python/1.%20intro.py)
+2) [Diagnose the Data](Data%20Scientist%20Career%20Path/6.%20Data%20Wrangling%20and%20Tidying/1.%20Clean%20Data%20with%20Python/2.%20diagnose.py)
+3) [Dealing with Multiple Files](Data%20Scientist%20Career%20Path/6.%20Data%20Wrangling%20and%20Tidying/1.%20Clean%20Data%20with%20Python/3.%20multiple.py)
+4) [Reshaping your Data](Data%20Scientist%20Career%20Path/6.%20Data%20Wrangling%20and%20Tidying/1.%20Clean%20Data%20with%20Python/4.%20reshape.py)
+5) [Dealing with Duplicates](Data%20Scientist%20Career%20Path/6.%20Data%20Wrangling%20and%20Tidying/1.%20Clean%20Data%20with%20Python/5.%20duplicate.py)
+6) [Splitting by Index](Data%20Scientist%20Career%20Path/6.%20Data%20Wrangling%20and%20Tidying/1.%20Clean%20Data%20with%20Python/6.%20split%20id.py)
+7) [Splitting by Character](Data%20Scientist%20Career%20Path/6.%20Data%20Wrangling%20and%20Tidying/1.%20Clean%20Data%20with%20Python/7.%20split%20char.py)
+8) [Looking at Types](Data%20Scientist%20Career%20Path/6.%20Data%20Wrangling%20and%20Tidying/1.%20Clean%20Data%20with%20Python/8.%20type.py)
+9) [String Parsing](Data%20Scientist%20Career%20Path/6.%20Data%20Wrangling%20and%20Tidying/1.%20Clean%20Data%20with%20Python/9.%20parse.py)
+10) [More String Parsing](Data%20Scientist%20Career%20Path/6.%20Data%20Wrangling%20and%20Tidying/1.%20Clean%20Data%20with%20Python/10.%20parse%202.py)
+11) [Missing Values](Data%20Scientist%20Career%20Path/6.%20Data%20Wrangling%20and%20Tidying/1.%20Clean%20Data%20with%20Python/11.%20missval.py)
 
 **Documentation**
 
@@ -1478,7 +1474,7 @@ In this resource you will learn how to work with null or missing values in panda
 
 ## **7. Summary Statistics**
 
-<!-- <details><summary>Details</summary> -->
+<details><summary>Details</summary>
 
 ### **a. Variable Types**
 
@@ -1487,7 +1483,7 @@ In this resource you will learn how to work with null or missing values in panda
 Generally, variables will come in two varieties; categorical and quantitative. Categorical variables group observations into separate categories that can be ordered or unordered. Quantitative variables on the other hand are variables expressed numerically, whether as a count or measurement.
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\types.png">
+  <img src="Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/1.%20Variable%20Types/types.png">
 </p>
 
 Let’s dive a bit deeper into the different variable types to understand how to identify them in a dataset.
@@ -1522,16 +1518,16 @@ Let’s dive a bit deeper into the different variable types to understand how to
 
 **Variable Types:**
 
-1) [Assessing Variable Types](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\1.%20asses.py)
-2) [Categorical Variables](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\2.%20categorical.py)
-3) [Quantitative Variables](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\3.%20quantitative.py)
-4) [Matching Quantitative Variables](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\4.%20match%20quant.py)
-5) [Matching Categorical Variables](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\5.%20match%20categ.py)
-6) [Altering the Data Types of Pandas Dataframes](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\6.%20alter.py)
-7) [The Pandas Category Data Type](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\7.%20pandas.py)
-8) [Label Encoding with .cat.codes](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\8.%20label%20encoding.py)
-9) [One-Hot Encoding](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\9.%20one%20hot.py)
-10) [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\10.%20review.py)
+1) [Assessing Variable Types](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/1.%20Variable%20Types/1.%20asses.py)
+2) [Categorical Variables](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/1.%20Variable%20Types/2.%20categorical.py)
+3) [Quantitative Variables](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/1.%20Variable%20Types/3.%20quantitative.py)
+4) [Matching Quantitative Variables](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/1.%20Variable%20Types/4.%20match%20quant.py)
+5) [Matching Categorical Variables](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/1.%20Variable%20Types/5.%20match%20categ.py)
+6) [Altering the Data Types of Pandas Dataframes](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/1.%20Variable%20Types/6.%20alter.py)
+7) [The Pandas Category Data Type](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/1.%20Variable%20Types/7.%20pandas.py)
+8) [Label Encoding with .cat.codes](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/1.%20Variable%20Types/8.%20label%20encoding.py)
+9) [One-Hot Encoding](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/1.%20Variable%20Types/9.%20one%20hot.py)
+10) [Review](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/1.%20Variable%20Types/10.%20review.py)
 
 **Review**
 
@@ -1557,7 +1553,7 @@ In this lesson, you have:
 The *mean*, often referred to as the *average*, is a way to measure the center of a dataset.
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\mean.jpeg">
+  <img src="Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/2.%20Mean%20Median%20Mode/mean.jpeg">
 </p>
 
 The average of a set is calculated using a two-step process:
@@ -1567,10 +1563,10 @@ The average of a set is calculated using a two-step process:
 
 **Mean:**
 
-1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\1.%20Mean\1.%20intro.py)
-2. [Calculating Mean](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\1.%20Mean\2.%20calculate.py)
-3. [NumPy Average](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\1.%20Mean\3.%20numpy.py)
-4. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\1.%20Mean\4.%20review.py)
+1. [Intro](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/2.%20Mean%20Median%20Mode/1.%20Mean/1.%20intro.py)
+2. [Calculating Mean](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/2.%20Mean%20Median%20Mode/1.%20Mean/2.%20calculate.py)
+3. [NumPy Average](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/2.%20Mean%20Median%20Mode/1.%20Mean/3.%20numpy.py)
+4. [Review](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/2.%20Mean%20Median%20Mode/1.%20Mean/4.%20review.py)
 
 **2) Median**
 
@@ -1579,7 +1575,7 @@ The formal definition for the median of a dataset is:
 *The value that, assuming the dataset is ordered from smallest to largest, falls in the middle. If there are an even number of values in a dataset, you either report both of the middle two values or their average.*
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\median.jpeg">
+  <img src="Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/2.%20Mean%20Median%20Mode/median.jpeg">
 </p>
 
 There are always two steps to finding the median of a dataset:
@@ -1589,10 +1585,10 @@ There are always two steps to finding the median of a dataset:
 
 **Median:**
 
-1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\2.%20Median\1.%20intro.py)
-2. [Calculate Median](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\2.%20Median\2.%20calculate.py)
-3. [Median NumPy](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\2.%20Median\3.%20numpy.py)
-4. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\2.%20Median\4.%20review.py)
+1. [Intro](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/2.%20Mean%20Median%20Mode/2.%20Median/1.%20intro.py)
+2. [Calculate Median](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/2.%20Mean%20Median%20Mode/2.%20Median/2.%20calculate.py)
+3. [Median NumPy](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/2.%20Mean%20Median%20Mode/2.%20Median/3.%20numpy.py)
+4. [Review](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/2.%20Mean%20Median%20Mode/2.%20Median/4.%20review.py)
 
 **3) Mode**
 
@@ -1601,7 +1597,7 @@ The formal definition for the mode of a dataset is:
 *The most frequently occurring observation in the dataset. A dataset can have multiple modes if there is more than one value with the same maximum frequency.*
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\mode.jpeg">
+  <img src="Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/2.%20Mean%20Median%20Mode/mode.jpeg">
 </p>
 
 While you may be able to find the mode of a small dataset by simply looking through it, if you have trouble, we recommend you follow these two steps:
@@ -1611,10 +1607,10 @@ While you may be able to find the mode of a small dataset by simply looking thro
 
 **Mode:**
 
-1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\3.%20Mode\1.%20intro.py)
-2. [Calculate](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\3.%20Mode\2.%20calculate.py)
-3. [Mode SciPy](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\3.%20Mode\3.%20scipy.py)
-4. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\3.%20Mode\4.%20review.py)
+1. [Intro](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/2.%20Mean%20Median%20Mode/3.%20Mode/1.%20intro.py)
+2. [Calculate](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/2.%20Mean%20Median%20Mode/3.%20Mode/2.%20calculate.py)
+3. [Mode SciPy](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/2.%20Mean%20Median%20Mode/3.%20Mode/3.%20scipy.py)
+4. [Review](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/2.%20Mean%20Median%20Mode/3.%20Mode/4.%20review.py)
 
 **Documentation**
 
@@ -1633,33 +1629,33 @@ In this documentation, you will learn about the different functions for statisti
 Variance is a descriptive statistic that describes how spread out the points in a data set are.
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\var.jpeg">
+  <img src="Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/3.%20Variance%20n%20Standard%20Deviation/var.jpeg">
 </p>
 
 **Variance:**
 
-1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\1.%20Variance\1.%20intro.py)
-2. [Distance From Mean](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\1.%20Variance\2.%20distance.py)
-3. [Average Distances](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\1.%20Variance\3.%20average.py)
-4. [Square The Differences](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\1.%20Variance\4.%20square.py)
-5. [Variance In NumPy](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\1.%20Variance\5.%20numpy.py)
-6. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\1.%20Variance\6.%20review.py)
+1. [Intro](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/3.%20Variance%20n%20Standard%20Deviation/1.%20Variance/1.%20intro.py)
+2. [Distance From Mean](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/3.%20Variance%20n%20Standard%20Deviation/1.%20Variance/2.%20distance.py)
+3. [Average Distances](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/3.%20Variance%20n%20Standard%20Deviation/1.%20Variance/3.%20average.py)
+4. [Square The Differences](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/3.%20Variance%20n%20Standard%20Deviation/1.%20Variance/4.%20square.py)
+5. [Variance In NumPy](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/3.%20Variance%20n%20Standard%20Deviation/1.%20Variance/5.%20numpy.py)
+6. [Review](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/3.%20Variance%20n%20Standard%20Deviation/1.%20Variance/6.%20review.py)
 
 **2) Standard Deviation**
 
 Standard deviation is computed by taking the square root of the variance.
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\std.jpeg">
+  <img src="Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/3.%20Variance%20n%20Standard%20Deviation/std.jpeg">
 </p>
 
 **Standard Deviation:**
 
-1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\2.%20Standard%20Deviation\1.%20intro.py)
-2. [Standard Deviation](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\2.%20Standard%20Deviation\2.%20std.py)
-3. [Standard Deviation in NumPy](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\2.%20Standard%20Deviation\3.%20numpy.py)
-4. [Using Standard Deviation](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\2.%20Standard%20Deviation\4.%20using.py)
-5. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\2.%20Standard%20Deviation\5.%20review.py)
+1. [Intro](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/3.%20Variance%20n%20Standard%20Deviation/2.%20Standard%20Deviation/1.%20intro.py)
+2. [Standard Deviation](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/3.%20Variance%20n%20Standard%20Deviation/2.%20Standard%20Deviation/2.%20std.py)
+3. [Standard Deviation in NumPy](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/3.%20Variance%20n%20Standard%20Deviation/2.%20Standard%20Deviation/3.%20numpy.py)
+4. [Using Standard Deviation](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/3.%20Variance%20n%20Standard%20Deviation/2.%20Standard%20Deviation/4.%20using.py)
+5. [Review](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/3.%20Variance%20n%20Standard%20Deviation/2.%20Standard%20Deviation/5.%20review.py)
 
 </details>
 
@@ -1672,21 +1668,21 @@ Standard deviation is computed by taking the square root of the variance.
 There’s no better tool to visualize the uncertainty and chaos in data than a histogram. A histogram displays the distribution of your underlying data.
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\4.%20Distribution\hist.jpeg">
+  <img src="Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/4.%20Distribution/hist.jpeg">
 </p>
 
 Histograms reveal, through numbers, interpretable trends in your data. They don’t provide a yes or no answer, but are often used as a starting point for discussion and informing an answer to your data.
 
 **Histogram:**
 
-1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\4.%20Distribution\1.%20intro.py)
-2. [Summarizing Your Data](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\4.%20Distribution\2.%20summarize.py)
-3. [Range](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\4.%20Distribution\3.%20range.py)
-4. [Bins and Count I](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\4.%20Distribution\4.%20bins%201.py)
-5. [Bins and Count II](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\4.%20Distribution\5.%20bins%202.py)
-6. [Histograms](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\4.%20Distribution\6.%20histogram.py)
-7. [Plotting a Histogram](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\4.%20Distribution\7.%20plot.py)
-8. [Finding your Best Bin Size](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\4.%20Distribution\8.%20best%20bins.py)
+1. [Intro](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/4.%20Distribution/1.%20intro.py)
+2. [Summarizing Your Data](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/4.%20Distribution/2.%20summarize.py)
+3. [Range](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/4.%20Distribution/3.%20range.py)
+4. [Bins and Count I](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/4.%20Distribution/4.%20bins%201.py)
+5. [Bins and Count II](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/4.%20Distribution/5.%20bins%202.py)
+6. [Histograms](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/4.%20Distribution/6.%20histogram.py)
+7. [Plotting a Histogram](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/4.%20Distribution/7.%20plot.py)
+8. [Finding your Best Bin Size](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/4.%20Distribution/8.%20best%20bins.py)
 
 </details>
 
@@ -1699,7 +1695,7 @@ Histograms reveal, through numbers, interpretable trends in your data. They don�
 A common way to communicate a high-level overview of a dataset is to find the values that split the data into four groups of equal size. By doing this, we can then say whether a new datapoint falls in the first, second, third, or fourth quarter of the data.
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\quartiles.svg">
+  <img src="Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/5.%20Quartiles,%20Quantiles,%20Interquartile%20Range/quartiles.svg">
 </p>
 
 The values that split the data into fourths are the *quartiles*. Those values are called the *first quartile* (Q1), the *second quartile* (Q2), and the *third quartile* (Q3)
@@ -1708,19 +1704,19 @@ In the image above, Q1 is `10`, Q2 is `13`, and Q3 is `22`. Those three values s
 
 **Quartiles:**
 
-1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\1.%20Quartiles\1.%20intro.py)
-2. [The Second Quartile](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\1.%20Quartiles\2.%20second.py)
-3. [Q1 and Q3](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\1.%20Quartiles\3.%20q3.py)
-4. [Method Two: Including Q2](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\1.%20Quartiles\4.%20q2.py)
-5. [Quartiles in NumPy](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\1.%20Quartiles\5.%20numpy.py)
-6. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\1.%20Quartiles\6.%20review.py)
+1. [Intro](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/5.%20Quartiles,%20Quantiles,%20Interquartile%20Range/1.%20Quartiles/1.%20intro.py)
+2. [The Second Quartile](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/5.%20Quartiles,%20Quantiles,%20Interquartile%20Range/1.%20Quartiles/2.%20second.py)
+3. [Q1 and Q3](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/5.%20Quartiles,%20Quantiles,%20Interquartile%20Range/1.%20Quartiles/3.%20q3.py)
+4. [Method Two: Including Q2](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/5.%20Quartiles,%20Quantiles,%20Interquartile%20Range/1.%20Quartiles/4.%20q2.py)
+5. [Quartiles in NumPy](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/5.%20Quartiles,%20Quantiles,%20Interquartile%20Range/1.%20Quartiles/5.%20numpy.py)
+6. [Review](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/5.%20Quartiles,%20Quantiles,%20Interquartile%20Range/1.%20Quartiles/6.%20review.py)
 
 **2) Quantiles**
 
 Quantiles are points that split a dataset into groups of equal size. For example, let’s say you just took a test and wanted to know whether you’re in the top 10% of the class. One way to determine this would be to split the data into ten groups with an equal number of datapoints in each group and see which group you fall into.
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\deciles.svg">
+  <img src="Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/5.%20Quartiles,%20Quantiles,%20Interquartile%20Range/deciles.svg">
 </p>
 
 There are nine values that split the dataset into ten groups of equal size — each group has 3 different test scores in it.
@@ -1729,35 +1725,35 @@ Those nine values that split the data are quantiles! Specifically, they are the 
 
 **Quantiles:**
 
-1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\2.%20Quantiles\1.%20intro.py)
-2. [Quantiles in NumPy](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\2.%20Quantiles\2.%20numpy.py)
-3. [Many Quantiles](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\2.%20Quantiles\3.%20many.py)
-4. [Common Quantiles](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\2.%20Quantiles\4.%20common.py)
-5. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\2.%20Quantiles\5.%20review.py)
+1. [Intro](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/5.%20Quartiles,%20Quantiles,%20Interquartile%20Range/2.%20Quantiles/1.%20intro.py)
+2. [Quantiles in NumPy](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/5.%20Quartiles,%20Quantiles,%20Interquartile%20Range/2.%20Quantiles/2.%20numpy.py)
+3. [Many Quantiles](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/5.%20Quartiles,%20Quantiles,%20Interquartile%20Range/2.%20Quantiles/3.%20many.py)
+4. [Common Quantiles](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/5.%20Quartiles,%20Quantiles,%20Interquartile%20Range/2.%20Quantiles/4.%20common.py)
+5. [Review](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/5.%20Quartiles,%20Quantiles,%20Interquartile%20Range/2.%20Quantiles/5.%20review.py)
 
 **3) Interquartile Range**
 
 The *interquartile range* (IQR) is a descriptive statistic that tries to solve this problem. The IQR ignores the tails of the dataset, so you know the range around-which your data is centered.
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\iqr.svg">
+  <img src="Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/5.%20Quartiles,%20Quantiles,%20Interquartile%20Range/iqr.svg">
 </p>
 
 In this image, most of the data is between `0` and `15`. However, there is one large negative outlier (`-20`) and one large positive outlier (`40`). This makes the range of the dataset `60` (The difference between `40` and `-20`). That’s not very representative of the spread of the majority of the data!
 
 **Interquartile Range:**
 
-1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\3.%20IQR\1.%20intro.py)
-2. [Quartiles](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\3.%20IQR\2.%20quartiles.py)
-3. [IQR in SciPy](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\3.%20IQR\3.%20scipy.py)
-4. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\3.%20IQR\4.%20review.py)
+1. [Intro](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/5.%20Quartiles,%20Quantiles,%20Interquartile%20Range/3.%20IQR/1.%20intro.py)
+2. [Quartiles](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/5.%20Quartiles,%20Quantiles,%20Interquartile%20Range/3.%20IQR/2.%20quartiles.py)
+3. [IQR in SciPy](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/5.%20Quartiles,%20Quantiles,%20Interquartile%20Range/3.%20IQR/3.%20scipy.py)
+4. [Review](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/5.%20Quartiles,%20Quantiles,%20Interquartile%20Range/3.%20IQR/4.%20review.py)
 
 **4) Boxplot**
 
 Boxplots are one of the most common ways to visualize a dataset. Like histograms, boxplots give you a sense of the central tendency and spread of the data.
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\boxplot.png">
+  <img src="Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/5.%20Quartiles,%20Quantiles,%20Interquartile%20Range/boxplot.png">
 </p>
 
 Take a look at the boxplot on this page. This boxplot is visualizing a dataset containing the lengths of 9,975 songs. We’ll highlight some of the features of the boxplot and will dig into them in more detail in this lesson:
@@ -1787,15 +1783,15 @@ When exploring data, we’re often interested in summarizing a large amount of i
 
 Depending on what we’re trying to understand from our data, we may need to rely on different statistics. For quantitative data, we can summarize central tendency using mean, median or mode and we can summarize spread using standard deviation, variance, or percentiles. However, when working with categorical data, we may not be able to use all the same summary statistics.
 
-1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\6.%20Summary%20Statistics%20for%20Categorical%20Data\1.%20intro.py)
-2. [Nominal Categories](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\6.%20Summary%20Statistics%20for%20Categorical%20Data\2.%20nominal.py)
-3. [Ordinal Categorical Variables - Central Tendency I](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\6.%20Summary%20Statistics%20for%20Categorical%20Data\3.%20ct1.py)
-4. [Ordinal Categorical Variables - Central Tendency II](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\6.%20Summary%20Statistics%20for%20Categorical%20Data\4.%20ct2.py)
-5. [Ordinal Categories: Spread](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\6.%20Summary%20Statistics%20for%20Categorical%20Data\5.%20spread.py)
-6. [Table of Proportions](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\6.%20Summary%20Statistics%20for%20Categorical%20Data\6.%20proportion.py)
-7. [Table of Proportions: Missing Data](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\6.%20Summary%20Statistics%20for%20Categorical%20Data\7.%20miss.py)
-8. [Binary Categorical Variables](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\6.%20Summary%20Statistics%20for%20Categorical%20Data\8.%20binary.py)
-9. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\6.%20Summary%20Statistics%20for%20Categorical%20Data\9.%20review.py)
+1. [Intro](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/6.%20Summary%20Statistics%20for%20Categorical%20Data/1.%20intro.py)
+2. [Nominal Categories](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/6.%20Summary%20Statistics%20for%20Categorical%20Data/2.%20nominal.py)
+3. [Ordinal Categorical Variables - Central Tendency I](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/6.%20Summary%20Statistics%20for%20Categorical%20Data/3.%20ct1.py)
+4. [Ordinal Categorical Variables - Central Tendency II](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/6.%20Summary%20Statistics%20for%20Categorical%20Data/4.%20ct2.py)
+5. [Ordinal Categories: Spread](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/6.%20Summary%20Statistics%20for%20Categorical%20Data/5.%20spread.py)
+6. [Table of Proportions](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/6.%20Summary%20Statistics%20for%20Categorical%20Data/6.%20proportion.py)
+7. [Table of Proportions: Missing Data](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/6.%20Summary%20Statistics%20for%20Categorical%20Data/7.%20miss.py)
+8. [Binary Categorical Variables](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/6.%20Summary%20Statistics%20for%20Categorical%20Data/8.%20binary.py)
+9. [Review](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/6.%20Summary%20Statistics%20for%20Categorical%20Data/9.%20review.py)
 
 </details>
 
@@ -1804,7 +1800,7 @@ Depending on what we’re trying to understand from our data, we may need to rel
 <details><summary>Details</summary>
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\7.%20Visualizing%20Categorical%20Data\viz.svg">
+  <img src="Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/7.%20Visualizing%20Categorical%20Data/viz.svg">
 </p>
 
 **1) Bar Chart**
@@ -1814,7 +1810,7 @@ Once you have your distinct categories, a bar chart is best used to display the 
 **Bar Charts vs. Histograms**
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\7.%20Visualizing%20Categorical%20Data\bar_hist.svg">
+  <img src="Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/7.%20Visualizing%20Categorical%20Data/bar_hist.svg">
 </p>
 
 Finally, we have one last thing to go over before we jump into coding our own charts. If you have ever run into histograms, you may notice that bar charts and histograms look almost identical. However, these are the key differences between them:
@@ -1824,25 +1820,25 @@ Finally, we have one last thing to go over before we jump into coding our own ch
 
 **Bar Chart:**
 
-1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\7.%20Visualizing%20Categorical%20Data\1.%20Bar\1.%20intro.py)
-2. [Plotting Bar Charts Using Seaborn](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\7.%20Visualizing%20Categorical%20Data\1.%20Bar\2.%20seaborn.py)
-3. [Bar Chart Ordering](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\7.%20Visualizing%20Categorical%20Data\1.%20Bar\3.%20order.py)
+1. [Intro](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/7.%20Visualizing%20Categorical%20Data/1.%20Bar/1.%20intro.py)
+2. [Plotting Bar Charts Using Seaborn](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/7.%20Visualizing%20Categorical%20Data/1.%20Bar/2.%20seaborn.py)
+3. [Bar Chart Ordering](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/7.%20Visualizing%20Categorical%20Data/1.%20Bar/3.%20order.py)
 
 **2) Pie Chart**
 
 Pie charts are made up of slices that are combined to make a full circle. Each slice represents a proportion, and the sum of each proportion (slice) adds up to 1 (or 100%).
 
 <p align="center">
-  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\7.%20Visualizing%20Categorical%20Data\pie.webp">
+  <img src="Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/7.%20Visualizing%20Categorical%20Data/pie.webp">
 </p>
 
 These slices are meant to give viewers a relative size of the data, similar to how bars in a bar chart act. The arc length (size of the slice’s angle) of each slice is proportional to the quantity it represents. This also means that the area of each slice is proportional to this quantity as well.
 
 **Pie Chart:**
 
-1. [Plotting Pie Charts Using Matplotlib](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\7.%20Visualizing%20Categorical%20Data\2.%20Pie\1.%20matplotlib.py)
-2. [Pitfalls of Pie Charts](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\7.%20Visualizing%20Categorical%20Data\2.%20Pie\2.%20pitfall.py)
-3. [Making Your Pie Chart Better](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\7.%20Visualizing%20Categorical%20Data\2.%20Pie\3.%20better.py)
+1. [Plotting Pie Charts Using Matplotlib](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/7.%20Visualizing%20Categorical%20Data/2.%20Pie/1.%20matplotlib.py)
+2. [Pitfalls of Pie Charts](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/7.%20Visualizing%20Categorical%20Data/2.%20Pie/2.%20pitfall.py)
+3. [Making Your Pie Chart Better](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/7.%20Visualizing%20Categorical%20Data/2.%20Pie/3.%20better.py)
 
 </details>
 
@@ -1854,32 +1850,32 @@ These slices are meant to give viewers a relative size of the data, similar to h
 
 Examining the relationship between variables can give us key insight into our data. In this lesson, we will cover ways of assessing the association between a quantitative variable and a categorical variable.
 
-1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\1.%20Quantitative%20and%20Categorical\1.%20intro.py)
-2. [Mean and Median Differences](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\1.%20Quantitative%20and%20Categorical\2.%20mean%20median.py)
-3. [Side-by-Side Box Plots](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\1.%20Quantitative%20and%20Categorical\3.%20side.py)
-4. [Inspecting Overlapping Histograms](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\1.%20Quantitative%20and%20Categorical\4.%20overlap.py)
-5. [Exploring Non-Binary Categorical Variables](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\1.%20Quantitative%20and%20Categorical\5.%20nonbinary.py)
-6. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\1.%20Quantitative%20and%20Categorical\6.%20review.py)
+1. [Intro](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/8.%20Associations%20between%20Variables/1.%20Quantitative%20and%20Categorical/1.%20intro.py)
+2. [Mean and Median Differences](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/8.%20Associations%20between%20Variables/1.%20Quantitative%20and%20Categorical/2.%20mean%20median.py)
+3. [Side-by-Side Box Plots](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/8.%20Associations%20between%20Variables/1.%20Quantitative%20and%20Categorical/3.%20side.py)
+4. [Inspecting Overlapping Histograms](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/8.%20Associations%20between%20Variables/1.%20Quantitative%20and%20Categorical/4.%20overlap.py)
+5. [Exploring Non-Binary Categorical Variables](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/8.%20Associations%20between%20Variables/1.%20Quantitative%20and%20Categorical/5.%20nonbinary.py)
+6. [Review](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/8.%20Associations%20between%20Variables/1.%20Quantitative%20and%20Categorical/6.%20review.py)
 
 **2) Two Quantitative Variables**
 
 When associations exist between variables, it means that information about the value of one variable gives us information about the value of the other variable. In this lesson, we will cover ways of examining an association between two quantitative variables.
 
-1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\2.%20Two%20Quantitative\1.%20intro.py)
-2. [Scatter Plots](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\2.%20Two%20Quantitative\2.%20scatter.py)
-3. [Exploring Covariance](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\2.%20Two%20Quantitative\3.%20covariance.py)
-4. [Correlation Part 1](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\2.%20Two%20Quantitative\4.%20correlation.py)
-5. [Correlation Part 2](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\2.%20Two%20Quantitative\5.%20correlation2.py)
-6. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\2.%20Two%20Quantitative\6.%20review.py)
+1. [Intro](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/8.%20Associations%20between%20Variables/2.%20Two%20Quantitative/1.%20intro.py)
+2. [Scatter Plots](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/8.%20Associations%20between%20Variables/2.%20Two%20Quantitative/2.%20scatter.py)
+3. [Exploring Covariance](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/8.%20Associations%20between%20Variables/2.%20Two%20Quantitative/3.%20covariance.py)
+4. [Correlation Part 1](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/8.%20Associations%20between%20Variables/2.%20Two%20Quantitative/4.%20correlation.py)
+5. [Correlation Part 2](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/8.%20Associations%20between%20Variables/2.%20Two%20Quantitative/5.%20correlation2.py)
+6. [Review](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/8.%20Associations%20between%20Variables/2.%20Two%20Quantitative/6.%20review.py)
 
 **3) Two Categorical Variables**
 
-1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\3.%20Two%20Categorical\1.%20intro.py)
-2. [Contingency Tables: Frequencies](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\3.%20Two%20Categorical\2.%20frequency.py)
-3. [Contingency Tables: Proportions](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\3.%20Two%20Categorical\3.%20proportion.py)
-4. [Marginal Proportions](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\3.%20Two%20Categorical\4.%20marginal.py)
-5. [Expected Contingency Tables](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\3.%20Two%20Categorical\5.%20expectation.py)
-6. [The Chi-Square Statistic](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\3.%20Two%20Categorical\6.%20chisquare.py)
+1. [Intro](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/8.%20Associations%20between%20Variables/3.%20Two%20Categorical/1.%20intro.py)
+2. [Contingency Tables: Frequencies](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/8.%20Associations%20between%20Variables/3.%20Two%20Categorical/2.%20frequency.py)
+3. [Contingency Tables: Proportions](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/8.%20Associations%20between%20Variables/3.%20Two%20Categorical/3.%20proportion.py)
+4. [Marginal Proportions](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/8.%20Associations%20between%20Variables/3.%20Two%20Categorical/4.%20marginal.py)
+5. [Expected Contingency Tables](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/8.%20Associations%20between%20Variables/3.%20Two%20Categorical/5.%20expectation.py)
+6. [The Chi-Square Statistic](Data%20Scientist%20Career%20Path/7.%20Summary%20Statistics/8.%20Associations%20between%20Variables/3.%20Two%20Categorical/6.%20chisquare.py)
 
 </details>
 
@@ -1887,23 +1883,371 @@ When associations exist between variables, it means that information about the v
 
 ## **8. Hypothesis Testing**
 
-<!-- <details><summary>Details</summary> -->
+<details><summary>Details</summary>
 
 ### **a. Testing a Sample Statistics**
 
-<!-- <details><summary>Details</summary> -->
+<details><summary>Details</summary>
+
+**1) Central Limit Theorem (CLT)**
+
+The Central Limit Theorem (CLT) is a powerful statistical tool that is useful in quantifying uncertainty around sample mean estimates. It is also the basis for common hypothesis tests, such as Z- and t-tests. A formal proof of the CLT requires some complex math, but this article will demonstrate it using a simulation!
+
+It’s now time to formally define the CLT, which tells us that the sampling distribution of the mean:
+
+- is normally distributed (for large enough sample size)
+- is centered at the population mean
+- has standard deviation equal to the population standard deviation divided by the square root of the sample size. This is called Standard Error.
+
+In real life, the data scientist is still stuck with their one sample mean as a best guess for the population mean. However, they can leverage the CLT to estimate the standard error — the amount of variation in imagined, repeated samples!
+
+**2) Introduction to Hypothesis Testing**
+
+It is important to remember the following:
+
+- A p-value is a probability, usually reported as a decimal between zero and one.
+- A small p-value means that an observed sample statistic (or something more extreme) would be unlikely to occur if the null hypothesis is true.
+- A significance threshold can be used to translate a p-value into a “significant” or “non-significant” result.
+- In practice, the alternative hypothesis and significance threshold should be chosen prior to data collection.
+
+**3) One Sample t Test in SciPy**
+
+*One-sample t-tests* are used for comparing a sample average to a hypothetical population average. For example, a one-sample t-test might be used to address questions such as:
+
+- Is the average amount of time that visitors spend on a website different from 5 minutes?
+- Is the average amount of money that customers spend on a purchase more than 10 USD?
+
+**t Test:**
+
+1. [Intro](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/1.%20One%20Sample%20t%20Test%20in%20SciPy/1.%20intro.py)
+2. [Implementing a One-Sample T-Test](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/1.%20One%20Sample%20t%20Test%20in%20SciPy/2.%20implement.py)
+3. [Assumptions of a One Sample T-Test](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/1.%20One%20Sample%20t%20Test%20in%20SciPy/3.%20assumption.py)
+4. [Review](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/1.%20One%20Sample%20t%20Test%20in%20SciPy/4.%20review.py)
+
+**4) Simulating a Binomial Test**
+
+*Binomial tests* are similar to one-sample t-tests in that they test a sample statistic against some population-level expectation. The difference is that:
+
+- binomial tests are used for binary categorical data to compare a sample frequency to an expected population-level probability
+- one-sample t-tests are used for quantitative data to compare a sample mean to an expected population mean.
+
+**Binomial Test:**
+
+1. [Intro](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/2.%20Binomial%20Test/1.%20intro.py)
+2. [Summarizing the Sample](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/2.%20Binomial%20Test/2.%20summarize.py)
+3. [Simulating Randomness](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/2.%20Binomial%20Test/3.%20randomness.py)
+4. [Simulating the Null Distribution I](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/2.%20Binomial%20Test/4.%20null1.py)
+5. [Simulating the Null Distribution II](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/2.%20Binomial%20Test/5.%20null2.py)
+6. [Inspecting the Null Distribution](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/2.%20Binomial%20Test/6.%20inspect.py)
+7. [Confidence Intervals](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/2.%20Binomial%20Test/7.%20confidence.py)
+8. [Calculating a One-Sided P-Value](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/2.%20Binomial%20Test/8.%20pvalue1.py)
+9. [Calculating a Two-Sided P-Value](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/2.%20Binomial%20Test/9.%20pvalue2.py)
+10. [Writing a Binomial Test Function](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/2.%20Binomial%20Test/10.%20write.py)
+11. [Binomial Testing with SciPy](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/2.%20Binomial%20Test/11.%20scipy.py)
+12. [Review](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/2.%20Binomial%20Test/12.%20review.py)
+
+**5) Significance Tresholds**
+
+1. [Intro](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/3.%20Significance%20Tresholds/1.%20intro.py)
+2. [Interpreting a P-Value based on a Significance Threshold](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/3.%20Significance%20Tresholds/2.%20interpret.py)
+3. [Error Types](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/3.%20Significance%20Tresholds/3.%20error.py)
+4. [Setting the Type I Error Rate](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/3.%20Significance%20Tresholds/4.%20type1.py)
+5. [Problems with Multiple Hypothesis Tests](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/1.%20Testing%20a%20Sample%20Statistics/3.%20Significance%20Tresholds/5.%20problem.py)
+
+**Documentation**
+
+[Scipy Documentation - Statistical Functions](https://docs.scipy.org/doc/scipy/reference/stats.html)
+
+In this documentation, you will find information about SciPy’s functions for statistical analysis. This is helpful if you would like to perform statistical analyses and/or mathematical computations on data in Python.
 
 </details>
 
 ### **b. Testing an Association**
 
-<!-- <details><summary>Details</summary> -->
+<details><summary>Details</summary>
+
+In this lesson, we’ll use hypothesis tests to make inference about population-level associations between two variables.
+
+We will cover four different hypothesis tests:
+
+- Two Sample T-Tests (for an association between a quantitative variable and a binary categorical variable)
+- ANOVA and Tukey Tests (for an association between a quantitative variable and a non-binary categorical variable)
+- Chi-Square Tests (for an association between two categorical variables)
+
+**Association:**
+
+1. [Two-Sample T-Test](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/2.%20Testing%20an%20Association/1.%20ttest2.py)
+2. [Multiple Tests](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/2.%20Testing%20an%20Association/2.%20multiple.py)
+3. [ANOVA](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/2.%20Testing%20an%20Association/3.%20anova.py)
+4. [Tukey's Range Test](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/2.%20Testing%20an%20Association/4.%20tukey.py)
+5. [Assumptions of T-Tests, ANOVA, and Tukey](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/2.%20Testing%20an%20Association/5.%20assumption.py)
+
+**Assumption:**
+
+Before we use a *two sample t-test*, *ANOVA*, or *Tukey’s range test*, we need to be sure that the following things are true:
+
+1. The observations should be independently randomly sampled from the population
+2. The standard deviations of the groups should be equal
+3. The data should be normally distributed…ish
+4. The groups created by the categorical variable must be independent
+
+Before we use a *Chi-Square test*, we need to be sure that the following things are true:
+
+1. The observations should be independently randomly sampled from the population
+2. The categories of both variables must be mutually exclusive
+3. The groups should be independent
 
 </details>
 
 ### **c. Experimental Design**
 
+<details><summary>Details</summary>
+
+There are many different types of hypothesis tests that should be used in different situations. In this article, we are going to briefly review some of them and when they are appropriate.
+
+Here is a summary table of some of the hypothesis tests we’ll cover:
+
+<p align="center">
+    <img src="Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/3.%20Experimental Design/test.png">
+</p>
+
+**1) A/B Testing - Sample Size Calculators**
+
+An A/B Test is a scientific method of choosing between two options (Option A and Option B). Some examples of A/B tests include:
+
+- What number of sale items on a website makes customers most likely to purchase something: 25 or 50?
+- What color button are customers more likely to click on: blue or green?
+- Do people spend more time on a website if the background is green or orange?
+
+For A/B tests where the outcome of interest (eg., whether or not a customer makes a purchase) is categorical, an A/B test is conducted using a Chi-Square hypothesis test. In order to determine the sample size necessary for this kind of test, a sample size calculator requires three numbers:
+
+- Baseline conversion rate
+- Minimum detectable effect (also called the minimum desired lift)
+- Statistical significance threshold
+
+**A/B Testing:**
+
+1. [Baseline Conversion Rate](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/3.%20Experimental%20Design/1.%20A%20B%20Testing/1.%20baseline.py)
+2. [Minimum Detectable Effect](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/3.%20Experimental%20Design/1.%20A%20B%20Testing/2.%20minimum.py)
+3. [Review](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/3.%20Experimental%20Design/1.%20A%20B%20Testing/3.%20review.py)
+
+**2) Sample Size Determination with Simulation**
+
+1. [Intro](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/3.%20Experimental%20Design/2.%20Simulation/1.%20intro.py)
+2. [Simulating Data for a Chi-Square test](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/3.%20Experimental%20Design/2.%20Simulation/2.%20simulate.py)
+3. [Determining Significance](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/3.%20Experimental%20Design/2.%20Simulation/3.%20significance.py)
+4. [Estimating Power](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/3.%20Experimental%20Design/2.%20Simulation/4.%20estimate.py)
+5. [False Positives and True Positives](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/3.%20Experimental%20Design/2.%20Simulation/5.%20fptp.py)
+6. [Trade Offs](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/3.%20Experimental%20Design/2.%20Simulation/6.%20tradeoff.py)
+7. [Review](Data%20Scientist%20Career%20Path/8.%20Hypothesis%20Testing/3.%20Experimental%20Design/2.%20Simulation/7.%20review.py)
+
+</details>
+
+</details>
+
+## **9. Data Visualization**
+
 <!-- <details><summary>Details</summary> -->
+
+### **a. Exploratory Data Analysis for Data Visualization**
+
+<details><summary>Details</summary>
+
+**1) Introduction**
+
+Data visualization is an important component of Exploratory Data Analysis (EDA) because it allows a data analyst to “look at” their data and get to know the variables and relationships between them. In order to choose and design a data visualization, it is important to consider two things:
+
+- The question you want to answer (and how many variables that question involves)
+- The data that is available (is it quantitative or categorical?)
+
+**Univariate Analysis**
+
+Univariate analysis focuses on a single variable at a time. Univariate data visualizations can help us answer questions like:
+
+- What is the typical price of a rental in New York City?
+- What proportion of NYC rentals have a gym?
+
+1. Quantitative Variables
+
+    Box plots (or violin plots) and histograms are common choices for visually summarizing a quantitative variable. These plots are useful because they simultaneously communicate information about minimum and maximum values, central location, and spread. Histograms can additionally illuminate patterns that can impact an analysis (eg., skew or multimodality).
+
+2. Categorical Variables
+
+    For categorical variables, we can use a bar plot (instead of a histogram) to quickly visualize the frequency (or proportion) of values in each category.
+
+**Bivariate Analysis**
+
+In many cases, a data analyst is interested in the relationship between two variables in a dataset. For example:
+
+- Do apartments in different boroughs tend to cost different amounts?
+- What is the relationship between the area of an apartment and how much it costs?
+
+1. One Quantitative Variable and One Categorical Variable
+
+    Two good options for investigating the relationship between a quantitative variable and a categorical variable are side-by-side box plots and overlapping histograms.
+
+2. Two Quantitative Variables
+
+    A scatter plot is a great option for investigating the relationship between two quantitative variables.
+
+3. Two Categorical Variables
+
+    Side by side (or stacked) bar plots are useful for visualizing the relationship between two categorical variables.
+
+**Multivariate Analysis**
+
+Sometimes, a data analyst is interested in simultaneously exploring the relationship between three or more variables in a single visualization. Many of the visualization methods presented up to this point can include additional variables by using visual cues such as colors, shapes, and patterns.
+
+**2) A Gentle Introduction to Exploratory Data Analysis**
+
+→ [Max Kelsen](https://maxkelsen.com/blog/a-gentle-introduction-to-exploratory-data-analysis)
+
+In this article, you will learn the basic steps of exploratory data analysis and walk through an example. This is helpful if you want to ensure that all aspects of the data are being correctly interpreted in an analysis.
+
+**3) A Simple Tutorial on Exploratory Data Analysis**
+
+→ [Kaggle](https://www.kaggle.com/spscientist/a-simple-tutorial-on-exploratory-data-analysis)
+
+In this article, you will learn the different methods of exploratory data analysis (EDA), key concepts for an EDA, as well as a thorough example through an EDA. This is helpful if you want many practical examples of visual and numeric methods to explore data.
+
+</details>
+
+### **b. Data Visualization with Matplotlib**
+
+<details><summary>Details</summary>
+
+**1) Line Graphs in Matplotlib**
+
+Matplotlib is a Python library used to create charts and graphs In this first lesson, you will get an overview of the basic commands necessary to build and label a line graph.
+
+1. [Intro](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/1.%20Line%20Graphs/1.%20intro.py)
+2. [Basic Line Plot](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/1.%20Line%20Graphs/2.%20basic.py)
+3. [Basic Line Plot II](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/1.%20Line%20Graphs/3.%20basic2.py)
+4. [Linestyles](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/1.%20Line%20Graphs/4.%20line.py)
+5. [Axis and Labels](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/1.%20Line%20Graphs/5.%20axis.py)
+6. [Labeling the Axes](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/1.%20Line%20Graphs/6.%20label.py)
+7. [Subplots](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/1.%20Line%20Graphs/7.%20subplot.py)
+8. [Subplots Part II](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/1.%20Line%20Graphs/8.%20subplot2.py)
+9. [Legends](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/1.%20Line%20Graphs/9.%20legend.py)
+10. [Modify Ticks](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/1.%20Line%20Graphs/10.%20tick.py)
+11. [Figures](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/1.%20Line%20Graphs/11.%20figure.py)
+12. [Review](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/1.%20Line%20Graphs/12.%20review.py)
+
+**Documentation**
+
+[Matplotlib Documentation](https://matplotlib.org/)
+
+In this documentation, you will learn about plotting data using Python’s Matplotlib library. This is helpful if you would like to graphically visualize data in python.
+
+**2) Different Plot Types**
+
+1. [Simple Bar Chart](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/2.%20Plot%20Types/1.%20bar.py)
+2. [Simple Bar Chart II](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/2.%20Plot%20Types/2.%20bar2.py)
+3. [Side-By-Side Bars](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/2.%20Plot%20Types/3.%20side.py)
+4. [Stacked Bars](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/2.%20Plot%20Types/4.%20stack.py)
+5. [Error Bars](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/2.%20Plot%20Types/5.%20error.py)
+6. [Fill Between](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/2.%20Plot%20Types/6.%20fill.py)
+7. [Pie Chart](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/2.%20Plot%20Types/7.%20pie.py)
+8. [Pie Chart Labeling](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/2.%20Plot%20Types/8.%20label.py)
+9. [Histogram](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/2.%20Plot%20Types/9.%20hist.py)
+10. [Multiple Histograms](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/2.%20Plot%20Types/10.%20mult.py)
+
+**3) How to Select a Meaningful Visualization**
+
+The three steps in the data visualization process are *preparing*, *visualizing*, and *styling* data. When faced with a blank canvas, the second step of the process, *visualizing* the data, can be overwhelming. To help, we’ve created a diagram to guide the selection of a chart based on what you want to explore in your data.
+
+When planning out a visualization, you’ll usually have an idea of what questions you’ll want to explore. However, you may initially wonder exactly which chart to use. This moment is one of the most exciting parts of the process!
+
+During your brainstorming phase, you should consider two things:
+
+- The focusing question you want to answer with your chart
+- The type of data that you want to visualize
+
+Depending on the focusing questions you’re trying to answer, the type of chart you select should be different and intentional in its difference. In the diagram below, we have assigned Matplotlib visualizations to different categories. These categories explore common focusing questions and types of data you may want to display in a visualization.
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/chart.svg">
+</p>
+
+**Chart categories**
+
+1. Composition charts
+    - Focusing Question: 
+        - What are the parts of some whole? 
+        - What is the data made of?
+    - Datasets that work well: /
+    Data pertaining to probabilities, proportions, and percentages can be visualized as with the graphs in this composition category. Charts in this category illustrate the different data components and their percentages as part of a whole.
+
+2. Distribution Charts
+    - Datasets that work well: /
+        Data in large quantities and/or with an array of attributes works well for these types of charts. Visualizations in this category will allow you to see patterns, re-occurrences, and a clustering of data points.
+    - Note: /
+    In statistics, a commonly seen distribution is a bell curve, also known as a normal distribution. A bell curve is a bell-shaped distribution where most of the values in the dataset crowd around the average (also known as the mean), therefore causing the curve to form. If you want to see how values in the data are “distributed” across variables, the best way to do that would be with the visualizations in this category.
+
+3. Relationship Charts
+    - Focusing Question: 
+        - How do variables relate to each other?
+    - Datasets that work well: /
+    Data with two or more variables can be displayed in these charts. These charts typically illustrate a correlation between two or more variables. You can communicate this relationship by mapping multiple variables in the same chart. Correlation measures the strength of a relationship between variables.
+
+4. Comparison Charts
+    - Focusing Question: 
+        - How do variables compare to each other?
+    - Datasets that work well: /
+    Data must have multiple variables, and the visualizations in this category allow readers to compare those items against the others. For example, a line graph that has multiple lines, each belonging to a different variable. Multi-colored bar charts are also a great way to compare items in data.
+
+**4) Recreate Graphs using Matplotlib**
+
+1. [Bar Chart with Error](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/3.%20Recreate%20Graphs/1.%20error.py)
+2. [Side By Side Bars](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/3.%20Recreate%20Graphs/2.%20side.py)
+3. [Stacked Bars](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/3.%20Recreate%20Graphs/3.%20stack.py)
+4. [Two Histograms on a Plot](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/3.%20Recreate%20Graphs/4.%20two.py)
+5. [Labeled Pie Chart](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/3.%20Recreate%20Graphs/5.%20label.py)
+6. [Line with Shaded Error](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/1.%20Matplotlib/3.%20Recreate%20Graphs/6.%20shaded.py)
+
+**Resource**
+
+[The Data Visualization Catalogue](https://datavizcatalogue.com/)
+
+In this resource, you will learn about different data visualization methods including how different methods are related, how to interpret them, and the limitations of each method. This is helpful if you want to expertly visualize data and can be a powerful reference to use when trying to decide which visualization method matches what you want to show.
+
+</details>
+
+### **c. Advanced Graphing with Seaborn**
+
+<!-- <details><summary>Details</summary> -->
+
+**1) Introduction to Seaborn**
+
+Seaborn is a Python data visualization library that provides simple code to create elegant visualizations for statistical exploration and insight. Seaborn is based on Matplotlib, but improves on Matplotlib in several ways:
+
+- Seaborn provides a more visually appealing plotting style and concise syntax.
+- Seaborn natively understands Pandas DataFrames, making it easier to plot data directly from CSVs.
+- Seaborn can easily summarize Pandas DataFrames with many rows of data into aggregated charts.
+
+If you’re unfamiliar with Pandas, just know that Pandas is a data analysis library for Python that provides easy-to-use data structures and allows you to organize and manipulate datasets so they can be visualized. To fully leverage the power of Seaborn, it is best to prepare your data using Pandas.
+
+**Seaborn:**
+
+1. [Intro](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/2.%20Seaborn/1.%20Introduction/1.%20intro.py)
+2. [Using Pandas For Seaborn](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/2.%20Seaborn/1.%20Introduction/1.%20intro.py)
+3. [Plotting Bars with Seaborn](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/2.%20Seaborn/1.%20Introduction/1.%20intro.py)
+4. [Understanding Aggregates](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/2.%20Seaborn/1.%20Introduction/1.%20intro.py)
+5. [Plotting Aggregates](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/2.%20Seaborn/1.%20Introduction/1.%20intro.py)
+6. [Modifying Error Bars](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/2.%20Seaborn/1.%20Introduction/1.%20intro.py)
+7. [Calculating Different Aggregates](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/2.%20Seaborn/1.%20Introduction/1.%20intro.py)
+8. [Aggregating by Multiple Columns](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/2.%20Seaborn/1.%20Introduction/1.%20intro.py)
+9. [Review](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/2.%20Seaborn/1.%20Introduction/1.%20intro.py)
+
+**2) Distribution using Seaborn**
+
+
+
+**Documentation**
+
+[Seaborn API Reference](https://seaborn.pydata.org/api.html)
+
+In this documentation, you will learn the many elements of the Seaborn API. This is helpful if you wish to use Seaborn to visualize data in plots and grids.
 
 </details>
 
