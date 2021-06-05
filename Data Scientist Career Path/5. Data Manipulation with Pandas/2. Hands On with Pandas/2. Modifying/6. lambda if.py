@@ -1,0 +1,1 @@
+mylambda = lambda age: 'Welcome to BattleCity!' if age >= 13 else 'You must be over 13'

@@ -1,0 +1,3 @@
+SELECT *
+FROM movies
+WHERE year BETWEEN 'D' AND 'F';

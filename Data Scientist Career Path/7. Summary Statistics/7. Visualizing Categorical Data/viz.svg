@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1214px" height="941px" viewBox="0 0 1214 941" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Visualizing Categorical Data</title>
+    <g id="Visualizing-Categorical-Data" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#F966FF" x="291" y="121" width="85" height="23"></rect>
+        <rect id="Rectangle-Copy-9" fill="#F966FF" x="291" y="250" width="90" height="23"></rect>
+        <rect id="Rectangle-Copy-3" fill="#F966FF" x="291" y="164" width="125" height="23"></rect>
+        <rect id="Rectangle-Copy-6" fill="#F966FF" x="291" y="207" width="70" height="23"></rect>
+        <rect id="Rectangle-Copy" fill="#66C4FF" x="376" y="121" width="164" height="23"></rect>
+        <rect id="Rectangle-Copy-10" fill="#66C4FF" x="381" y="250" width="173" height="23"></rect>
+        <rect id="Rectangle-Copy-4" fill="#66C4FF" x="416" y="164" width="140" height="23"></rect>
+        <rect id="Rectangle-Copy-7" fill="#66C4FF" x="361" y="207" width="91" height="23"></rect>
+        <rect id="Rectangle-Copy-2" fill="#FFD300" x="540" y="121" width="102" height="23"></rect>
+        <rect id="Rectangle-Copy-11" fill="#FFD300" x="554" y="250" width="107" height="23"></rect>
+        <rect id="Rectangle-Copy-5" fill="#FFD300" x="556" y="164" width="125" height="23"></rect>
+        <rect id="Rectangle-Copy-8" fill="#FFD300" x="452" y="207" width="164" height="23"></rect>
+        <rect id="Rectangle" fill="#66C4FF" transform="translate(697.500000, 743.000000) rotate(-90.000000) translate(-697.500000, -743.000000) " x="622" y="708" width="151" height="70"></rect>
+        <rect id="Rectangle-Copy-12" fill="#F966FF" transform="translate(793.000000, 706.000000) rotate(-90.000000) translate(-793.000000, -706.000000) " x="679" y="671" width="228" height="70"></rect>
+        <rect id="Rectangle-Copy-13" fill="#FFD300" transform="translate(888.000000, 762.000000) rotate(-90.000000) translate(-888.000000, -762.000000) " x="831" y="727" width="114" height="70"></rect>
+        <path d="M323.5,397.5 L323.5,571.5 L497.504067,571.5 L497.476807,568.135078 C495.94281,473.521633 418.75218,397.5 324,397.5 L323.5,397.5 Z" id="Combined-Shape" fill="#FFD300" fill-rule="nonzero"></path>
+        <path d="M294.5,601.201682 L294.5,427.5 L294,427.5 C198.178596,427.5 120.5,505.178596 120.5,601 C120.5,648.290402 139.513465,692.553138 172.611623,724.964293 L173.978971,726.289814 L294.5,601.201682 Z" id="Combined-Shape" fill="#F966FF" fill-rule="nonzero"></path>
+        <path d="M467.499869,600.998997 L467.499869,600.498997 L293.787427,600.498997 L173.258134,725.59513 L173.618116,725.942053 C205.737813,756.896586 248.484075,774.5 294,774.5 C389.82158,774.5 467.499869,696.821228 467.499869,600.998997 Z" id="Combined-Shape" fill="#66C4FF" fill-rule="nonzero"></path>
+        <path d="M952.240053,217.47533 L952.501708,261.77196 C909.41638,267.18073 876.086705,303.948084 876.086705,348.5 C876.086705,368.953322 883.111377,387.765945 894.879716,402.656863 L863.280218,433.640709 C843.771479,410.699328 832,380.974352 832,348.5 C832,279.667521 884.88553,223.187119 952.240053,217.47533 Z" id="Combined-Shape" fill="#66C4FF"></path>
+        <path d="M963.204,218.006 L962.5,218 C1034.57316,218 1093,276.650698 1093,349 C1093,421.349302 1034.57316,480 962.5,480 C927.521621,480 895.757405,466.185811 872.326142,443.695836 L902.717094,412.10057 C918.277313,426.960494 939.327626,436.080925 962.5,436.080925 C1010.4099,436.080925 1049.24855,397.093467 1049.24855,349 C1049.24855,301.142641 1010.79031,262.3021 963.204959,261.921891 L963.204,218.006 Z" id="Combined-Shape" fill="#F966FF"></path>
+    </g>
+</svg>

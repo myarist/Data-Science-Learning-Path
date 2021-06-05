@@ -10,12 +10,12 @@
   <a href="https://www.codecademy.com/">Codecademy</a> want to create a world where anyone can build something meaningful with technology, and everyone has the learning tools, resources, and opportunities to do so. Code contains a world of possibilities — all that’s required is the curiosity and drive to learn. At Codecademy, we are committed to empowering all people, regardless of where they are in their coding journeys, to continue to learn, grow, and make an impact on the world around them.
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="README/banner.png">
-</p>
+</p> -->
 
 <!-- ################################################################ -->
-
+<!-- 
 <h1 align="center">Best System for Learning to Code</h1>
 
 ## 1. Choose What to Learn <a href='README/1.webp'><img src='README/1.webp' align="right" height="70" /></a>
@@ -41,7 +41,7 @@ Apply your learning with real-world projects and test your knowledge with tailor
 ## 5. Land Your Dream Job <a href='README/5.webp'><img src='README/5.webp' align="right" width="90" /></a>
 Coding skills have never been more in-demand. Learn everything you need to take your career to the next level.
 
-<br><br>
+<br><br> -->
 
 <!-- ################################################################ -->
 
@@ -816,4 +816,1095 @@ In this documentation you will learn about reading and writing the data in files
 
 ## **4. Data Acquisition**
 
+<details><summary>Details</summary>
+
+### **a. Intro to Data Acquisition**
+
+<details><summary>Details</summary>
+
+Data acquisition, or data mining, is the step of the Data Science Life Cycle where we identify and obtain the raw data that will later be cleaned for exploration and modeling.
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\acquisition.svg">
+</p>
+
+Data Science is viewed as such a powerful tool because data is often the most valuable resource we have when attempting to gain insight from our environment. In the frame of business, once a question has been defined and objectives set through the business understanding phase of the data science life cycle, the right data must be acquired to answer the business needs. In the diagram above, the arrows between the business understanding phase and data acquisition phase indicate that there is often an iterative relationship between the two. You need to understand how the questions you’re asking relate to your goals before collecting data. However after acquiring your data, that data may shift your understanding of your business, where you may revisit the business understanding phase. Some aspects to consider when acquiring data are:
+
+- What data is needed to achieve the business goal?
+- How much data is needed to produce valuable insight and modeling?
+- Where and how can this data be found?
+- What legal and privacy parameters should be considered?
+
+There are several methods you can utilize to acquire data. Methods that we will cover in this article are:
+
+#### **1) Public & Private Data**
+
+**Public Data**
+
+There are several open source datasets that are hosted online that allow you to freely download data collected by others, offering solutions to a wide range of data science and machine learning applications. These public sources of data are often suitable for small to medium sized machine learning projects, concept validation, and research purposes. Some of the most commonly visited are:
+
+- [GitHub](https://github.com/)
+- [Kaggle](https://www.kaggle.com/)
+- [KDnuggets](https://www.kdnuggets.com/)
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
+- [US Government’s Open Data](https://www.data.gov/)
+- [Five Thirty Eight](https://data.fivethirtyeight.com/)
+- [Amazon Web Services](https://aws.amazon.com/)
+
+**Private Data**
+
+There are also a number of private datasets that businesses curate themselves and are under ownership of the company. For instance, Netflix’s database of user preferences powers their immense recommendation systems. There are also services that allow you to purchase datasets such as data markets like Data & Sons or crowd-sourcing marketplaces such as Amazon’s Mechanical Turks where one can outsource their data acquisition needs like data validation and research to survey participation. Often we will find usage of private data within a large production scale setting.
+
+**Pros**:
+- `Time`: Readily available datasets that can quickly move a project to the next phase of the Data Science Life Cycle.
+- `Cost`: Public datasets can cut costs of collecting data down to zero.
+
+**Cons**:
+- `Messy`: Data can often come in forms that require intensive cleaning and modification.
+- `Cost`: Private services can lead to high costs in acquiring data.
+
+#### **2) Web Scraping**
+
+Web scraping can be one of the most potent methods of data acquisition when used effectively. Web scraping at its core is the act of extracting or copying information directly from a website. This data can then be stored within a dataframe or spreadsheet and used in the same manner as any other dataset. There are two general methods for web scraping, one where you will manually scrape the data from a web page and the other where you employ a web crawler or bot that automates the process of extracting data from a website. 
+
+Python has useful libraries that allow you to implement both methods of web scraping, some of the most commonly used are [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [Selenium](https://www.selenium.dev/), and [Scrapy](https://scrapy.org/). Web scraping is best used when the data you need is not available as a public or private dataset, but present on a web page. We typically employ web scraping techniques to acquire data for small to medium sized projects, but rarely in production as this can raise ownership and copyright issues.
+
+**Pros**:
+- `Versatile`: Highly adaptable method for acquiring data from the internet.
+- `Scalable`: Distributed bots can be coordinated to retrieve large quantities of data.
+
+**Cons**:
+- `Language Barrier`: Multiple languages are involved when scraping and require a knowledge of languages not typically used for data science.
+- `Legality`: Excessive or improper web-scraping can be illegal, disrupt a website’s functionality, and lead to your IP address being black listed from the site.
+
+#### **3) APIs**
+
+Application Programming Interfaces, most often referred to as API’s are another method that can be used for data acquisition. We can imagine APIs as a more polite and ‘by the books’ way of web scraping, where in the process of acquiring data from a site we request permission to access some data, and wait for a response from the site to fulfill the request. Unlike web scraping, APIs are a means of communication between 2 different software systems. 
+
+Typically this communication is achieved in the form of an **HTTP Request/Response Cycle** where a client(you) sends a request to a website’s server for data through an API call. The server then searches within its databases for the particular data requested and responds back to the client either with the data, or an error stating that request can not be fulfilled.
+
+**Pros**:
+- `User & Site Friendly`: APIs allow security and management of resources for sites that data is being requested from.
+- `Scalable`: API’s can allow for various amounts of data to be requested, up to production scale volumes.
+
+**Cons**:
+- `Limited`: Some functions or data may not be accessed via an API.
+- `Cost`: Some API calls can be quite expensive, leading to limitations of certain functions and projects.
+
+#### **4) Manual Data Acquisition**
+
+What can we do when the data we need to analyze is not present on the internet or able to be outsourced? In these situations, it can be useful to know how to harvest data yourself, and there are many tools available to do so. Perhaps you would like to conduct hypothesis testing to determine public sentiment about a particular good or service, or maybe you would like to analyze data about animal populations of a local habitat. Being able to acquire the data to conduct these analyses yourself is an invaluable skill to have.
+
+Google Forms is a simple and free way to create surveys that can be shared with others to acquire data related to a particular population. With Google forms, you can create surveys that include video and image files, multiple choice, and short answer questions that can be posted on social media, sent out in email lists, and even printed to manually harvest data. The data acquired can then be downloaded in a CSV file and used within Python. Google also offers Google Surveys, a paid service that allows you to have a wider range of respondents and gives you more control in determining your target audience.
+
+**Pros**
+- `Bespoke`: Data acquired manually can be made to address all of the business objective’s needs, and can need little to no cleaning to be effective.
+- `Community`: Manually acquired data can be useful in advancing the fields of data science and machine learning, and be further explored by others.
+
+**Cons**
+- `Time`: Manually acquired data can take more time than other methods, especially when dealing with large datasets.
+- `Cost`: Some services and devices used to manually acquire data can be expensive and can be limiting for certain projects.
+
+#### **How to build your own dataset for Data Science projects**
+
+→ [How to build your own dataset for data science projects](https://towardsdatascience.com/how-to-build-your-own-dataset-for-data-science-projects-7f4ad0429de4)
+
+In this article, you will learn how to create your own dataset for a data science project. This is helpful if the dataset you want is not available and you need to build your own.
+
+</details>
+
+### **b. SQL**
+
+<details><summary>Details</summary>
+
+#### **1) Relational Databases for Data Science/Analysis**
+
+In this lesson, we will focus on structured data, as it is the data found within relational databases.
+
+**Structured Data**
+
+Structured data is the most organized type of data. It follows a data model, which is a kind of blueprint that defines and describes the structure of the data. Structured data is typically in the form of tables that are well defined by their rows and columns, a great example being a DataFrame from the popular Python library [pandas](https://pandas.pydata.org/). 
+
+Some advantages of structured data are that its explicit structure aids in organized storage and accessibility. This also allows it to be easily indexed for efficient reference. With structured data, we are able to set permissions for security purposes, so that only those that meet predetermined guidelines and clearances can access the data.
+
+Examples of structured data are:
+
+- Online forms
+- Excel Spreadsheets
+- SQL Databases
+
+**Relational Database Management Systems**
+
+Another advantage of working with relational databases is Relational Database Management systems, or RDBMS. Relational Database Management Systems (RDBMS) are important for data science and analytics because they provide the functionality needed for creating, reading, updating, and deleting data, often referred to as CRUD within our database. The language that data teams utilize most often in RDBMS to execute commands is Structured Query Language (SQL), pronounced as “S-Q-L” or “sequel”.
+
+Structured Query Language (SQL) is one of the most common and powerful languages for querying databases. It is fast, secure, and able to return millions of data points in just a few lines. While there are hundreds of RDBMS, some of the most common RDBMS that use SQL are:
+
+1. [MySQL](https://www.mysql.com/) 
+
+    MySQL is a popular free and open-source SQL database. It is widely used for web applications because the MySQL Server is renowned for its speed, reliability, and ease of use on multiple platforms.
+
+2. [PostgreSQL](https://www.postgresql.org/) 
+
+    Much like MySQL, PostgreSQL is a popular open-source SQL database. PostgreSQl is one of the oldest RDBMS with over 30 years into its development, so it has an extensive community supporting it and is known for its reliability and array of features.
+
+3. [Oracle DB](https://www.oracle.com/database/) 
+    
+    Oracle is considered to be among the [most popular](https://db-engines.com/en/ranking) of all RDBMS. Owned by Oracle Corporation and closed sourced, Oracle DB is the goto RDBMS for corporations as it is able to scale for and support their massive workloads effectively. Licensing for Oracle DB however, is known to be expensive and can be infeasible to use for certain applications.
+
+4. [SQL Server](https://www.microsoft.com/en-us/sql-server) 
+
+    SQL Server is another privately-owned RDBMS that is popular, especially among corporations. While Microsoft offers SQL Server free through its SQL Server 2019 Express edition, the enterprise editions that are designed for large scale applications with more functionality become more expensive as your application scales.
+
+5. [SQLite](https://www.sqlite.org/) 
+
+    SQLite is another popular open-source SQL database. SQLite is designed to be compact, efficient, and self-contained. SQLite is able to store a complete database in a single cross-platform disk file so that it is not necessary to connect databases to a server. These characteristics and capabilities are what make SQLite considered to be the most used RDBMS, as it is used in most cell phones, computers, and several other daily used devices. Throughout our course, we will use SQLite for working with relational databases.
+
+#### **2) Introduction to SQL**
+
+**SQL**
+
+Structured Query Language, is a programming language designed to manage data stored in relational databases. SQL operates through simple, declarative statements. This keeps data accurate and secure, and helps maintain the integrity of databases, regardless of size.
+
+The SQL language is widely used today across web frameworks and database applications. Knowing SQL gives you the freedom to explore your data, and the power to make better decisions. By learning SQL, you will also learn concepts that apply to nearly every data storage system.
+
+**Relational Databases**
+
+```
+SELECT * FROM celebs;
+```
+
+<p align="center">
+  <img src="Data Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\1.%20Intro%20to%20SQL\result.jpg">
+</p>
+
+A *relational database* is a database that organizes information into one or more tables. Here, the relational database contains one table.
+
+A *table* is a collection of data organized into rows and columns. Tables are sometimes referred to as relations. Here the table is `celebs`.
+
+A *column* is a set of data values of a particular type. Here, `id`, `name`, and `age` are the columns.
+
+A *row* is a single record in a table. The first row in the `celebs` table has:
+
+- An `id` of `1`
+- A `name` of `Justin Bieber`
+- An `age` of `22`
+
+All data stored in a relational database is of a certain data type. Some of the most common data types are:
+
+- `INTEGER`, a positive or negative whole number
+- `TEXT`, a text string
+- `DATE`, the date formatted as YYYY-MM-DD
+- `REAL`, a decimal value
+
+**Statements**
+
+The code below is a SQL statement. A statement is text that the database recognizes as a valid command. Statements always end in a semicolon ;.
+
+```
+CREATE TABLE table_name (
+   column_1 data_type, 
+   column_2 data_type, 
+   column_3 data_type
+);
+```
+
+Let’s break down the components of a statement:
+
+- `CREATE TABLE` is a *clause*. Clauses perform specific tasks in SQL. By convention, clauses are written in capital letters. Clauses can also be referred to as commands.
+- `table_name` refers to the name of the table that the command is applied to.
+- `(column_1 data_type, column_2 data_type, column_3 data_type)` is a *parameter*. A parameter is a list of columns, data types, or values that are passed to a clause as an argument. Here, the parameter is a list of column names and the associated data type.
+
+**Create**
+
+`CREATE` statements allow us to create a new table in the database. You can use the `CREATE` statement anytime you want to create a new table from scratch. The statement below creates a new table named `celebs`.
+
+```
+CREATE TABLE celebs (
+   id INTEGER, 
+   name TEXT, 
+   age INTEGER
+);
+```
+
+1. `CREATE TABLE` is a clause that tells SQL you want to create a new table.
+2. `celebs` is the name of the table.
+3. `(id INTEGER, name TEXT, age INTEGER)` is a list of parameters defining each column, or attribute in the table and its data type:
+
+    - `id` is the first column in the table. It stores values of data type `INTEGER`
+    - `name` is the second column in the table. It stores values of data type `TEXT`
+    - `age` is the third column in the table. It stores values of data type `INTEGER`
+
+**Insert**
+
+The `INSERT` statement inserts a new row into a table.
+
+We can use the `INSERT` statement when you want to add new records. The statement below enters a record for Justin Bieber into the `celebs` table.
+
+```
+INSERT INTO celebs (id, name, age) 
+VALUES (1, 'Justin Bieber', 22);
+```
+
+1. `INSERT INTO` is a clause that adds the specified row or rows.
+2. `celebs` is the table the row is added to.
+3. `(id, name, age)` is a parameter identifying the columns that data will be inserted into.
+4. `VALUES` is a clause that indicates the data being inserted.
+5. `(1, 'Justin Bieber', 22)` is a parameter identifying the values being inserted.
+    - `1`: an integer that will be added to `id` column
+    - `'Justin Bieber'`: text that will be added to `name` column
+    - `22`: an integer that will be added to `age` column
+
+**Select**
+
+`SELECT` statements are used to fetch data from a database. In the statement below, `SELECT` returns all data in the `name` column of the celebs table.
+
+```
+SELECT name FROM celebs;
+```
+
+1. `SELECT` is a clause that indicates that the statement is a query. You will use `SELECT` every time you query data from a database.
+2. `name` specifies the column to query data from.
+3. `FROM` celebs specifies the name of the table to query data from. In this statement, data is queried from the `celebs` table.
+
+**Alter**
+
+The `ALTER TABLE` statement adds a new column to a table. You can use this command when you want to add columns to a table. The statement below adds a new column `twitter_handle` to the `celebs` table.
+
+```
+ALTER TABLE celebs 
+ADD COLUMN twitter_handle TEXT;
+```
+
+1. `ALTER TABLE` is a clause that lets you make the specified changes.
+2. `celebs` is the name of the table that is being changed.
+3. `ADD COLUMN` is a clause that lets you add a new column to a table:
+
+    - `twitter_handle` is the name of the new column being added
+    - `TEXT` is the data type for the new column
+
+4. `NULL` is a special value in SQL that represents missing or unknown data. Here, the rows that existed before the column was added have `NULL` (∅) values for `twitter_handle`.
+
+**Update**
+
+The `UPDATE` statement edits a row in a table. You can use the `UPDATE` statement when you want to change existing records. The statement below updates the record with an `id` value of `4` to have the `twitter_handle` `@taylorswift13`.
+
+```
+UPDATE celebs 
+SET twitter_handle = '@taylorswift13' 
+WHERE id = 4; 
+```
+
+1. `UPDATE` is a clause that edits a row in the table.
+2. `celebs` is the name of the table.
+3. `SET` is a clause that indicates the column to edit.
+
+    - `twitter_handle` is the name of the column that is going to be updated
+    - `@taylorswift13` is the new value that is going to be inserted into the `twitter_handle` column.
+
+4. `WHERE` is a clause that indicates which row(s) to update with the new column value. Here the row with a `4` in the `id` column is the row that will have the `twitter_handle` updated to `@taylorswift13`.
+
+**Delete**
+
+The `DELETE FROM` statement deletes one or more rows from a table. You can use the statement when you want to delete existing records. The statement below deletes all records in the `celeb` table with no `twitter_handle`:
+
+```
+DELETE FROM celebs 
+WHERE twitter_handle IS NULL;
+```
+
+1. `DELETE FROM` is a clause that lets you delete rows from a table.
+2. `celebs` is the name of the table we want to delete rows from.
+3. `WHERE` is a clause that lets you select which rows you want to delete. Here we want to delete all of the rows where the `twitter_handle` column `IS NULL`.
+4. `IS NULL` is a condition in SQL that returns true when the value is `NULL` and false otherwise.
+
+**Constraints**
+
+*Constraints* that add information about how a column can be used are invoked after specifying the data type for a column. They can be used to tell the database to reject inserted data that does not adhere to a certain restriction. The statement below sets *constraints* on the `celebs` table.
+
+```
+CREATE TABLE celebs (
+   id INTEGER PRIMARY KEY, 
+   name TEXT UNIQUE,
+   date_of_birth TEXT NOT NULL,
+   date_of_death TEXT DEFAULT 'Not Applicable'
+);
+```
+
+1. `PRIMARY KEY` columns can be used to uniquely identify the row. Attempts to insert a row with an identical value to a row already in the table will result in a constraint violation which will not allow you to insert the new row.
+
+2. `UNIQUE` columns have a different value for every row. This is similar to `PRIMARY KEY` except a table can have many different `UNIQUE` columns.
+
+3. `NOT NULL` columns must have a value. Attempts to insert a row without a value for a `NOT NULL` column will result in a constraint violation and the new row will not be inserted.
+
+4. `DEFAULT` columns take an additional argument that will be the assumed value for an inserted row if the new row does not specify a value for that column.
+
+#### **3) SQL Queries**
+
+**Intro to SQL:**
+
+1) [Introduction](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\1.%20intro.sql)
+2) [Select](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\2.%20select.sql)
+3) [As](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\3.%20as.sql)
+4) [Distinct](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\4.%20distinct.sql)
+5) [Where](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\5.%20where.sql)
+6) [Like I](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\6.%20like%201.sql)
+7) [Like II](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\7.%20like%202.sql)
+8) [Is Null](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\8.%20is%20null.sql)
+9) [Between](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\9.%20between.sql)
+10) [And](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\10.%20and.sql)
+11) [Or](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\11.%20or.sql)
+12) [Order By](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\12.%20order%20by.sql)
+13) [Limit](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\13.%20limit.sql)
+14) [Case](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\2.%20Queries\14.%20case.sql)
+
+**SQL Commands:**
+
+1) [ALTER TABLE](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\1.%20alter.sql)
+2) [AND](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\2.%20and.sql)
+3) [AS](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\3.%20as.sql)
+4) [AVG()](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\4.%20avg.sql)
+5) [BETWEEN](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\5.%20between.sql)
+6) [CASE](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\6.%20case.sql)
+7) [COUNT()](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\7.%20count.sql)
+8) [CREATE TABLE](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\8.%20create.sql)
+9) [DELETE](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\9.%20delete.sql)
+10) [GROUP BY](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\10.%20groupby.sql)
+11) [HAVING](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\11.%20having.sql)
+12) [INNER JOIN](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\12.%20inner.sql)
+13) [INSERT](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\13.%20insert.sql)
+14) [IS NULL / IS NOT NULL](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\14.%20null.sql)
+15) [LIKE](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\15.%20like.sql)
+16) [LIMIT](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\16.%20limit.sql)
+17) [MAX()](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\17.%20max.sql)
+18) [MIN()](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\18.%20min.sql)
+19) [OR](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\19.%20or.sql)
+20) [ORDER BY](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\20.%20orderby.sql)
+21) [OUTER JOIN](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\21.%20outer.sql)
+22) [ROUND()](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\22.%20round.sql)
+23) [SELECT](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\23.%20select.sql)
+24) [SELECT DISTINCT](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\24.%20distinct.sql)
+25) [SUM](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\25.%20sum.sql)
+26) [UPDATE](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\26.%20update.sql)
+27) [WHERE](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\27.%20where.sql)
+28) [WITH](Data%20Scientist%20Career%20Path\4.%20Data%20Acquisition\1.%20SQL\3.%20Commands\28.%20with.sql)
+
+**Thinking in SQL vs Thinking in Python**
+
+→ [Thinking in SQL vs Thinking in Python](https://mode.com/blog/learning-python-sql/)
+
+In this article, you will learn tips on how to use Python scripts with SQL queries after only using SQL queries on their own. This is helpful if you want to integrate the flexibility and expanded capabilities of Python methods into the simplicity and directness of SQL queries.
+
+**Tutorial**
+
+[Software Carpentry Foundation](https://swcarpentry.github.io/sql-novice-survey/10-prog/index.html)
+
+In this tutorial, you will learn how to access a SQLite database in a Python environment. This is helpful for accessing and manipulating datasets that are not located on local devices. Some benefits to this include:
+
+- Saving memory space on your local drive.
+- Reducing the amount of processing power needed to manipulate large datasets.
+- Providing more data security.
+- Allowing for seamless transitions as the given dataset changes.
+
+</details>
+
+### **c. Web Scraping**
+
+<details><summary>Details</summary>
+
+1) Introduction
+2) Rules of Scraping
+3) Requests
+4) The BeautifulSoup Object
+5) Object Types
+6) Navigating by Tags
+7) Find All
+8) Select for CSS Selectors
+9) Reading Text
+10) Review
+
+</details>
+
+</details>
+
+## **5. Data Manipulation with Pandas**
+
+<details><summary>Details</summary>
+
+### **a. Python Lambda Function**
+
+<details><summary>Details</summary>
+
+A *function* is an object that is able to accept some sort of input, possibly modify it, and return some sort of output. In Python, a *lambda function* is a one-line shorthand for function. A simple lambda function might look like this:
+
+```
+add_two = lambda my_input: my_input + 2
+```
+
+So this code:
+
+```
+print(add_two(3))
+print(add_two(100))
+print(add_two(-2))
+```
+
+would print:
+
+```
+>>> 5
+>>> 102
+>>> 0
+```
+
+Let’s break this syntax down:
+
+1. The function is stored in a variable called `add_two`
+2. `lambda` declares that this is a lambda function (if you are familiar with normal Python functions, this is similar to how we use `def` to declare a function)
+3. `my_input` is what we call the input we are passing into `add_two`
+4. We are returning `my_input` plus 2 (with normal Python functions, we use the keyword `return`)
+
+**Lambda Function Code Challenge:**
+
+1) [Contains A](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\1.%20Python%20Lambda%20Function\1.%20contains%20a.py)
+2) [Long String](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\1.%20Python%20Lambda%20Function\2.%20long%20string.py)
+3) [Ends With A](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\1.%20Python%20Lambda%20Function\3.%20ends%20with%20a.py)
+4) [Double Or Zero](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\1.%20Python%20Lambda%20Function\4.%20double%20or%20zero.py)
+5) [Even/Odd](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\1.%20Python%20Lambda%20Function\5.%20even%20odd.py)
+6) [Multiple of Three](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\1.%20Python%20Lambda%20Function\6.%20multiple%20of%203.py)
+7) [Movie Rating](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\1.%20Python%20Lambda%20Function\7.%20movie%20rating.py)
+8) [Ones' Place](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\1.%20Python%20Lambda%20Function\8.%20ones%20place.py)
+9) [Double Square](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\1.%20Python%20Lambda%20Function\9.%20double%20square.py)
+10) [Add Random](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\1.%20Python%20Lambda%20Function\10.%20add%20random.py)
+
+</details>
+
+### **b. Hands On with Pandas**
+
+<details><summary>Details</summary>
+
+**Creating, Loading, Selecting Data with Pandas:**
+
+1) [Create a DataFrame I](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\1.%20create%201.py)
+2) [Create a DataFrame II](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\2.%20create%202.py)
+3) [Loading and Saving CSVs](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\3.%20load%20csv.py)
+4) [Inspect a DataFrame](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\4.%20inspect%20data.py)
+5) [Select Columns](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\5.%20select%20columns.py)
+6) [Selecting Multiple Columns](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\6.%20select%20multiple%20columns.py)
+7) [Select Rows](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\7.%20select%20rows.py)
+8) [Selecting Multiple Rows](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\8.%20select%20multiple%20rows.py)
+9) [Select Rows with Logic I](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\9.%20select%20rows%20logic%201.py)
+10) [Select Rows with Logic II](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\10.%20select%20rows%20logic%202.py)
+11) [Select Rows with Logic III](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\11.%20select%20rows%20logic%203.py)
+12) [Setting indices](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\12.%20setting%20indices.py)
+13) [Review](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\1.%20Creating\13.%20review.py)
+
+**Modifying Dataframe:**
+
+1) [Adding a Column I](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\1.%20add%201.py)
+2) [Adding a Column II](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\2.%20add%202.py)
+3) [Adding a Column III](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\3.%20add%203.py)
+4) [Performing Column Operations](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\4.%20column.py)
+5) [Reviewing Lambda Function](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\5.%20lambda.py)
+6) [Reviewing Lambda Function: If Statements](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\6.%20lambda%20if.py)
+7) [Applying a Lambda to a Column](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\7.%20lambda%20column.py)
+8) [Applying a Lambda to a Row](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\8.%20lambda%20row.py)
+9) [Renaming Columns](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\9.%20rename.py)
+10) [Renaming Columns II](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\10.%20rename%202.py)
+11) [Review](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\2.%20Hands%20On%20with%20Pandas\2.%20Modifying\11.%20review.py)
+
+**Documentation - Pandas**
+
+[10 minutes to Pandas User Guide](https://pandas.pydata.org/docs/user_guide/10min.html)
+
+In this documentation you will learn about Pandas, a python library for data analysis. This library is helpful if you would like to perform data manipulation (slicing, dicing, joining, merging, grouping) and analysis.
+
+**Documentation - NumPy**
+
+[Absolute Beginner's Guide to Numpy](https://numpy.org/doc/stable/user/absolute_beginners.html)
+
+In this documentation you will learn about the python library “NumPy”. This is helpful if you would like perform mathematical operations on arrays and matrices.
+
+</details>
+
+### **c. Agregates in Pandas**
+
+<details><summary>Details</summary>
+
+**Introduction**
+
+This lesson you will learn about *aggregates* in Pandas. An *aggregate statistic* is a way of creating a single number that describes a group of numbers. Common aggregate statistics include mean, median, or standard deviation.
+
+You will also learn how to rearrange a DataFrame into a *pivot table*, which is a great way to compare data across two dimensions.
+
+**Aggregates:**
+
+1) [Calculating Column Statistics](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\3.%20Aggregates%20in%20Pandas\1.%20column.py)
+2) [Calculating Aggregate Functions I](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\3.%20Aggregates%20in%20Pandas\2.%20aggregate%201.py)
+3) [Calculating Aggregate Functions II](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\3.%20Aggregates%20in%20Pandas\3.%20aggregate%202.py)
+4) [Calculating Aggregate Functions III](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\3.%20Aggregates%20in%20Pandas\4.%20aggregate%203.py)
+5) [Calculating Aggregate Functions IV](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\3.%20Aggregates%20in%20Pandas\5.%20aggregate%204.py)
+6) [Pivot Tables](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\3.%20Aggregates%20in%20Pandas\6.%20pivot%20table.py)
+7) [Review](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\3.%20Aggregates%20in%20Pandas\7.%20review.py)
+
+**Documentation**
+
+[Pandas Tutorial - Pandas.Dataframe.Groupby](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html#pandas.DataFrame.groupby)
+
+In this documentation, you will learn about how to group data using pandas.dataframe.groupby. This is helpful if you would like to group large amounts of data and compute operations on those groups.
+
+**Documentation**
+
+[Pandas Documentation - Reshaping and Pivot Tables](https://pandas.pydata.org/pandas-docs/stable/user_guide/reshaping.html)
+
+In this documentation, you will learn about reshaping dataframe objects to visualize data in different formats. This is helpful if you would like to explore the relationships among variables by representing the data in different ways.
+
+</details>
+
+### **d. Multiple Tables in Pandas**
+
+<details><summary>Details</summary>
+
+Instead, we can split our data into three tables:
+
+- [orders](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\orders.csv) would contain the information necessary to describe an order: `order_id`, `customer_id`, `product_id`, `quantity`, and `timestamp`
+- [products](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\products.csv) would contain the information to describe each product: `product_id`, `product_description` and `product_price`
+- [customers](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\customers.csv) would contain the information for each customer: `customer_id`, `customer_name`, `customer_address`, and `customer_phone_number`
+
+In this lesson, we will learn the Pandas commands that help us work with data stored in multiple tables.
+
+**Multiple Tables:**
+
+1) [Intro](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\1.%20intro.py)
+2) [Inner Merge I](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\2.%20inner.py)
+3) [Inner Merge II](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\3.%20inner%202.py)
+4) [Inner Merge III](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\4.%20inner%203.py)
+5) [Merge on Specific Columns](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\5.%20specific.py)
+6) [Merge on Specific Columns II](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\6.%20specific%202.py)
+7) [Mismatched Merges](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\7.%20mismatched.py)
+8) [Outer Merge](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\8.%20outer.py)
+9) [Left and Right Merge](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\9.%20left%20right.py)
+10) [Concatenate DataFrames](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\10.%20concatenate.py)
+11) [Review](Data%20Scientist%20Career%20Path\5.%20Data%20Manipulation%20with%20Pandas\4.%20Multiple%20Tables%20in%20Pandas\11.%20review.py)
+
+**Documentation**
+
+[Pandas Documentation - Pandas.Merge](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.merge.html)
+
+In this documentation, you will learn about merging dataframes in Pandas. This is helpful if you would like to combine data from two dataframes into a single dataframe.
+
+</details>
+
+</details>
+
+## **6. Data Wrangling and Tidying**
+
+<details><summary>Details</summary>
+
+### **a. Introduction to Regular Expression**
+
+<details><summary>Details</summary>
+
+A *regular expression* is a special sequence of characters that describe a pattern of text that should be found, or matched, in a string or document. By matching text, we can identify how often and where certain pieces of text occur, as well as have the opportunity to replace or update these pieces of text if needed.
+
+Regular Expressions have a variety of use cases including:
+
+- validating user input in HTML forms
+- verifying and parsing text in files, code and applications
+- examining test results
+- finding keywords in emails and web pages
+
+**Concepts:**
+
+1. *Regular expressions* are special sequences of characters that describe a pattern of text that is to be matched
+2. We can use *literals* to match the exact characters that we desire
+3, *Alternation*, using the pipe symbol `|`, allows us to match the text preceding or following the `|`
+4. *Character sets*, denoted by a pair of brackets `[]`, let us match one character from a series of characters
+5. *Wildcards*, represented by the period or dot `.`, will match any single character (letter, number, symbol or whitespace)
+6. *Ranges* allow us to specify a range of characters in which we can make a match
+7. *Shorthand character* classes like `\w`, `\d` and `\s` represent the ranges representing word characters, digit characters, and whitespace characters, respectively
+8. *Groupings*, denoted with parentheses `()`, group parts of a regular expression together, and allows us to limit alternation to part of a regex
+9. *Fixed quantifiers*, represented with curly braces `{}`, let us indicate the exact quantity or a range of quantity of a character we wish to match
+10. *Optional quantifiers*, indicated by the question mark `?`, allow us to indicate a character in a regex is optional, or can appear either 0 times or 1 time
+11. The *Kleene star*, denoted with the asterisk `*`, is a quantifier that matches the preceding character `0` or more times
+12. The *Kleene plus*, denoted by the plus `+`, matches the preceding character `1` or more times
+13. The *anchor* symbols hat `^` and dollar sign `$` are used to match text at the start and end of a string, respectively
+
+**Resource**
+
+[RegExr Regular Expression Builder](https://regexr.com/)
+
+In this resource, you will learn how to build regular expressions. This is helpful if you wish to experiment with regular expressions before using them professionally.
+
+</details>
+
+### **b. Clean Data with Python**
+
+<details><summary>Details</summary>
+
+When we receive raw data, we have to do a number of things before we’re ready to analyze it, possibly including:
+
+- diagnosing the “tidiness” of the data — how much - data cleaning we will have to do
+- reshaping the data — getting right rows and columns for effective analysis
+- combining multiple files
+- changing the types of values — how we fix a column where numerical values are stored as strings, for example
+- dropping or filling missing values - how we deal with data that is incomplete or missing
+- manipulating strings to represent the data better
+
+We will go through the techniques data scientists use to accomplish these goals by looking at some “unclean” datasets and trying to get them into a good, clean state.
+
+**Cleaning Data:**
+
+1) [Intro](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\1.%20intro.py)
+2) [Diagnose the Data](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\2.%20diagnose.py)
+3) [Dealing with Multiple Files](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\3.%20multiple.py)
+4) [Reshaping your Data](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\4.%20reshape.py)
+5) [Dealing with Duplicates](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\5.%20duplicate.py)
+6) [Splitting by Index](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\6.%20split%20id.py)
+7) [Splitting by Character](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\7.%20split%20char.py)
+8) [Looking at Types](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\8.%20type.py)
+9) [String Parsing](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\9.%20parse.py)
+10) [More String Parsing](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\10.%20parse%202.py)
+11) [Missing Values](Data%20Scientist%20Career%20Path\6.%20Data%20Wrangling%20and%20Tidying\1.%20Clean%20Data%20with%20Python\11.%20missval.py)
+
+**Documentation**
+
+→ [Working with Missing Data](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html)
+
+In this resource you will learn how to work with null or missing values in pandas. This is helpful if you wish to learn the library’s vast array of such tools beyond NaN.
+
+</details>
+
+</details>
+
+## **7. Summary Statistics**
+
 <!-- <details><summary>Details</summary> -->
+
+### **a. Variable Types**
+
+<details><summary>Details</summary>
+
+Generally, variables will come in two varieties; categorical and quantitative. Categorical variables group observations into separate categories that can be ordered or unordered. Quantitative variables on the other hand are variables expressed numerically, whether as a count or measurement.
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\types.png">
+</p>
+
+Let’s dive a bit deeper into the different variable types to understand how to identify them in a dataset.
+
+1) **Quantitative Variables**
+
+    We can think of quantitative variables as any information about an observation that can only be described with numbers. Quantitative variables are generally counts or measurements of something (eg., number of points earned in a game or height). They are well suited for mathematical operations and quantitative analysis, and are helpful for answering questions like “How many/much?”, “What is the average?”, or “How often?”. There are two types of quantitative variables; discrete and continuous, and they both help to serve different functions in a dataset.
+
+    **a. Discrete Variables**
+
+    Discrete quantitative variables are numeric values that represent counts and can only take on integer values. They represent whole units that can not be broken down into smaller pieces, and as such cannot be meaningfully expressed with decimals or fractions. Examples of discrete variables are the number of children in a person’s family or the number of coin flips a person makes. Unless we are working with quantum mechanics, we can not meaningfully have flipped a coin 3.5 times, or have 4.75 sisters.
+
+    **b. Continuous Variables**
+
+    Continuous quantitative variables are numeric measurements that can be expressed with decimal precision. Theoretically, continuous variables can take on infinitely many values within a given range. Examples of continuous variables are length, weight, and age which can all be described with decimal values.
+
+2. **Categorical Variables**
+
+    Categorical variables differ from quantitative variables in that they focus on the different ways data can be grouped rather than counted or measured. With categorical variables, we want to understand how the observations in our dataset can be grouped and separated from one another based on their attributes. When the groupings have a specific order or ranking, the variable is an ordinal categorical variable. If there is no apparent order or ranking to the categories, we refer to the variable as a nominal categorical variable.
+
+    **a. Ordinal Variables**
+
+    Do you remember working with a column in a dataset where the values of the column were groups that were greater or lesser than each other in some intrinsic way? Suppose there was a variable containing responses to the question “Rate your agreement with the statement: The minimum age to drive should be lowered.” The response options are “strongly disagree”, “disagree”, “neutral”, “agree”, and “strongly agree”. Because we can see an order where `“strongly disagree”` < `“disagree“` < `“neutral”` < `“agree”` < `“strongly agree”` in relation to agreement, we consider the variable to be ordinal.
+
+    **b. Nominal Variables**
+
+    Nominal categorical variables are those variables with two or more categories that do not have any relational order. Examples of nominal categories could be states in the U.S., brands of computers, or ethnicities. Notice how for each of these variables, there is no intrinsic ordering that distinguishes a category as greater than or less than another category.
+
+    **c. Binary Variables**
+
+    Binary or dichotomous variables are a special kind of nominal variable that have only two categories. Because there are only two possible values for binary variables, they are mutually exclusive to one another. We can imagine a variable that describes if a picture contains a cat or a dog as a binary variable. In this case, if the picture is not a dog, it must be a cat, and vice versa. Binary variables can also be described with numbers similar to bits with `0` or `1` values. Likewise you may find binary variables containing boolean values of `True` or `False`.
+
+**Variable Types:**
+
+1) [Assessing Variable Types](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\1.%20asses.py)
+2) [Categorical Variables](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\2.%20categorical.py)
+3) [Quantitative Variables](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\3.%20quantitative.py)
+4) [Matching Quantitative Variables](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\4.%20match%20quant.py)
+5) [Matching Categorical Variables](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\5.%20match%20categ.py)
+6) [Altering the Data Types of Pandas Dataframes](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\6.%20alter.py)
+7) [The Pandas Category Data Type](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\7.%20pandas.py)
+8) [Label Encoding with .cat.codes](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\8.%20label%20encoding.py)
+9) [One-Hot Encoding](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\9.%20one%20hot.py)
+10) [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\1.%20Variable%20Types\10.%20review.py)
+
+**Review**
+
+In this lesson, you have:
+
+- Discovered the different types of variables you will encounter when working with data and their corresponding data types in Python.
+- Explored datasets with `.head()`.
+- Assessed categories within variables with the `.unique()` method.
+- Practiced ways to check the data type of variables like the `.dtypes` attribute and `.info()` method.
+- Altered data with the `.replace()` method.
+- Learned how to change the data types of variables using the `.astype()` method.
+- Investigated the pandas `category` data type.
+- Developed your Label Encoding and One-Hot Encoding skills with the `.cat.codes` accessor and `pd.get_dummies()` method.
+
+</details>
+
+### **b. Mean, Median, Mode**
+
+<details><summary>Details</summary>
+
+**1) Mean**
+
+The *mean*, often referred to as the *average*, is a way to measure the center of a dataset.
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\mean.jpeg">
+</p>
+
+The average of a set is calculated using a two-step process:
+
+- Add all of the observations in your dataset.
+- Divide the total sum from step one by the number of points in your dataset.
+
+**Mean:**
+
+1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\1.%20Mean\1.%20intro.py)
+2. [Calculating Mean](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\1.%20Mean\2.%20calculate.py)
+3. [NumPy Average](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\1.%20Mean\3.%20numpy.py)
+4. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\1.%20Mean\4.%20review.py)
+
+**2) Median**
+
+The formal definition for the median of a dataset is:
+
+*The value that, assuming the dataset is ordered from smallest to largest, falls in the middle. If there are an even number of values in a dataset, you either report both of the middle two values or their average.*
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\median.jpeg">
+</p>
+
+There are always two steps to finding the median of a dataset:
+
+- Order the values in the dataset from smallest to largest
+- Identify the number(s) that fall(s) in the middle
+
+**Median:**
+
+1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\2.%20Median\1.%20intro.py)
+2. [Calculate Median](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\2.%20Median\2.%20calculate.py)
+3. [Median NumPy](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\2.%20Median\3.%20numpy.py)
+4. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\2.%20Median\4.%20review.py)
+
+**3) Mode**
+
+The formal definition for the mode of a dataset is:
+
+*The most frequently occurring observation in the dataset. A dataset can have multiple modes if there is more than one value with the same maximum frequency.*
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\mode.jpeg">
+</p>
+
+While you may be able to find the mode of a small dataset by simply looking through it, if you have trouble, we recommend you follow these two steps:
+
+- Find the frequency of every unique number in the dataset
+- Determine which number has the highest frequency
+
+**Mode:**
+
+1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\3.%20Mode\1.%20intro.py)
+2. [Calculate](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\3.%20Mode\2.%20calculate.py)
+3. [Mode SciPy](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\3.%20Mode\3.%20scipy.py)
+4. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\2.%20Mean%20Median%20Mode\3.%20Mode\4.%20review.py)
+
+**Documentation**
+
+→ [NumPy Statistics](https://numpy.org/doc/stable/reference/routines.statistics.html?highlight=statistics)
+
+In this documentation, you will learn about the different functions for statistical analysis within the Python library NumPy. This is helpful if you would like to understand ways to analyze data using NumPy.
+
+</details>
+
+### **c. Variance and Standard Deviation**
+
+<details><summary>Details</summary>
+
+**1) Variance**
+
+Variance is a descriptive statistic that describes how spread out the points in a data set are.
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\var.jpeg">
+</p>
+
+**Variance:**
+
+1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\1.%20Variance\1.%20intro.py)
+2. [Distance From Mean](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\1.%20Variance\2.%20distance.py)
+3. [Average Distances](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\1.%20Variance\3.%20average.py)
+4. [Square The Differences](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\1.%20Variance\4.%20square.py)
+5. [Variance In NumPy](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\1.%20Variance\5.%20numpy.py)
+6. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\1.%20Variance\6.%20review.py)
+
+**2) Standard Deviation**
+
+Standard deviation is computed by taking the square root of the variance.
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\std.jpeg">
+</p>
+
+**Standard Deviation:**
+
+1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\2.%20Standard%20Deviation\1.%20intro.py)
+2. [Standard Deviation](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\2.%20Standard%20Deviation\2.%20std.py)
+3. [Standard Deviation in NumPy](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\2.%20Standard%20Deviation\3.%20numpy.py)
+4. [Using Standard Deviation](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\2.%20Standard%20Deviation\4.%20using.py)
+5. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\3.%20Variance%20n%20Standard%20Deviation\2.%20Standard%20Deviation\5.%20review.py)
+
+</details>
+
+### **d. Distribution**
+
+<details><summary>Details</summary>
+
+**1) Histogram**
+
+There’s no better tool to visualize the uncertainty and chaos in data than a histogram. A histogram displays the distribution of your underlying data.
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\4.%20Distribution\hist.jpeg">
+</p>
+
+Histograms reveal, through numbers, interpretable trends in your data. They don’t provide a yes or no answer, but are often used as a starting point for discussion and informing an answer to your data.
+
+**Histogram:**
+
+1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\4.%20Distribution\1.%20intro.py)
+2. [Summarizing Your Data](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\4.%20Distribution\2.%20summarize.py)
+3. [Range](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\4.%20Distribution\3.%20range.py)
+4. [Bins and Count I](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\4.%20Distribution\4.%20bins%201.py)
+5. [Bins and Count II](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\4.%20Distribution\5.%20bins%202.py)
+6. [Histograms](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\4.%20Distribution\6.%20histogram.py)
+7. [Plotting a Histogram](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\4.%20Distribution\7.%20plot.py)
+8. [Finding your Best Bin Size](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\4.%20Distribution\8.%20best%20bins.py)
+
+</details>
+
+### **e. Quartiles, Quantiles, Interquartile Range**
+
+<details><summary>Details</summary>
+
+**1) Quartiles**
+
+A common way to communicate a high-level overview of a dataset is to find the values that split the data into four groups of equal size. By doing this, we can then say whether a new datapoint falls in the first, second, third, or fourth quarter of the data.
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\quartiles.svg">
+</p>
+
+The values that split the data into fourths are the *quartiles*. Those values are called the *first quartile* (Q1), the *second quartile* (Q2), and the *third quartile* (Q3)
+
+In the image above, Q1 is `10`, Q2 is `13`, and Q3 is `22`. Those three values split the data into four groups that each contain five datapoints.
+
+**Quartiles:**
+
+1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\1.%20Quartiles\1.%20intro.py)
+2. [The Second Quartile](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\1.%20Quartiles\2.%20second.py)
+3. [Q1 and Q3](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\1.%20Quartiles\3.%20q3.py)
+4. [Method Two: Including Q2](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\1.%20Quartiles\4.%20q2.py)
+5. [Quartiles in NumPy](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\1.%20Quartiles\5.%20numpy.py)
+6. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\1.%20Quartiles\6.%20review.py)
+
+**2) Quantiles**
+
+Quantiles are points that split a dataset into groups of equal size. For example, let’s say you just took a test and wanted to know whether you’re in the top 10% of the class. One way to determine this would be to split the data into ten groups with an equal number of datapoints in each group and see which group you fall into.
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\deciles.svg">
+</p>
+
+There are nine values that split the dataset into ten groups of equal size — each group has 3 different test scores in it.
+
+Those nine values that split the data are quantiles! Specifically, they are the 10-quantiles, or *deciles*.
+
+**Quantiles:**
+
+1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\2.%20Quantiles\1.%20intro.py)
+2. [Quantiles in NumPy](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\2.%20Quantiles\2.%20numpy.py)
+3. [Many Quantiles](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\2.%20Quantiles\3.%20many.py)
+4. [Common Quantiles](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\2.%20Quantiles\4.%20common.py)
+5. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\2.%20Quantiles\5.%20review.py)
+
+**3) Interquartile Range**
+
+The *interquartile range* (IQR) is a descriptive statistic that tries to solve this problem. The IQR ignores the tails of the dataset, so you know the range around-which your data is centered.
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\iqr.svg">
+</p>
+
+In this image, most of the data is between `0` and `15`. However, there is one large negative outlier (`-20`) and one large positive outlier (`40`). This makes the range of the dataset `60` (The difference between `40` and `-20`). That’s not very representative of the spread of the majority of the data!
+
+**Interquartile Range:**
+
+1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\3.%20IQR\1.%20intro.py)
+2. [Quartiles](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\3.%20IQR\2.%20quartiles.py)
+3. [IQR in SciPy](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\3.%20IQR\3.%20scipy.py)
+4. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\3.%20IQR\4.%20review.py)
+
+**4) Boxplot**
+
+Boxplots are one of the most common ways to visualize a dataset. Like histograms, boxplots give you a sense of the central tendency and spread of the data.
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\5.%20Quartiles,%20Quantiles,%20Interquartile%20Range\boxplot.png">
+</p>
+
+Take a look at the boxplot on this page. This boxplot is visualizing a dataset containing the lengths of 9,975 songs. We’ll highlight some of the features of the boxplot and will dig into them in more detail in this lesson:
+
+- The line in the center of the box is the *median*.
+- The edges of the box are the *first* and *third* quartiles. This makes the length of the box the interquartile range — the middle 50% of your data.
+- The whiskers of the boxplot extend to include most of the data. There are many different ways to calculate the length of the whiskers.
+- Outliers are points that fall beyond the whiskers. Those points are represented with dots. In the boxplot we’re showing, there are *many* outliers.
+
+**Review**
+
+Here are some of the major takeaways from boxplots:
+
+- The box of a boxplot visualizes the median, first quartile, and third quartile of a dataset.
+- The length of the box in a boxplot visualizes the interquartile range.
+- The whiskers extend from the box 1.5 times the size of the interquartile range.
+- Outliers are points that fall outside of the whiskers. They’re represented by dots.
+- Boxplots are especially useful for comparing the spread of multiple datasets.
+
+</details>
+
+### **f. Summary Statistics for Categorical Data**
+
+<details><summary>Details</summary>
+
+When exploring data, we’re often interested in summarizing a large amount of information with a single number or visualization.
+
+Depending on what we’re trying to understand from our data, we may need to rely on different statistics. For quantitative data, we can summarize central tendency using mean, median or mode and we can summarize spread using standard deviation, variance, or percentiles. However, when working with categorical data, we may not be able to use all the same summary statistics.
+
+1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\6.%20Summary%20Statistics%20for%20Categorical%20Data\1.%20intro.py)
+2. [Nominal Categories](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\6.%20Summary%20Statistics%20for%20Categorical%20Data\2.%20nominal.py)
+3. [Ordinal Categorical Variables - Central Tendency I](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\6.%20Summary%20Statistics%20for%20Categorical%20Data\3.%20ct1.py)
+4. [Ordinal Categorical Variables - Central Tendency II](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\6.%20Summary%20Statistics%20for%20Categorical%20Data\4.%20ct2.py)
+5. [Ordinal Categories: Spread](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\6.%20Summary%20Statistics%20for%20Categorical%20Data\5.%20spread.py)
+6. [Table of Proportions](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\6.%20Summary%20Statistics%20for%20Categorical%20Data\6.%20proportion.py)
+7. [Table of Proportions: Missing Data](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\6.%20Summary%20Statistics%20for%20Categorical%20Data\7.%20miss.py)
+8. [Binary Categorical Variables](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\6.%20Summary%20Statistics%20for%20Categorical%20Data\8.%20binary.py)
+9. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\6.%20Summary%20Statistics%20for%20Categorical%20Data\9.%20review.py)
+
+</details>
+
+### **g. Visualizing Categorical Data**
+
+<details><summary>Details</summary>
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\7.%20Visualizing%20Categorical%20Data\viz.svg">
+</p>
+
+**1) Bar Chart**
+
+Once you have your distinct categories, a bar chart is best used to display the different value counts of each category. We can also compare means, but we would recommend using a side-by-side box plot for that instead because they give a full picture of the five-number summary.
+
+**Bar Charts vs. Histograms**
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\7.%20Visualizing%20Categorical%20Data\bar_hist.svg">
+</p>
+
+Finally, we have one last thing to go over before we jump into coding our own charts. If you have ever run into histograms, you may notice that bar charts and histograms look almost identical. However, these are the key differences between them:
+
+- Bar charts are used for categorical variables, while histograms are used for quantitative data.
+- Histograms must always be arranged in a specific order because they represent a range of numerical values. For a bar chart, each bar represents frequencies of category variables within a category. Unless the variable is ordinal, the bars could be arranged in any order.
+
+**Bar Chart:**
+
+1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\7.%20Visualizing%20Categorical%20Data\1.%20Bar\1.%20intro.py)
+2. [Plotting Bar Charts Using Seaborn](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\7.%20Visualizing%20Categorical%20Data\1.%20Bar\2.%20seaborn.py)
+3. [Bar Chart Ordering](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\7.%20Visualizing%20Categorical%20Data\1.%20Bar\3.%20order.py)
+
+**2) Pie Chart**
+
+Pie charts are made up of slices that are combined to make a full circle. Each slice represents a proportion, and the sum of each proportion (slice) adds up to 1 (or 100%).
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\7.%20Visualizing%20Categorical%20Data\pie.webp">
+</p>
+
+These slices are meant to give viewers a relative size of the data, similar to how bars in a bar chart act. The arc length (size of the slice’s angle) of each slice is proportional to the quantity it represents. This also means that the area of each slice is proportional to this quantity as well.
+
+**Pie Chart:**
+
+1. [Plotting Pie Charts Using Matplotlib](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\7.%20Visualizing%20Categorical%20Data\2.%20Pie\1.%20matplotlib.py)
+2. [Pitfalls of Pie Charts](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\7.%20Visualizing%20Categorical%20Data\2.%20Pie\2.%20pitfall.py)
+3. [Making Your Pie Chart Better](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\7.%20Visualizing%20Categorical%20Data\2.%20Pie\3.%20better.py)
+
+</details>
+
+### **h. Associations between Variables**
+
+<details><summary>Details</summary>
+
+**1) Quantitative and Categorical Variables**
+
+Examining the relationship between variables can give us key insight into our data. In this lesson, we will cover ways of assessing the association between a quantitative variable and a categorical variable.
+
+1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\1.%20Quantitative%20and%20Categorical\1.%20intro.py)
+2. [Mean and Median Differences](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\1.%20Quantitative%20and%20Categorical\2.%20mean%20median.py)
+3. [Side-by-Side Box Plots](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\1.%20Quantitative%20and%20Categorical\3.%20side.py)
+4. [Inspecting Overlapping Histograms](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\1.%20Quantitative%20and%20Categorical\4.%20overlap.py)
+5. [Exploring Non-Binary Categorical Variables](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\1.%20Quantitative%20and%20Categorical\5.%20nonbinary.py)
+6. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\1.%20Quantitative%20and%20Categorical\6.%20review.py)
+
+**2) Two Quantitative Variables**
+
+When associations exist between variables, it means that information about the value of one variable gives us information about the value of the other variable. In this lesson, we will cover ways of examining an association between two quantitative variables.
+
+1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\2.%20Two%20Quantitative\1.%20intro.py)
+2. [Scatter Plots](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\2.%20Two%20Quantitative\2.%20scatter.py)
+3. [Exploring Covariance](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\2.%20Two%20Quantitative\3.%20covariance.py)
+4. [Correlation Part 1](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\2.%20Two%20Quantitative\4.%20correlation.py)
+5. [Correlation Part 2](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\2.%20Two%20Quantitative\5.%20correlation2.py)
+6. [Review](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\2.%20Two%20Quantitative\6.%20review.py)
+
+**3) Two Categorical Variables**
+
+1. [Intro](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\3.%20Two%20Categorical\1.%20intro.py)
+2. [Contingency Tables: Frequencies](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\3.%20Two%20Categorical\2.%20frequency.py)
+3. [Contingency Tables: Proportions](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\3.%20Two%20Categorical\3.%20proportion.py)
+4. [Marginal Proportions](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\3.%20Two%20Categorical\4.%20marginal.py)
+5. [Expected Contingency Tables](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\3.%20Two%20Categorical\5.%20expectation.py)
+6. [The Chi-Square Statistic](Data%20Scientist%20Career%20Path\7.%20Summary%20Statistics\8.%20Associations%20between%20Variables\3.%20Two%20Categorical\6.%20chisquare.py)
+
+</details>
+
+</details>
+
+## **8. Hypothesis Testing**
+
+<!-- <details><summary>Details</summary> -->
+
+### **a. Testing a Sample Statistics**
+
+<!-- <details><summary>Details</summary> -->
+
+</details>
+
+### **b. Testing an Association**
+
+<!-- <details><summary>Details</summary> -->
+
+</details>
+
+### **c. Experimental Design**
+
+<!-- <details><summary>Details</summary> -->
+
+</details>
+
+</details>
