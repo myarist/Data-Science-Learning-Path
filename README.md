@@ -1,7 +1,7 @@
 <br />
 
 <p align="center">
-  <a href='https://www.codecademy.com/'><img src="README/codecademy.png"></a>
+  <a href='https://www.codecademy.com/'><img src="codecademy.png"></a>
 </p>
 
 <br />
@@ -9,53 +9,6 @@
 <p align="justify">
   <a href="https://www.codecademy.com/">Codecademy</a> want to create a world where anyone can build something meaningful with technology, and everyone has the learning tools, resources, and opportunities to do so. Code contains a world of possibilities — all that’s required is the curiosity and drive to learn. At Codecademy, we are committed to empowering all people, regardless of where they are in their coding journeys, to continue to learn, grow, and make an impact on the world around them.
 </p>
-
-<!-- <p align="center">
-  <img src="README/banner.png">
-</p> -->
-
-<!-- ################################################################ -->
-<!-- 
-<h1 align="center">Best System for Learning to Code</h1>
-
-## 1. Choose What to Learn <a href='README/1.webp'><img src='README/1.webp' align="right" height="70" /></a>
-From building websites to analyzing data, the choice is yours. Not sure where to start? We'll point you in the right direction.
-
-<br>
-
-## 2. Learn by Doing <a href='README/2.webp'><img src='README/2.webp' align="right" height="70" /></a>
-No matter your experience level, you'll be writing real, working code in minutes.
-
-<br>
-
-## 3. Get Instant Feedback <a href='README/3.webp'><img src='README/3.webp' align="right" height="70" /></a>
-Your code is tested as soon as you submit it, so you always know if you're on the right track.
-
-<br>
-
-## 4. Put Your Learning into Practice <a href='README/4.webp'><img src='README/4.webp' align="right" height="70" /></a>
-Apply your learning with real-world projects and test your knowledge with tailor-made quizzes.
-
-<br>
-
-## 5. Land Your Dream Job <a href='README/5.webp'><img src='README/5.webp' align="right" width="90" /></a>
-Coding skills have never been more in-demand. Learn everything you need to take your career to the next level.
-
-<br><br> -->
-
-<!-- ################################################################ -->
-
----
-
-<details><summary>Certificate 📃</summary>
-
-<p align="center">
-  <img src="Data%20Scientist%20Career%20Path/Certificate.png">
-</p>
-
-</details>
-
----
 
 <br>
 
@@ -272,7 +225,7 @@ We will perform these three steps every time users have to travel between two po
 
 Here’s an example of a function definition:
 
-```
+```python
 def function_name():
     # functions tasks go here
 ```
@@ -467,7 +420,7 @@ Suppose we want to make a list of the heights of students in a class:
 
 In Python, we can create a variable called heights to store these integers into a list:
 
-```
+```python
 heights = [61, 70, 67, 64]
 ```
 
@@ -685,7 +638,7 @@ Suppose we want to store the prices of various items sold at a cafe:
 
 In Python, we can create a dictionary called menu to store this data:
 
-```
+```python
 menu = {"avocado toast": 6, "carrot juice": 5, "blueberry muffin": 2}
 ```
 
@@ -759,7 +712,7 @@ A module is a collection of Python declarations intended broadly to be used as a
 
 Usually, to use a module in a file, the basic syntax you need at the top of that file is:
 
-```
+```python
 from module_name import object_name
 ```
 
@@ -965,7 +918,7 @@ The SQL language is widely used today across web frameworks and database applica
 
 **Relational Databases**
 
-```
+```sql
 SELECT * FROM celebs;
 ```
 
@@ -996,7 +949,7 @@ All data stored in a relational database is of a certain data type. Some of the 
 
 The code below is a SQL statement. A statement is text that the database recognizes as a valid command. Statements always end in a semicolon ;.
 
-```
+```sql
 CREATE TABLE table_name (
    column_1 data_type, 
    column_2 data_type, 
@@ -1014,7 +967,7 @@ Let’s break down the components of a statement:
 
 `CREATE` statements allow us to create a new table in the database. You can use the `CREATE` statement anytime you want to create a new table from scratch. The statement below creates a new table named `celebs`.
 
-```
+```sql
 CREATE TABLE celebs (
    id INTEGER, 
    name TEXT, 
@@ -1036,7 +989,7 @@ The `INSERT` statement inserts a new row into a table.
 
 We can use the `INSERT` statement when you want to add new records. The statement below enters a record for Justin Bieber into the `celebs` table.
 
-```
+```sql
 INSERT INTO celebs (id, name, age) 
 VALUES (1, 'Justin Bieber', 22);
 ```
@@ -1054,7 +1007,7 @@ VALUES (1, 'Justin Bieber', 22);
 
 `SELECT` statements are used to fetch data from a database. In the statement below, `SELECT` returns all data in the `name` column of the celebs table.
 
-```
+```sql
 SELECT name FROM celebs;
 ```
 
@@ -1066,7 +1019,7 @@ SELECT name FROM celebs;
 
 The `ALTER TABLE` statement adds a new column to a table. You can use this command when you want to add columns to a table. The statement below adds a new column `twitter_handle` to the `celebs` table.
 
-```
+```sql
 ALTER TABLE celebs 
 ADD COLUMN twitter_handle TEXT;
 ```
@@ -1084,7 +1037,7 @@ ADD COLUMN twitter_handle TEXT;
 
 The `UPDATE` statement edits a row in a table. You can use the `UPDATE` statement when you want to change existing records. The statement below updates the record with an `id` value of `4` to have the `twitter_handle` `@taylorswift13`.
 
-```
+```sql
 UPDATE celebs 
 SET twitter_handle = '@taylorswift13' 
 WHERE id = 4; 
@@ -1103,7 +1056,7 @@ WHERE id = 4;
 
 The `DELETE FROM` statement deletes one or more rows from a table. You can use the statement when you want to delete existing records. The statement below deletes all records in the `celeb` table with no `twitter_handle`:
 
-```
+```sql
 DELETE FROM celebs 
 WHERE twitter_handle IS NULL;
 ```
@@ -1117,7 +1070,7 @@ WHERE twitter_handle IS NULL;
 
 *Constraints* that add information about how a column can be used are invoked after specifying the data type for a column. They can be used to tell the database to reject inserted data that does not adhere to a certain restriction. The statement below sets *constraints* on the `celebs` table.
 
-```
+```sql
 CREATE TABLE celebs (
    id INTEGER PRIMARY KEY, 
    name TEXT UNIQUE,
@@ -1232,13 +1185,13 @@ In this tutorial, you will learn how to access a SQLite database in a Python env
 
 A *function* is an object that is able to accept some sort of input, possibly modify it, and return some sort of output. In Python, a *lambda function* is a one-line shorthand for function. A simple lambda function might look like this:
 
-```
+```python
 add_two = lambda my_input: my_input + 2
 ```
 
 So this code:
 
-```
+```python
 print(add_two(3))
 print(add_two(100))
 print(add_two(-2))
@@ -1246,7 +1199,7 @@ print(add_two(-2))
 
 would print:
 
-```
+```python
 >>> 5
 >>> 102
 >>> 0
@@ -2047,7 +2000,7 @@ For A/B tests where the outcome of interest (eg., whether or not a customer make
 
 ## **9. Data Visualization**
 
-<!-- <details><summary>Details</summary> -->
+<details><summary>Details</summary>
 
 ### **a. Exploratory Data Analysis for Data Visualization**
 
@@ -2241,7 +2194,18 @@ If you’re unfamiliar with Pandas, just know that Pandas is a data analysis lib
 
 **2) Distribution using Seaborn**
 
+In this lesson, we will explore how to use Seaborn to graph multiple statistical distributions, including box plots and violin plots.
 
+Seaborn is optimized to work with large datasets — from its ability to natively interact with Pandas DataFrames, to automatically calculating and plotting aggregates. One of the most powerful aspects of Seaborn is its ability to visualize and compare distributions. Distributions provide us with more information about our data — how spread out it is, its range, etc.
+
+Calculating and graphing distributions is integral to analyzing massive amounts of data. We’ll look at how Seaborn allows us to move beyond the traditional distribution graphs to plots that enable us to communicate important statistical information.
+
+**Distribution:**
+
+1. [Bar Charts Hide Information](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/2.%20Seaborn/2.%20Distribution/1.%20hide.py)
+2. [KDE Plots](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/2.%20Seaborn/2.%20Distribution/2.%20kde.py)
+3. [Box Plots](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/2.%20Seaborn/2.%20Distribution/3.%20boxplot.py)
+4. [Violin Plots](Data%20Scientist%20Career%20Path/9.%20Data%20Visualization/2.%20Seaborn/2.%20Distribution/4.%20violin.py)
 
 **Documentation**
 
@@ -2252,3 +2216,1509 @@ In this documentation, you will learn the many elements of the Seaborn API. This
 </details>
 
 </details>
+
+## **10. Natural Language Processing**
+
+<details><summary>Details</summary>
+
+### **a. Getting Started with NLP**
+
+<details><summary>Details</summary>
+
+Look at the technologies around us:
+
+- Spellcheck and autocorrect
+- Auto-generated video captions
+- Virtual assistants like Amazon’s Alexa
+- Autocomplete
+- Your news site’s suggested articles
+
+<p align="center">
+    <img src="Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/1.%20Getting%20Started/nlp.webp">
+</p>
+
+**What do they have in common?**
+
+All of these handy technologies exist because of **natural language processing**! Also known as **NLP**, the field is at the intersection of linguistics, artificial intelligence, and computer science. The goal? Enabling computers to interpret, analyze, and approximate the generation of human languages (like English or Spanish).
+
+1. [Text Preprocessing](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/1.%20Getting%20Started/1.%20text.py)
+2. [Parsing Text](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/1.%20Getting%20Started/2.%20parse.py)
+3. [Language Models: Bag-of-Words](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/1.%20Getting%20Started/3.%20bag.py)
+4. [Language Models: N-Gram and NLM](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/1.%20Getting%20Started/4.%20ngram.py)
+5. [Topic Models](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/1.%20Getting%20Started/5.%20topic.py)
+6. [Text Similarity](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/1.%20Getting%20Started/6.%20similarity.py)
+7. [Language Prediction & Text Generation](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/1.%20Getting%20Started/7.%20predict.py)
+8. [Advanced NLP Topics](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/1.%20Getting%20Started/8.%20advance.py)
+9. [Challenges and Considerations](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/1.%20Getting%20Started/9.%20challenge.py)
+10. [Review](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/1.%20Getting%20Started/10.%20review.py)
+
+**Concepts!**
+
+- `Natural language processing` combines computer science, linguistics, and artificial intelligence to enable computers to process human languages.
+- `NLTK` is a Python library used for NLP.
+- `Text preprocessing` is a stage of NLP focused on cleaning and preparing text for other NLP tasks.
+- `Parsing` is an NLP technique concerned with breaking up text based on syntax.
+- `Language models` are probabilistic machine models of language use for NLP comprehension tasks. Common models include bag-of-words, n-gram models, and neural language modeling.
+- `Topic modeling` is the NLP process by which hidden topics are identified given a body of text.
+- `Text similarity` is a facet of NLP concerned with semblance between instances of language.
+- `Language prediction` is an application of NLP concerned with predicting language given preceding language.
+
+</details>
+
+### **b. Text Processing**
+
+<details><summary>Details</summary>
+
+Text preprocessing is an approach for cleaning and preparing text data for use in a specific context. Developers use it in almost all natural language processing (NLP) pipelines, including voice recognition software, search engine lookup, and machine learning model training. It is an essential step because text data can vary. 
+
+<p align="center">
+    <img src="Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/2.%20Text%20Processing/text.webp">
+</p>
+
+From its format (website, text message, voice recognition) to the people who create the text (language, dialect), there are plenty of things that can introduce noise into your data.
+
+1. [Noise Removal](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/2.%20Text%20Processing/1.%20noise.py)
+2. [Tokenization](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/2.%20Text%20Processing/2.%20token.py)
+3. [Normalization](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/2.%20Text%20Processing/3.%20normal.py)
+4. [Stopword Removal](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/2.%20Text%20Processing/4.%20stop.py)
+5. [Stemming](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/2.%20Text%20Processing/5.%20stem.py)
+6. [Lemmatization](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/2.%20Text%20Processing/6.%20lemma.py)
+7. [Part-of-Speech Tagging](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/2.%20Text%20Processing/7.%20tag.py)
+8. [Review](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/2.%20Text%20Processing/8.%20review.py)
+
+**Concepts!**
+
+- `Text preprocessing` is all about cleaning and prepping text data so that it’s ready for other NLP tasks.
+- `Noise removal` is a text preprocessing step concerned with removing unnecessary formatting from our text.
+- `Tokenization` is a text preprocessing step devoted to breaking up text into smaller units (usually words or discrete terms).
+- `Normalization` is the name we give most other text preprocessing tasks, including stemming, lemmatization, upper and lowercasing, and stopword removal.
+- `Stemming` is the normalization preprocessing task focused on removing word affixes.
+- `Lemmatization` is the normalization preprocessing task that more carefully brings words down to their root forms.
+
+</details>
+
+### **c. Bag of Word**
+
+<details><summary>Details</summary>
+
+The bag-of-words language model is a simple-yet-powerful tool to have up your sleeve when working on natural language processing (NLP). The model has many, many use cases including:
+
+- determining topics in a song
+- filtering spam from your inbox
+- finding out if a tweet has positive or negative sentiment
+- creating word clouds
+
+<p align="center">
+    <img src="Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/3.%20Bag%20of%20Word/bag.webp">
+</p>
+
+***Bag-of-words (BoW)*** is a statistical language model based on word count. Say what?
+
+Let’s start with that first part: a ***statistical language model*** is a way for computers to make sense of language based on probability. For example, let’s say we have the text:
+
+*"Five fantastic fish flew off to find faraway functions. Maybe find another five fantastic fish?"*
+
+A statistical language model focused on the starting letter for words might take this text and predict that words are most likely to start with the letter “f” because 11 out of 15 words begin that way. A different statistical model that pays attention to word order might tell us that the word “fish” tends to follow the word “fantastic.”
+
+1. [BoW Dictionaries](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/3.%20Bag%20of%20Word/1.%20bag.py)
+2. [Building a Features Dictionary](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/3.%20Bag%20of%20Word/2.%20feature.py)
+3. [Building a BoW Vector](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/3.%20Bag%20of%20Word/3.%20vector.py)
+4. [It's All in the Bag](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/3.%20Bag%20of%20Word/4.%20bags.py)
+5. [Spam A Lot No More](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/3.%20Bag%20of%20Word/5.%20spam.py)
+6. [BoW Wow](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/3.%20Bag%20of%20Word/6.%20bow.py)
+7. [BoW Ow](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/3.%20Bag%20of%20Word/7.%20ow.py)
+8. [Review](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/3.%20Bag%20of%20Word/8.%20review.py)
+
+**Documentation**
+
+[Working with Text Data | scikit-learn](https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html#extracting-features-from-text-files)
+
+In this documentation, you will learn about the scikit-learn tools for generating language models like bag-of-words using text data. This is helpful if you would like to analyze a collection of text documents.
+
+</details>
+
+### **d. Term Frequency - Inverse Document Frequency**
+
+<details><summary>Details</summary>
+
+You might not even realize, but you are building a language model in your head similar to **term frequency-inverse document frequency**, commonly known as **tf-idf**. Tf-idf is another powerful tool in your NLP toolkit that has a variety of use cases included:
+
+- ranking results in a search engine
+- text summarization
+- building smarter chatbots
+
+<p align="center">
+    <img src="Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/4.%20TFIDF/tfidf.gif">
+</p>
+
+*Term frequency-inverse document frequency* is a numerical statistic used to indicate how important a word is to each document in a collection of documents, or a corpus.
+
+Tf-idf relies on two different metrics in order to come up with an overall score:
+
+- `term frequency`, or how often a word appears in a document. This is the same as bag-of-words’ word count.
+- `inverse document frequency`, which is a measure of how often a word appears in the overall corpus. By penalizing the score of words that appear throughout a corpus, tf-idf can give better insight into how important a word is to a particular document of a corpus.
+
+1. [What is Tf-idf?](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/4.%20TFIDF/1.%20what.py)
+2. [Breaking It Down Part I: Term Frequency](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/4.%20TFIDF/2.%20term.py)
+3. [Breaking It Down Part II: Inverse Document Frequency](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/4.%20TFIDF/3.%20inverse.py)
+4. [Putting It All Together: Tf-idf](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/4.%20TFIDF/4.%20tfidf.py)
+5. [Converting Bag-of-Words to Tf-idf](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/4.%20TFIDF/5.%20convert.py)
+6. [Review](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/4.%20TFIDF/6.%20review.py)
+
+**Documentation**
+
+[Working with Text Data | scikit-learn | From Occurrences to Frequencies](https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html#from-occurrences-to-frequencies)
+
+In this documentation, you will learn how to use scikit-learn to conduct tf-idf. This is helpful if you are trying to determine topics or themes within text data.
+
+</details>
+
+### **e. Word Embedings**
+
+<details><summary>Details</summary>
+
+A *word embedding* is a representation of a word as a numeric vector, enabling us to compare and contrast how words are used and identify words that occur in similar contexts.
+
+The applications of word embeddings include:
+
+- entity recognition in chatbots
+- sentiment analysis
+- syntax parsing
+
+**Word Embedings:**
+
+1. [Intro](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/5.%20Word%20Embeding/1.%20intro.py)
+2. [Vectors](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/5.%20Word%20Embeding/2.%20vector.py)
+3. [What is a Word Embedding?](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/5.%20Word%20Embeding/3.%20what.py)
+4. [Distance](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/5.%20Word%20Embeding/4.%20distance.py)
+5. [Word Embeddings Are All About Distance](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/5.%20Word%20Embeding/5.%20words.py)
+6. [Word2vec](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/5.%20Word%20Embeding/6.%20word2vec.py)
+7. [Gensim](Data%20Scientist%20Career%20Path/10.%20Natural%20Language%20Processing/5.%20Word%20Embeding/7.%20gensim.py)
+
+**Concept!**
+
+- *Vectors* are containers of information, and they can have anywhere from 1-dimension to hundreds or thousands of dimensions
+- *Word embeddings* are vector representations of a word, where words with similar contexts are represented with vectors that are closer together
+- *spaCy* is a package that enables us to view and use pre-trained word embedding models
+- The distance between vectors can be calculated in many ways, and the best way for measuring the distance between higher dimensional vectors is cosine distance
+- *Word2Vec* is a shallow neural network model that can build word embeddings using either continuous bag-of-words or continuous skip-grams
+- *Gensim* is a package that allows us to create and train word embedding models using any corpus of text
+
+**Documentation**
+
+[spaCy Documentation - Token.similarity](https://spacy.io/api/token)
+
+In this documentation, you will learn about the spaCy library for Natural Language Processing in Python. This is helpful if you would like to process and derive insights from unstructured textual data.
+
+</details>
+
+</details>
+
+## **11. Foundations of Machine Learning: Supervised Learning**
+
+<details><summary>Details</summary>
+
+### **a. Introduction to Machine Learning**
+
+<details><summary>Details</summary>
+
+#### **1) What is Machine Learning?**
+
+While at IBM, [Arthur Samuel](https://en.wikipedia.org/wiki/Arthur_Samuel) developed a program that learned how to play checkers (1959). He called it:
+
+> *"The field of study that gives computers the ability to learn without being explicitly programmed."*
+
+What does this mean?
+
+As programmers, we often approach problems in a methodical, logic-based way. We try to determine what our desired outputs should be, and then create the proper rules that will transform our inputs into those outputs.
+
+Machine learning flips the script. We want the program itself to learn the rules that describe our data the best, by finding patterns in what we know and applying those patterns to what we don’t know.
+
+These algorithms are able to *learn*. Their performance gets better and better with each iteration, as it uncovers more hidden trends in the data.
+
+Machine learning can be branched out into the following categories:
+
+1. **Supervised Learning**
+
+    Supervised Learning is where the data is labeled and the program learns to predict the output from the input data. For instance, a supervised learning algorithm for credit card fraud detection would take as input a set of recorded transactions. For each transaction, the program would predict if it is fraudulent or not.
+
+    Supervised learning problems can be further grouped into regression and classification problems.
+
+    **Regression**:
+
+    In regression problems, we are trying to predict a continuous-valued output. Examples are:
+
+    - What is the housing price in Neo York?
+    - What is the value of cryptocurrencies?
+
+    **Classification**:
+
+    In classification problems, we are trying to predict a discrete number of values. Examples are:
+
+    - Is this a picture of a human or a picture of an AI?
+    - Is this email spam?
+
+2. **Unsupervised Learning**
+
+    Unsupervised Learning is a type of machine learning where the program learns the inherent structure of the data based on unlabeled examples.
+
+    **Clustering** is a common unsupervised machine learning approach that finds patterns and structures in unlabeled data by grouping them into clusters.
+
+    Some examples:
+
+    - Social networks clustering topics in their news feed
+    - Consumer sites clustering users for recommendations
+    - Search engines to group similar objects in one cluster
+
+#### **2) Supervised vs. Unsupervised**
+
+**Supervised Learning**
+
+Data is labeled and the program learns to predict the output from the input data
+
+<p align="center">
+    <img src="Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/1.%20Introduction/supervised.webp">
+</p>
+
+**Unsupervised Learning**
+
+Data is unlabeled and the program learns to recognize the inherent structure in the input data
+
+<p align="center">
+    <img src="Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/1.%20Introduction/unsupervised.webp">
+</p>
+
+#### **3) Scikit-Learn Cheatsheet**
+
+[Scikit-learn](http://scikit-learn.org/stable/) is a library in Python that provides many unsupervised and supervised learning algorithms. It’s built upon some of the technology you might already be familiar with, like NumPy, pandas, and Matplotlib!
+
+As you build robust Machine Learning programs, it’s helpful to have all the sklearn commands all in one place in case you forget.
+
+1. [Linear Regression](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
+
+    **Import and create the model**:
+
+    ```python
+    from sklearn.linear_model import LinearRegression
+    
+    your_model = LinearRegression()
+    ```
+
+    **Fit**:
+
+    ```python
+    your_model.fit(x_training_data, y_training_data)
+    ```
+
+    - `.coef_`: contains the coefficients
+    - `.intercept_`: contains the intercept
+    
+    **Predict**:
+
+    ```python
+    predictions = your_model.predict(your_x_data)
+    ```
+
+    - `.score()`: returns the coefficient of determination R²
+
+2. [Naive Bayes](http://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html#sklearn.naive_bayes.MultinomialNB))
+
+    **Import and create the model**:
+
+    ```python
+    from sklearn.naive_bayes import MultinomialNB
+    
+    your_model = MultinomialNB()
+    ```
+
+    **Fit**:
+
+    ```python
+    your_model.fit(x_training_data, y_training_data)
+    ```
+
+    **Predict**:
+
+    ```python
+    # Returns a list of predicted classes - one prediction for every data point
+    predictions = your_model.predict(your_x_data)
+    
+    # For every data point, returns a list of probabilities of each class
+    probabilities = your_model.predict_proba(your_x_data)
+    ```
+
+3. [K-Nearest Neighbors](http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html#sklearn.neighbors.KNeighborsClassifier)
+
+    **Import and create the model**:
+
+    ```python
+    from sklearn.neigbors import KNeighborsClassifier
+    
+    your_model = KNeighborsClassifier()
+    ```
+
+    **Fit**:
+
+    ```python
+    your_model.fit(x_training_data, y_training_data)
+    ```
+
+    **Predict**:
+
+    ```python
+    # Returns a list of predicted classes - one prediction for every data point
+    predictions = your_model.predict(your_x_data)
+    
+    # For every data point, returns a list of probabilities of each class
+    probabilities = your_model.predict_proba(your_x_data)
+    ```
+
+4. [K-Means](http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)
+
+    **Import and create the model**:
+
+    ```python
+    from sklearn.cluster import KMeans
+    
+    your_model = KMeans(n_clusters=4, init='random')
+    ```
+
+    - `n_clusters`: number of clusters to form and number of centroids to generate
+    - `init`: method for initialization
+        - `k-means++`: K-Means++ [default]
+        - `random`: K-Means
+    - `random_state`: the seed used by the random number generator [optional]
+
+
+    **Fit**:
+
+    ```python
+    your_model.fit(x_training_data)
+    ```
+
+    **Predict**:
+
+    ```python
+    predictions = your_model.predict(your_x_data)
+    ```
+
+5. [Validating the Model](http://scikit-learn.org/stable/modules/classes.html#sklearn-metrics-metrics)
+
+    **Import and print accuracy, recall, precision, and F1 score**:
+
+    ```python
+    from sklearn.metrics import accuracy_score, recall_score, precision_score, f1_score
+    
+    print(accuracy_score(true_labels, guesses))
+    print(recall_score(true_labels, guesses))
+    print(precision_score(true_labels, guesses))
+    print(f1_score(true_labels, guesses))
+    ```
+
+    **Import and print the confusion matrix**:
+
+    ```python
+    from sklearn.metrics import confusion_matrix
+    
+    print(confusion_matrix(true_labels, guesses))
+    ```
+
+6. [Training Sets and Test Sets](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
+
+    ```python
+    from sklearn.model_selection import train_test_split
+    
+    x_train, x_test, y_train, y_test = train_test_split(x, y, train_size=0.8, test_size=0.2)
+    ```
+
+    - `train_size`: the proportion of the dataset to include in the train split
+    - `test_size`: the proportion of the dataset to include in the test split
+    - `random_state`: the seed used by the random number generator [optional]
+
+</details>
+
+### **b. Regression**
+
+<details><summary>Details</summary>
+
+#### **1) Regression vs. Classification**
+
+Supervised learning algorithms use labeled data as input while unsupervised learning algorithms use unlabeled data. However, we can further distinguish machine learning algorithms by the output they produce. In terms of output, two main types of machine learning models exist: those for regression and those for classification.
+
+1. **Regression**
+
+    <p align="center">
+        <img src="Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/regression.webp">
+    </p>
+
+    Regression is used to predict outputs that are continuous. The outputs are quantities that can be flexibly determined based on the inputs of the model rather than being confined to a set of possible labels.
+
+    For example:
+
+    - Predict the height of a potted plant from the amount of rainfall
+    - Predict salary based on someone’s age and availability of high-speed internet
+    - Predict a car’s MPG (miles per gallon) based on size and model year
+
+2. **Classification**
+
+    <p align="center">
+        <img src="Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/classification.webp">
+    </p>
+
+    Classification is used to predict a discrete label. The outputs fall under a finite set of possible outcomes. Many situations have only two possible outcomes. This is called binary classification (True/False, 0 or 1, Hotdog / not Hotdog).
+
+    For example:
+
+    - Predict whether an email is spam or not
+    - Predict whether it will rain or not
+    - Predict whether a user is a power user or a casual user
+    
+    There are also two other common types of classification: *multi-class classification* and *multi-label classification*.
+
+    Multi-class classification has the same idea behind binary classification, except instead of two possible outcomes, there are three or more.
+
+    For example:
+
+    - Predict whether a photo contains a pear, apple, or peach
+    - Predict what letter of the alphabet a handwritten character is
+    - Predict whether a piece of fruit is small, medium, or large
+
+#### **2) Distance Formula**
+
+In this lesson, you will learn three different ways to define the distance between two points:
+
+- **Euclidean Distance**
+
+    <p align="center">
+        <img src="Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/1.%20Distance/euclidean.svg">
+    </p>
+
+    Euclidean Distance is the most commonly used distance formula. To find the Euclidean distance between two points, we first calculate the squared distance between each dimension. If we add up all of these squared differences and take the square root, we’ve computed the Euclidean distance.
+
+- **Manhattan Distance**
+
+    <p align="center">
+        <img src="Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/1.%20Distance/manhattan.svg">
+    </p>
+
+    Manhattan Distance is extremely similar to Euclidean distance. Rather than summing the squared difference between each dimension, we instead sum the absolute value of the difference between each dimension. It’s called Manhattan distance because it’s similar to how you might navigate when walking city blocks. If you’ve ever wondered “how many blocks will it take me to get from point A to point B”, you’ve computed the Manhattan distance.
+
+- **Hamming Distance**
+
+    Hamming Distance is another slightly different variation on the distance formula. Instead of finding the difference of each dimension, Hamming distance only cares about whether the dimensions are exactly equal. When finding the Hamming distance between two points, add one for every dimension that has different values.
+
+- **SciPy Distances**
+
+    Now that you’ve written these three distance formulas yourself, let’s look at how to use them using Python’s SciPy library:
+
+    - Euclidean Distance `.euclidean()`
+    - Manhattan Distance `.cityblock()`
+    - Hamming Distance `.hamming()`
+
+**Distance:**
+
+1. [Representing Points](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/1.%20Distance/1.%20point.py)
+2. [Euclidean Distance](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/1.%20Distance/2.%20euclidean.py)
+3. [Manhattan Distance](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/1.%20Distance/3.%20manhattan.py)
+4. [Hamming Distance](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/1.%20Distance/4.%20hamming.py)
+5. [SciPy Distances](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/1.%20Distance/5.%20scipy.py)
+
+#### **3) Linear Regression**
+
+The purpose of machine learning is often to create a model that explains some real-world data, so that we can predict what may happen next, with different inputs.
+
+The simplest model that we can fit to data is a line. When we are trying to find a line that fits a set of data best, we are performing **Linear Regression**.
+
+We often want to find lines to fit data, so that we can predict unknowns. For example:
+
+- The market price of a house vs. the square footage of a house. Can we predict how much a house will sell for, given its size?
+- The tax rate of a country vs. its GDP. Can we predict taxation based on a country’s GDP?
+- The amount of chips left in the bag vs. number of chips taken. Can we predict how much longer this bag of chips will last, given how much people at this party have been eating?
+
+**Linear Regression:**
+
+1. [Introduction to Linear Regression](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/2.%20Linear/1.%20intro.py)
+2. [Points and Lines](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/2.%20Linear/2.%20point.py)
+3. [Loss](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/2.%20Linear/3.%20loss.py)
+4. [Gradient Descent for Intercept](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/2.%20Linear/4.%20intercept.py)
+5. [Gradient Descent for Slope](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/2.%20Linear/5.%20slope.py)
+6. [Put it Together](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/2.%20Linear/6.%20put.py)
+7. [Convergence](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/2.%20Linear/7.%20convergence.py)
+8. [Learning Rate](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/2.%20Linear/8.%20learning.py)
+9. [Put it Together II](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/2.%20Linear/9.%20put2.py)
+10. [Use Your Functions on Real Data](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/2.%20Linear/10.%20function.py)
+11. [Scikit-Learn](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/2.%20Linear/11.%20scikit.py)
+12. [Review](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/2.%20Regression/2.%20Linear/12.%20review.py)
+
+**Documentation**
+
+[Scikit-learn's Linear Regression Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
+
+In this documentation, you will learn about Sklearn’s linear regression function. This is helpful if you would like to perform data prediction based on the relationship between two numeric variables.
+
+</details>
+
+### **c. Multiple Linear Regression**
+
+<details><summary>Details</summary>
+
+Linear regression is useful when we want to predict the values of a variable from its relationship with other variables. There are two different types of linear regression models (simple linear regression and multiple linear regression).
+
+In predicting the price of a home, one factor to consider is the size of the home. The relationship between those two variables, price and size, is important, but there are other variables that factor in to pricing a home: location, air quality, demographics, parking, and more. When making predictions for price, our dependent variable, we’ll want to use multiple independent variables. To do this, we’ll use Multiple Linear Regression.
+
+Multiple Linear Regression uses two or more independent variables to predict the values of the dependent variable.
+
+1. [Intro](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/3.%20Multiple/1.%20intro.py)
+2. [StreetEasy Dataset](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/3.%20Multiple/2.%20dataset.py)
+3. [Training Set vs. Test Set](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/3.%20Multiple/3.%20set.py)
+4. [Multiple Linear Regression: Scikit-Learn](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/3.%20Multiple/4.%20scikit.py)
+5. [Visualizing Results with Matplotlib](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/3.%20Multiple/5.%20matplotlib.py)
+6. [Multiple Linear Regression Equation](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/3.%20Multiple/6.%20multiple.py)
+7. [Correlations](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/3.%20Multiple/7.%20correlation.py)
+8. [Evaluating the Model's Accuracy](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/3.%20Multiple/8.%20evaluate.py)
+9. [Rebuild the Model](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/3.%20Multiple/9.%20rebuild.py)
+
+**Documentation**
+
+[Sklearn's Train_test_split documentation](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
+
+In this documentation, you will learn about the Sklearn’s train_test_split() function. This is helpful if you would like to split a dataset into training and testing datasets.
+
+</details>
+
+### **d. Classification with K-Nearest Neighbors**
+
+<details><summary>Details</summary>
+
+#### **1) K-Nearest Neighbors**
+
+<p align="center">
+    <img src="Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/4.%20Classification/1.%20KNN/knn.gif">
+</p>
+
+K-Nearest Neighbors (KNN) is a classification algorithm. The central idea is that data points with similar attributes tend to fall into similar categories.
+
+1. [Introduction](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/4.%20Classification/1.%20KNN/1.%20intro.py)
+2. [Distance Between Points - 2D](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/4.%20Classification/1.%20KNN/2.%20distance2.py)
+3. [Distance Between Points - 3D](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/4.%20Classification/1.%20KNN/3.%20distance3.py)
+4. [Data with Different Scales: Normalization](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/4.%20Classification/1.%20KNN/4.%20normal.py)
+5. [Finding the Nearest Neighbors](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/4.%20Classification/1.%20KNN/5.%20nearest.py)
+6. [Count Neighbors](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/4.%20Classification/1.%20KNN/6.%20count.py)
+7. [Classify Your Favorite Movie](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/4.%20Classification/1.%20KNN/7.%20classify.py)
+8. [Training and Validation Sets](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/4.%20Classification/1.%20KNN/8.%20set.py)
+9. [Choosing K](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/4.%20Classification/1.%20KNN/9.%20k.py)
+10. [Using sklearn](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/4.%20Classification/1.%20KNN/10.%20sklearn.py)
+
+#### **2) K-Nearest Neighbors Regression**
+
+The K-Nearest Neighbors algorithm is a powerful supervised machine learning algorithm typically used for classification. However, it can also perform regression.
+
+1. [Regression](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/4.%20Classification/2.%20Regression/1.%20regression.py)
+2. [Weighted Regression](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/4.%20Classification/2.%20Regression/2.%20weighted.py)
+3. [Scikit-learn](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/4.%20Classification/2.%20Regression/3.%20scikit.py)
+
+**Documentation**
+
+[Sklearn KNeighborsClassifier documentation](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
+
+In this documentation, you will learn about the KNeighborsClassifier in Scikit-Learn. This is helpful if you would like to classify data into discreet classes using a k-nearest neighbors algorithm.
+
+</details>
+
+### **e. Evaluating and Improving Your Model**
+
+<details><summary>Details</summary>
+
+#### **1) Normalization**
+
+Normalizing your data is an essential part of machine learning. You might have an amazing dataset with many great features, but if you forget to normalize, one of those features might completely dominate the others. It’s like you’re throwing away almost all of your information! Normalizing solves this problem. In this article, you learned the following techniques to normalize:
+
+- `Min-max normalization`: Guarantees all features will have the exact same scale but does not handle outliers well.
+- `Z-score normalization`: Handles outliers, but does not produce normalized data with the exact same scale.
+
+#### **2) N-Fold Cross-Validation**
+
+Sometimes your dataset is so small, that splitting it 80/20 will still result in a large amount of variance. One solution to this is to perform N-Fold Cross-Validation. The central idea here is that we’re going to do this entire process N times and average the accuracy. 
+
+<p align="center">
+    <img src="Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/5.%20Evaluating/cross_validation.svg">
+</p>
+
+For example, in 10-fold cross-validation, we’ll make the validation set the first 10% of the data and calculate accuracy, precision, recall and F1 score. We’ll then make the validation set the second 10% of the data and calculate these statistics again. We can do this process 10 times, and every time the validation set will be a different chunk of the data. If we then average all of the accuracies, we will have a better sense of how our model does on average.
+
+#### **3) Metrics**
+
+1. [Accuracy](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/5.%20Evaluating/1.%20accuracy.py)
+2. [Recall](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/5.%20Evaluating/2.%20recall.py)
+3. [Precision](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/5.%20Evaluating/3.%20precision.py)
+4. [F1 Score](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/5.%20Evaluating/4.%20f1score.py)
+5. [Review](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/5.%20Evaluating/5.%20review.py)
+
+**Insights:**
+
+- Classifying a single point can result in a true positive (`truth = 1`, `guess = 1`), a true negative (`truth = 0`, `guess = 0`), a false positive (`truth = 0`, `guess = 1`), or a false negative (`truth = 1`, `guess = 0`).
+- Accuracy measures how many classifications your algorithm got correct out of every classification it made.
+- Recall measures the percentage of the relevant items your classifier was able to successfully find.
+- Precision measures the percentage of items your classifier found that were actually relevant.
+Precision and recall are tied to each other. As one goes up, the other will go down.
+- F1 score is a combination of precision and recall.
+- F1 score will be low if either precision or recall is low.
+
+The decision to use precision, recall, or F1 score ultimately comes down to the context of your classification. Maybe you don’t care if your classifier has a lot of false positives. If that’s the case, precision doesn’t matter as much.
+
+**Documentation**
+
+[ML Glossary | Regularization](https://ml-cheatsheet.readthedocs.io/en/latest/regularization.html)
+
+In this documentation, you will learn about the regularization technique in Machine Learning. This is helpful to improve accuracy in machine learning models by reducing overfitting.
+
+</details>
+
+### **f. More Classification Model**
+
+<details><summary>Details</summary>
+
+#### 1) Logistic Regression
+
+Logistic Regression is a supervised machine learning algorithm that uses regression to predict the continuous probability, ranging from 0 to 1, of a data sample belonging to a specific category, or class. Then, based on that probability, the sample is classified as belonging to the more probable class, ultimately making Logistic Regression a classification algorithm.
+
+1. [Introduction](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/1.%20Logistic/1.%20intro.py)
+2. [Linear Regression Approach](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/1.%20Logistic/2.%20approach.py)
+3. [Logistic Regression](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/1.%20Logistic/3.%20logistic.py)
+4. [Log-Odds](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/1.%20Logistic/4.%20log.py)
+5. [Sigmoid Function](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/1.%20Logistic/5.%20sigmoid.py)
+6. [Log Loss](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/1.%20Logistic/6.%20loss.py)
+7. [Classification Thresholding](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/1.%20Logistic/7.%20treshold.py)
+8. [Scikit-Learn](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/1.%20Logistic/8.%20scikit.py)
+9. [Feature Importance](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/1.%20Logistic/9.%20feature.py)
+
+Review
+
+- Logistic Regression is used to perform binary classification, predicting whether a data sample belongs to a positive (present) class, labeled 1 and the negative (absent) class, labeled 0.
+- The Sigmoid Function bounds the product of feature values and their coefficients, known as the log-odds, to the range [0,1], providing the probability of a sample belonging to the positive class.
+- A loss function measures how well a machine learning model makes predictions. The loss function of Logistic Regression is log-loss.
+- A Classification Threshold is used to determine the probabilistic cutoff for where a data sample is classified as belonging to a positive or negative class. The standard cutoff for Logistic Regression is 0.5, but the threshold can be higher or lower depending on the nature of the data and the situation.
+- Scikit-learn has a Logistic Regression implementation that allows you to fit a model to your data, find the feature coefficients, and make predictions on new data samples.
+- The coefficients determined by a Logistic Regression model can be used to interpret the relative importance of each feature in predicting the class of a data sample.
+
+**Documentation**
+
+[Sklearn documentation | Linear_model.LogisticRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+
+In this documentation, you will learn about the sklearn class “Linear_model.LogisticRegression”. This is helpful if you would like to build a machine learning model to predict the probability of an event occurring based on data.
+
+#### **2) Bayes’ Theorem**
+
+Bayes’ Theorem is the basis of a branch of statistics called Bayesian Statistics, where we take prior knowledge into account before calculating new probabilities.
+
+<p align="center">
+    <img src="Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/2.%20Bayes/bayes.svg">
+</p>
+
+1. [Independent Events](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/2.%20Bayes/1.%20independent.py)
+2. [Conditional Probability](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/2.%20Bayes/2.%20conditional.py)
+3. [Testing for a Rare Disease](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/2.%20Bayes/3.%20testing.py)
+4. [Bayes' Theorem](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/2.%20Bayes/4.%20bayes.py)
+5. [Spam Filters](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/2.%20Bayes/5.%20spam.py)
+
+#### **3) Naive Bayes Classifier**
+
+A Naive Bayes classifier is a supervised machine learning algorithm that leverages Bayes’ Theorem to make predictions and classifications.
+
+<p align="center">
+    <img src="Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/3.%20Naive/spam.webp">
+</p>
+
+1. [Investigate the Data](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/3.%20Naive/1.%20investigate.py)
+2. [Bayes Theorem I](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/3.%20Naive/2.%20bayes1.py)
+3. [Bayes Theorem II](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/3.%20Naive/3.%20bayes2.py)
+4. [Smoothing](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/3.%20Naive/4.%20smooth.py)
+5. [Classify](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/3.%20Naive/5.%20classify.py)
+6. [Formatting the Data for scikit-learn](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/3.%20Naive/6.%20scikit.py)
+7. [Using scikit-learn](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/3.%20Naive/7.%20scikit2.py)
+8. [Review](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/6.%20More/3.%20Naive/8.%20review.py)
+
+**Documentation**
+
+[Sklearn Documentation | feature_extraction.text.CountVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html)
+
+In this documentation, you will learn about the CountVectorizer class of the Sklearn.feature_extraction module. This is helpful if you would like to analyze text documents or strings using machine learning algorithms.
+
+**Documentation**
+
+[Scikit-learn documentation for Multinomial Naive Bayes](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html)
+
+In this documentation, you will learn Scikit-Learn’s methods for building a multinomial naive Bayes model. This is helpful if you wish to build a naive Bayes’ classifier for discrete data.
+
+</details>
+
+### **g. Advanced Calssification Model**
+
+<details><summary>Details</summary>
+
+#### **1) Support Vector Machines**
+
+A Support Vector Machine (SVM) is a powerful supervised machine learning model used for classification. An SVM makes classifications by defining a decision boundary and then seeing what side of the boundary an unclassified point falls on. In the next few exercises, we’ll learn how these decision boundaries get defined, but for now, know that they’re defined by using a training set of classified points. That’s why SVMs are supervised machine learning models.
+
+<p align="center">
+    <img src="Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/1.%20SVM/svm.jpeg">
+</p>
+
+1. [Support Vector Machines](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/1.%20SVM/1.%20svm.py)
+2. [Optimal Decision Boundaries](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/1.%20SVM/2.%20boundaries.py)
+3. [Support Vectors and Margins](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/1.%20SVM/3.%20margin.py)
+4. [scikit-learn](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/1.%20SVM/4.%20scikit.py)
+5. [Outliers](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/1.%20SVM/5.%20outlier.py)
+6. [Kernels](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/1.%20SVM/6.%20kernel.py)
+7. [Polynomial Kernel](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/1.%20SVM/7.%20polynomial.py)
+8. [Radial Bias Function Kernel](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/1.%20SVM/8.%20radial.py)
+
+**Concepts:**
+
+- SVMs are supervised machine learning models used for classification.
+- An SVM uses support vectors to define a decision boundary. Classifications are made by comparing unlabeled points to that decision boundary.
+- Support vectors are the points of each class closest to the decision boundary. The distance between the support vectors and the decision boundary is called the margin.
+- SVMs attempt to create the largest margin possible while staying within an acceptable amount of error.
+- The `C` parameter controls how much error is allowed. A large `C` allows for little error and creates a hard margin. A small `C` allows for more error and creates a soft margin.
+- SVMs use kernels to classify points that aren’t linearly separable.
+- Kernels transform points into higher dimensional space. A polynomial kernel transforms points into three dimensions while an rbf kernel transforms points into infinite dimensions.
+- An rbf kernel has a `gamma` parameter. If `gamma` is large, the training data is more relevant, and as a result overfitting can occur.
+
+**Documentation**
+
+[Scikit-Learn Documentation on SVC](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
+
+In this documentation, you will learn how to create a Support Vector Machine classifier using the Scikit learn library. This is helpful if you would like to experiment with different mathematical models for classifying data.
+
+#### **2) Decision Trees**
+
+Decision trees are machine learning models that try to find patterns in the features of data points. Take a look at the tree on this page. This tree tries to predict whether a student will get an A on their next test.
+
+<p align="center">
+    <img src="Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/2.%20Tree/tree.gif">
+</p>
+
+1. [Cars](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/2.%20Tree/1.%20cars.py)
+2. [Gini Impurity](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/2.%20Tree/2.%20gini.py)
+3. [Information Gain](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/2.%20Tree/3.%20gain.py)
+4. [Weighted Information Gain](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/2.%20Tree/4.%20weight.py)
+5. [Recursive Tree Building](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/2.%20Tree/5.%20recursive.py)
+6. [Classifying New Data](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/2.%20Tree/6.%20classify.py)
+7. [Decision Trees in scikit-learn](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/2.%20Tree/7.%20scikit.py)
+8. [Decision Tree Limitations](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/2.%20Tree/8.%20limit.py)
+
+**Review:**
+
+- Good decision trees have pure leaves. A leaf is pure if all of the data points in that class have the same label.
+- Decision trees are created using a greedy algorithm that prioritizes finding the feature that results in the largest information gain when splitting the data using that feature.
+- Creating an optimal decision tree is difficult. The greedy algorithm doesn’t always find the globally optimal tree.
+- Decision trees often suffer from overfitting. Making the tree small by pruning helps to generalize the tree so it is more accurate on data in the real world.
+
+**Documentation**
+
+[Scikit-Learn Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
+
+In this documentation, you will learn how to use a decision tree to classify data with Scikit-Learn. This is helpful if you would like to build a decision tree classifier in Python.
+
+#### **3) Random Forest**
+
+A random forest is an ensemble machine learning technique — a random forest contains many decision trees that all work together to classify new points. When a random forest is asked to classify a new point, the random forest gives that point to each of the decision trees. Each of those trees reports their classification and the random forest returns the most popular classification. It’s like every tree gets a vote, and the most popular classification wins.
+
+<p align="center">
+    <img src="Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/3.%20Forest/forest.svg">
+</p>
+
+1. [Bagging](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/3.%20Forest/1.%20bag.py)
+2. [Bagging Features](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/3.%20Forest/2.%20feature.py)
+3. [Classify](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/3.%20Forest/3.%20classify.py)
+4. [Test Set](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/3.%20Forest/4.%20set.py)
+5. [Random Forest in Scikit-learn](Data%20Scientist%20Career%20Path/11.%20Foundations%20of%20Machine%20Learning%20Supervised%20Learning/7.%20Advanced/3.%20Forest/5.%20scikit.py)
+
+**Review:**
+
+- A random forest is an ensemble machine learning model. It makes a classification by aggregating the classifications of many decision trees.
+- Random forests are used to avoid overfitting. By aggregating the classification of multiple trees, having overfitted trees in a random forest is less impactful.
+- Every decision tree in a random forest is created by using a different subset of data points from the training set. Those data points are chosen at random with replacement, which means a single data point can be chosen more than once. This process is known as *bagging*.
+- When creating a tree in a random forest, a randomly selected subset of features are considered as candidates for the best splitting feature. If your dataset has `n` features, it is common practice to randomly select the square root of `n` features.
+
+**Documentation**
+
+[Scikit-Learn Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+
+In this documentation, you will learn about the parameters, attributes, and methods of the Random Forest Classifier within Scikit-Learn. This is helpful if you would like to use multiple decision trees to classify and analyze data.
+
+</details>
+
+</details>
+
+## **12. Foundations of Machine Learning: Unsupervised Learning**
+
+<details><summary>Details</summary>
+
+**Clustering**
+
+Clustering is the most well-known unsupervised learning technique. It finds structure in unlabeled data by identifying similar groups, or clusters. Examples of clustering applications are:
+
+- `Recommendation engines`: group products to personalize the user experience
+- `Search engines`: group news topics and search results
+- `Market segmentation`: group customers based on geography, demography, and behaviors
+- `Image segmentation`: medical imaging or road scene segmentation on self-driving cars
+
+**K-Means Clustering**
+
+<p align="center">
+    <img src="Data%20Scientist%20Career%20Path/12.%20Foundations%20of%20Machine%20Learning%20Unsupervised%20Learning/1.%20KMeans/kmeans.webp">
+</p>
+
+K-Means is the most popular and well-known clustering algorithm, and it tries to address these two questions.
+
+- The “K” refers to the number of clusters (groups) we expect to find in a dataset.
+- The “Means” refers to the average distance of data to each cluster center, also known as the centroid, which we are trying to minimize.
+
+It is an iterative approach:
+
+1. Place `k` random centroids for the initial clusters.
+2. Assign data samples to the nearest centroid.
+3. Update centroids based on the above-assigned data samples.
+
+Repeat Steps 2 and 3 until convergence (when points don’t move between clusters and centroids stabilize). Once we are happy with our clusters, we can take a new unlabeled datapoint and quickly assign it to the appropriate cluster.
+
+1. [Iris Dataset](Data%20Scientist%20Career%20Path/12.%20Foundations%20of%20Machine%20Learning%20Unsupervised%20Learning/1.%20KMeans/1.%20iris.py)
+2. [Visualize Before K-Means](Data%20Scientist%20Career%20Path/12.%20Foundations%20of%20Machine%20Learning%20Unsupervised%20Learning/1.%20KMeans/2.%20visualize.py)
+3. [Implementing K-Means: Step 1](Data%20Scientist%20Career%20Path/12.%20Foundations%20of%20Machine%20Learning%20Unsupervised%20Learning/1.%20KMeans/3.%20step1.py)
+4. [Implementing K-Means: Step 2](Data%20Scientist%20Career%20Path/12.%20Foundations%20of%20Machine%20Learning%20Unsupervised%20Learning/1.%20KMeans/4.%20step2.py)
+5. [Implementing K-Means: Step 3](Data%20Scientist%20Career%20Path/12.%20Foundations%20of%20Machine%20Learning%20Unsupervised%20Learning/1.%20KMeans/5.%20step3.py)
+6. [Implementing K-Means: Step 4](Data%20Scientist%20Career%20Path/12.%20Foundations%20of%20Machine%20Learning%20Unsupervised%20Learning/1.%20KMeans/6.%20step4.py)
+7. [Implementing K-Means: Scikit-Learn](Data%20Scientist%20Career%20Path/12.%20Foundations%20of%20Machine%20Learning%20Unsupervised%20Learning/1.%20KMeans/7.%20scikit.py)
+8. [New Data?](Data%20Scientist%20Career%20Path/12.%20Foundations%20of%20Machine%20Learning%20Unsupervised%20Learning/1.%20KMeans/8.%20new.py)
+9. [Visualize After K-Means](Data%20Scientist%20Career%20Path/12.%20Foundations%20of%20Machine%20Learning%20Unsupervised%20Learning/1.%20KMeans/9.%20visualize2.py)
+10. [Evaluation](Data%20Scientist%20Career%20Path/12.%20Foundations%20of%20Machine%20Learning%20Unsupervised%20Learning/1.%20KMeans/10.%20evaluation.py)
+11. [The Number of Clusters](Data%20Scientist%20Career%20Path/12.%20Foundations%20of%20Machine%20Learning%20Unsupervised%20Learning/1.%20KMeans/11.%20number.py)
+
+**K-Means++ Clustering**
+
+To recap, the Step 1 of the K-Means algorithm is “Place `k` random centroids for the initial clusters”.
+
+The K-Means++ algorithm replaces Step 1 of the K-Means algorithm and adds the following:
+
+1. The first cluster centroid is randomly picked from the data points.
+2. For each remaining data point, the distance from the point to its nearest cluster centroid is calculated.
+3. The next cluster centroid is picked according to a probability proportional to the distance of each point to its nearest cluster centroid. This makes it likely for the next cluster centroid to be far away from the already initialized centroids.
+
+Repeat 2 - 3 until `k` centroids are chosen.
+
+K-Means++ improves K-Means by placing initial centroids more strategically. As a result, it can result in more optimal clusterings than K-Means.
+
+It can also outperform K-Means in speed. If you get very unlucky initial centroids using K-Means, the algorithm can take a long time to converge. K-Means++ will often converge quicker!
+
+1. [Introduction to K-Means++](Data%20Scientist%20Career%20Path/12.%20Foundations%20of%20Machine%20Learning%20Unsupervised%20Learning/2.%20KMeans++/1.%20intro.py)
+2. [Poor Clustering](Data%20Scientist%20Career%20Path/12.%20Foundations%20of%20Machine%20Learning%20Unsupervised%20Learning/2.%20KMeans++/2.%20poor.py)
+3. [K-Means++ using Scikit-Learn](Data%20Scientist%20Career%20Path/12.%20Foundations%20of%20Machine%20Learning%20Unsupervised%20Learning/2.%20KMeans++/3.%20kmeans.py)
+4. [Review](Data%20Scientist%20Career%20Path/12.%20Foundations%20of%20Machine%20Learning%20Unsupervised%20Learning/2.%20KMeans++/4.%20review.py)
+
+**Documentation**
+
+→ [Scikit-Learn Documentation on Kmeans Clustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)
+
+In this documentation, you will learn scikit-Learn’s methods for k-means clustering. This is helpful if you wish to partition observations into clusters using the nearest mean.
+
+**What is Hierarchical Clustering**
+
+→ [What is Hierarchical Clustering](https://www.displayr.com/what-is-hierarchical-clustering/)
+
+In this article, you will learn about hierarchical cluster analysis. This is helpful if you want to divide the data into clusters, or groups of similar items.
+
+</details>
+
+</details>
+
+## **13. Foundations of Machine Learning: Unsupervised Learning**
+
+<details><summary>Details</summary>
+
+**What Is Deep Learning?**
+
+First, let’s focus on learning. If you have come across machine learning before, you might be familiar with the concept of a learning model. Learning describes the process by which models analyze data and finds patterns. Our machine learning algorithm learns from these patterns to find the best representation of this data, which it then uses to make predictions about new data that it has never seen before.
+
+Deep learning is a subfield of machine learning, and the concept of learning is pretty much the same.
+
+- We create our model carefully
+- Throw relevant data at it
+- Train it on this data
+- Have it make predictions for data it has never seen
+
+Deep learning models are used with many different types of data, such as text, images, audio, and more, making them applicable to many different domains.
+
+<p align="center">
+    <img src="Data%20Scientist%20Career%20Path/13.%20Foundations%20of%20Deep%20Learning/facial.webp">
+</p>
+
+The deep part of deep learning refers to the numerous “layers” that transform data. This architecture mimics the structure of the brain, where each successive layer attempts to learn progressively complex patterns from the data fed into the model. This may seem a bit abstract, so let’s look at a concrete example, such as facial recognition. With facial recognition, a deep learning model takes in a photo as an input, and numerous layers perform specific steps to identify whose face is in the picture. The steps taken by each layer might be the following:
+
+1. Find the face within the image using edge detection.
+2. Analyze the facial features (eyes, nose, mouth, etc.).
+3. Compare against faces within a repository.
+4. Output a prediction!
+
+Notice that without large amounts of data, deep learning models are no more powerful (and maybe even less accurate) than less complex learning models. However, with large amounts of data, deep learning models can improve performance to the point that they outperform humans in tasks such as classifying objects or faces in images or driving. Deep learning is fundamentally a future learning system (also known as representation learning). It learns from raw data without human intervention. Hence, given massive amounts of data, a deep learning system will perform better than traditional machine learning systems that rely on feature extractions from developers.
+
+<p align="center">
+    <img src="Data%20Scientist%20Career%20Path/13.%20Foundations%20of%20Deep%20Learning/amount.webp">
+</p>
+
+**What are Neural Networks?**
+
+A neural network is a programming model inspired by the human brain. Let’s explore how it came into existence.
+
+Computers have been designed to excel at number-crunching tasks, something that most humans find terrifying. On the other hand, humans are naturally wired to effortlessly recognize objects and patterns, something that computers find difficult.
+
+This juxtaposition brought up two important questions in the 1950s:
+
+- “How can computers be better at solving problems that humans find effortless?”
+- “How can computers solve such problems in the way a human brain does?”
+
+In 1957, Frank Rosenblatt explored the second question and invented the **Perceptron** algorithm that allowed an artificial neuron to simulate a biological neuron! The artificial neuron could take in an input, process it based on some rules, and fire a result. But computers had been doing this for years — what was so remarkable?
+
+<p align="center">
+    <img src="Data%20Scientist%20Career%20Path/13.%20Foundations%20of%20Deep%20Learning/perceptron.webp">
+</p>
+
+The Perceptron Algorithm used multiple artificial neurons, or perceptrons, for image recognition tasks and opened up a whole new way to solve computational problems. However, as it turns out, this wasn’t enough to solve a wide range of problems, and interest in the Perceptron Algorithm along with Neural Networks waned for many years.
+
+But many years later, the neurons fired back.
+
+<p align="center">
+    <img src="Data%20Scientist%20Career%20Path/13.%20Foundations%20of%20Deep%20Learning/multilayer.gif">
+</p>
+
+It was found out that creating multiple layers of neurons — with one layer feeding its output to the next layer as input — could process a wide range of inputs, make complex decisions, and still produce meaningful results. With some tweaks, the algorithm became known as the Multilayer Perceptron, which led to the rise of Feedforward Neural Networks.
+
+**Deep Learning Math**
+
+1. Scalars, Vectors, and Matrices
+
+    <p align="center">
+        <img src="Data%20Scientist%20Career%20Path/13.%20Foundations%20of%20Deep%20Learning/matrix.svg">
+    </p>
+
+    To start, let us go over a couple of topics that will be integral to understanding the mathematical operations that are present in deep learning, including how data is represented:
+
+    - Scalars: 
+    
+        A scalar is a single quantity that you can think of as a number. In machine learning models, we can use scalar quantities to manipulate data, and we often modify them to improve our model’s accuracy. We can also represent data as scalar values depending on what dataset we are working with. Code example:
+
+        ```python
+        x = 5
+        ```
+
+    - Vectors: 
+    
+        Vectors are arrays of numbers. In Python, we often denote vectors as NumPy arrays. Each value in the array can be identified by its index (location within the array). Code example:
+
+        ```python
+        x = np.array([1,2,3])
+        ```
+        
+    - Matrices: 
+    
+        Matrices are grids of information with rows and columns. We can index a matrix just like an array; however, when indexing on a matrix, we need two arguments: one for the row and one for the column. Code example:
+
+        ```python
+        x = np.array([[1,2,3],[4,5,6],[7,8,9]])
+        ```
+
+2. Tensors
+
+    <p align="center">
+        <img src="Data%20Scientist%20Career%20Path/13.%20Foundations%20of%20Deep%20Learning/tensor.svg">
+    </p>
+
+    *Scalars*, *vectors*, and *matrices* are foundational objects in linear algebra. Understanding the different ways they interact with each other and can be manipulated through matrix algebra is integral before diving into deep learning. This is because the data structure we use in deep learning is called a tensor, which is a generalized form of a vector and matrix: a multidimensional array.
+
+    A tensor allows for more flexibility with the type of data you are using and how you can manipulate that data.
+
+3. Matrix Algebra
+
+    The following gifs walkthrough matrix multiplication, addition, and transpose. You can perform element-wise operations on tensors using matrix algebra as well, which you can read more about [here](https://en.wikipedia.org/wiki/Matrix_(mathematics)#Addition,_scalar_multiplication,_and_transposition).
+
+    - Matrix Addition:
+
+        <p align="center">
+            <img src="Data%20Scientist%20Career%20Path/13.%20Foundations%20of%20Deep%20Learning/add.webp">
+        </p>
+
+    - Scalar Multiplication:
+
+        <p align="center">
+            <img src="Data%20Scientist%20Career%20Path/13.%20Foundations%20of%20Deep%20Learning/mult.webp">
+        </p>
+
+    - Matrix Multiplication:
+
+        This is the most complicated, so spend time understanding how it is done in the applet in the Learning Environment. Feel free to pause the animation if you would like to spend more time making sense of [each slide](https://content.codecademy.com/courses/deeplearning-with-tensorflow/deep-learning-math/matrix_interactive/index.html)!
+
+    - Transpose:
+
+        <p align="center">
+            <img src="Data%20Scientist%20Career%20Path/13.%20Foundations%20of%20Deep%20Learning/transpose.webp">
+        </p>
+
+4. Neural Networks Concept Overview
+
+    Let’s take a look at the journey our inputs take inside of a neural network! By an input, we mean a data point from our dataset. Our input can have many different features, so in our input layer, each node represents a different input feature. For example, if we were working with a dataset of different types of food, some of our features might be size, shape, nutrition, etc., where the value for each of these features would be held in an input node.
+
+    <p align="center">
+        <img src="Data%20Scientist%20Career%20Path/13.%20Foundations%20of%20Deep%20Learning/neural.svg">
+    </p>
+
+    Besides an input layer, our neural network has two other different types of layers:
+
+    - `Hidden layers` are layers that come between the input layer and the output layer. They introduce complexity into our neural network and help with the learning process. You can have as many hidden layers as you want in a neural network (including zero of them).
+    - `The output layer` is the final layer in our neural network. It produces the final result, so every neural network must have only one output layer.
+    
+    Each layer in a neural network contains nodes. Nodes between each layer are connected by *weights*. These are the learning parameters of our neural network, determining the strength of the connection between each linked node.
+
+5. Forwardpropagation
+
+    The process we have been going through is known as *forward propagation*. Inputs are moved forward from the input layer through the hidden layer(s) until they reach the output layer.
+
+    Check the Apps [here](https://content.codecademy.com/courses/deeplearning-with-tensorflow/deep-learning-math/applet_2_new.html).
+
+6. Loss Functions
+
+    We have seen how we get to an output! Now, what do we do with it? When a value is outputted, we calculate its error using a loss function. Our predicted values are compared with the actual values within the training data. There are two commonly used loss calculation formulas:
+
+    - Mean squared error, which is most likely familiar to you if you have come across linear regression. This gif below shows how mean squared error is calculated for a line of best fit in linear regression.
+    
+        <p align="center">
+            <img src="Data%20Scientist%20Career%20Path/13.%20Foundations%20of%20Deep%20Learning/Loss.webp">
+        </p>
+
+    - Cross-entropy loss, which is used for classification learning models rather than regression.
+
+7. Backpropagation
+
+    This all seems fine and dandy so far. However, what if our output values are inaccurate? Do we cry? Try harder next time? Well, we can do that, but the good news is that there is more to our deep learning models.
+
+    This is where backpropagation and gradient descent come into play. Forward propagation deals with feeding the input values through hidden layers to the final output layer. Backpropagation refers to the computation of gradients with an algorithm known as gradient descent. This algorithm continuously updates and refines the weights between neurons to minimize our loss function.
+
+    By gradient, we mean the rate of change with respect to the parameters of our loss function. From this, backpropagation determines how much each weight is contributing to the error in our loss function, and gradient descent will update our weight values accordingly to decrease this error.
+
+    Check the Apps [here](https://content.codecademy.com/courses/deeplearning-with-tensorflow/deep-learning-math/interactives/index.html).
+
+8. Gradient Descent
+
+    <p align="center">
+        <img src="Data%20Scientist%20Career%20Path/13.%20Foundations%20of%20Deep%20Learning/gradient.gif">
+    </p>
+
+    We have the overall process of backpropagation down! Now, let’s zoom in on what is happening during gradient descent.
+
+    If we think about the concept graphically, we want to look for the minimum point of our loss function because this will yield us the highest accuracy. If we start at a random point on our loss function, gradient descent will take “steps” in the “downhill direction” towards the negative gradient. The size of the “step” taken is dependent on our learning rate. Choosing the optimal learning rate is important because it affects both the efficiency and accuracy of our results.
+
+9. Stochastic Gradient Descent
+
+    <p align="center">
+        <img src="Data%20Scientist%20Career%20Path/13.%20Foundations%20of%20Deep%20Learning/stochastic.svg">
+    </p>
+
+    This leads us to the final point about gradient descent. In deep learning models, we are often dealing with extremely large datasets. Because of this, performing backpropagation and gradient descent calculations on all of our data may be inefficient and computationally exhaustive no matter what learning rate we choose.
+
+    To solve this problem, a variation of gradient descent known as Stochastic Gradient Descent (SGD) was developed. Let’s say we have 100,000 data points and 5 parameters. If we did 1000 iterations (also known as epochs in Deep Learning) we would end up with 100000⋅5⋅1000 = 500,000,000 computations. We do not want our computer to do that many computations on top of the rest of the learning model; it will take forever.
+
+    This is where SGD comes to play. Instead of performing gradient descent on our entire dataset, we pick out a random data point to use at each iteration. This cuts back on computation time immensely while still yielding accurate results.
+
+10. More Variants of Gradient Descent
+
+    <p align="center">
+        <img src="Data%20Scientist%20Career%20Path/13.%20Foundations%20of%20Deep%20Learning/adam.webp">
+    </p>
+
+    Just when you thought SDG solved all our problems, even more options come into the picture!
+
+    There are also other variants of gradient descent such as Adam optimization algorithm and mini-batch gradient descent. Adam is an adaptive learning algorithm that finds individual learning rates for each parameter. Mini-batch gradient descent is similar to SGD except instead of iterating on one data point at a time, we iterate on small batches of fixed size.
+
+    Adam optimizer’s ability to have an adaptive learning rate has made it an ideal variant of gradient descent and is commonly used in deep learning models. Mini-batch gradient descent was developed as an ideal trade-off between GD and SGD. Since mini-batch does not depend on just one training sample, it has a much smoother curve and is less affected by outliers and noisy data making it a more optimal algorithm for gradient descent than SGD.
+
+**Review**
+
+This overview completes the necessary mathematical intuition you need to move forward and begin coding your own learning models! To recap all the things we have learned (so many things!!!):
+
+- Scalars, vectors, matrices, and tensors
+    - A *scalar* is a singular quantity like a number.
+    - A *vector* is an array of numbers (scalar values).
+    - A *matrix* is a grid of information with rows and columns.
+    - A *tensor* is a multidimensional array and is a generalized version of a vector and matrix.
+- Matrix Algebra
+    - In *scalar multiplication*, every entry of the matrix is multiplied by a scalar value.
+    - In *matrix addition*, corresponding matrix entries are added together.
+    - In *matrix multiplication*, the dot product between the corresponding rows of the first matrix and columns of the second matrix is calculated.
+    - A *matrix transpose* turns the rows of a matrix into columns.
+- In *forward propagation*, data is sent through a neural network to get initial outputs and error values.
+    - *Weights* are the learning parameters of a deep learning model that determine the strength of the connection between two nodes.
+    - A *bias node* shifts the activation function either left or right to create the best fit for the given data in a deep learning model.
+    - *Activation Functions* are used in each layer of a neural network and determine whether neurons should be “fired” or not based on output from a weighted sum.
+    - *Loss functions* are used to calculate the error between the predicted values and actual values of our training set in a learning model.
+- In *backpropagation*, the gradient of the loss function is calculated with respect to the weight parameters within a neural network.
+    - *Gradient descent* updates our weight parameters by iteratively minimizing our loss function to increase our model’s accuracy.
+    - *Stochastic gradient descent* is a variant of gradient descent, where instead of using all data points to update parameters, a random data point is selected.
+    - *Adam optimization* is a variant of SGD that allows for adaptive learning rates.
+    - *Mini-batch gradient descent* is a variant of GD that uses random batches of data to update parameters instead of a random datapoint.
+
+</details>
+
+## **14. SQL for Interview Prep**
+
+<details><summary>Details</summary>
+
+### **a. Aggregate Functions**
+
+<details><summary>Details</summary>
+
+We’ve learned how to write queries to retrieve information from the database. Now, we are going to learn how to perform calculations using SQL.
+
+Calculations performed on multiple rows of a table are called **aggregates**.
+
+Here is a quick preview of some important aggregates that we will cover in the next  exercises:
+
+- `COUNT()`: count the number of rows
+- `SUM()`: the sum of the values in a column
+- `MAX()`: the largest value
+- `MIN()`: the smallest value
+- `AVG()`: the average of the values in a column
+- `ROUND()`: round the values in the column
+
+Aggregate functions combine multiple rows together to form a single value of more meaningful information.
+
+- `GROUP BY` is a clause used with aggregate functions to combine data from one or more columns.
+- `HAVING` limit the results of a query based on an aggregate property.
+
+**Aggregate**
+
+1. [Introduction](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/1.%20Aggregate/1.%20Aggregate/1.%20intro.sql)
+2. [Count](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/1.%20Aggregate/1.%20Aggregate/2.%20count.sql)
+3. [Sum](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/1.%20Aggregate/1.%20Aggregate/3.%20sum.sql)
+4. [Max / Min](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/1.%20Aggregate/1.%20Aggregate/4.%20maxmin.sql)
+5. [Average](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/1.%20Aggregate/1.%20Aggregate/5.%20avg.sql)
+6. [Round](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/1.%20Aggregate/1.%20Aggregate/6.%20round.sql)
+7. [Group By I](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/1.%20Aggregate/1.%20Aggregate/7.%20group1.sql)
+8. [Group By II](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/1.%20Aggregate/1.%20Aggregate/8.%20group2.sql)
+9. [Having](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/1.%20Aggregate/1.%20Aggregate/9.%20having.sql)
+
+**Challenge**
+
+1. [Code Challenge 1](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/1.%20Aggregate/2.%20Challenge/1.sql)
+2. [Code Challenge 2](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/1.%20Aggregate/2.%20Challenge/2.sql)
+3. [Code Challenge 3](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/1.%20Aggregate/2.%20Challenge/3.sql)
+4. [Code Challenge 4](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/1.%20Aggregate/2.%20Challenge/4.sql)
+5. [Code Challenge 5](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/1.%20Aggregate/2.%20Challenge/5.sql)
+6. [Code Challenge 6](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/1.%20Aggregate/2.%20Challenge/6.sql)
+7. [Code Challenge 7](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/1.%20Aggregate/2.%20Challenge/7.sql)
+8. [Code Challenge 8](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/1.%20Aggregate/2.%20Challenge/8.sql)
+9. [Code Challenge 9](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/1.%20Aggregate/2.%20Challenge/9.sql)
+
+</details>
+
+### **b. Multiple Tables**
+
+<details><summary>Details</summary>
+
+**Concepts**
+
+- `JOIN` will combine rows from different tables if the join condition is true.
+
+- `LEFT JOIN` will return every row in the left table, and if the join condition is not met, NULL values are used to fill in the columns from the right table.
+
+- `Primary key` is a column that serves a unique identifier for the rows in the table.
+
+- `Foreign key` is a column that contains the primary key to another table.
+
+- `CROSS JOIN` lets us combine all rows of one table with all rows of another table.
+
+- `UNION` stacks one dataset on top of another.
+
+- `WITH` allows us to define one or more temporary tables that can be used in the final query.
+
+**Multiple Tables**
+
+1. [Introduction](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/2.%20Multiple/1.%20Multiple/1.%20intro.sql)
+2. [Combining Tables with SQL](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/2.%20Multiple/1.%20Multiple/2.%20combine.sql)
+3. [Inner Joins](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/2.%20Multiple/1.%20Multiple/3.%20inner.sql)
+4. [Left Joins](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/2.%20Multiple/1.%20Multiple/4.%20left.sql)
+5. [Primary Key vs Foreign Key](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/2.%20Multiple/1.%20Multiple/5.%20key.sql)
+6. [Cross Join](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/2.%20Multiple/1.%20Multiple/6.%20cross.sql)
+7. [Union](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/2.%20Multiple/1.%20Multiple/7.%20union.sql)
+8. [With](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/2.%20Multiple/1.%20Multiple/8.%20with.sql)
+
+**Challenge**
+
+1. [Code Challenge 1](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/2.%20Multiple/2.%20Challenge/1.sql)
+2. [Code Challenge 2](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/2.%20Multiple/2.%20Challenge/2.sql)
+3. [Code Challenge 3](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/2.%20Multiple/2.%20Challenge/3.sql)
+4. [Code Challenge 4](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/2.%20Multiple/2.%20Challenge/4.sql)
+5. [Code Challenge 5](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/2.%20Multiple/2.%20Challenge/5.sql)
+6. [Code Challenge 6](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/2.%20Multiple/2.%20Challenge/6.sql)
+7. [Code Challenge 7](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/2.%20Multiple/2.%20Challenge/7.sql)
+8. [Code Challenge 8](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/2.%20Multiple/2.%20Challenge/8.sql)
+9. [Code Challenge 9](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/2.%20Multiple/2.%20Challenge/9.sql)
+
+</details>
+
+### **c. Window Functions**
+
+<details><summary>Details</summary>
+
+#### **1) Introduction to Window Functions**
+
+So far we’ve learned how to retrieve information from tables and perform calculations on them. But we’ve seen that `GROUP BY` and `SUM` reduce the number of rows in your query results because they are combining or grouping rows.
+
+Window functions, on the other hand, allow you to maintain the values of your original table while displaying grouped or summative information alongside in another column. This is why many Data Scientists and Data Engineers love to use window functions for complex data analysis.
+
+1. [Introduction](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/3.%20Window/1.%20Window/1.%20intro.sql)
+2. [Window Function Syntax](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/3.%20Window/1.%20Window/2.%20syntax.sql)
+3. [PARTITION BY](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/3.%20Window/1.%20Window/3.%20partition.sql)
+4. [FIRST_VALUE and LAST_VALUE](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/3.%20Window/1.%20Window/4.%20first.sql)
+5. [LAG](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/3.%20Window/1.%20Window/5.%20lag.sql)
+6. [LEAD](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/3.%20Window/1.%20Window/6.%20lead.sql)
+7. [ROW_NUMBER](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/3.%20Window/1.%20Window/7.%20row.sql)
+8. [RANK](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/3.%20Window/1.%20Window/8.%20rank.sql)
+9. [NTILE](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/3.%20Window/1.%20Window/9.%20ntile.sql)
+
+#### **2) Math and Date Function**
+
+Here’s a quick preview of the concepts that will be covered in these next six exercises:
+
+Math operators:
+
+- `+` addition
+- `-` subtraction
+- `/` division
+- `*` multiplication
+- `%` modulo (returns the remainder)
+
+Math functions:
+
+- `ABS()`: returns the absolute value of the input expression
+- `CAST()`: converts an expression into another data type
+
+Date and time functions:
+
+- `DATETIME()`: returns the date and time of a time string
+- `DATE()`: returns the date portion of a time string
+- `TIME()`: returns the time portion of a time string
+- `STRFTIME()`: returns a formatted date
+
+Date function modifiers:
+
+- Modifiers to shift the date backwards to a specified part:
+    - `'start of year'`
+    - `'start of month'`
+    - `'start of day'`
+
+- Modifiers to add a specified amount to the date and time of a time string:
+    - `'+-N years'`
+    - `'+-N months'`
+    - `'+-N days'`
+    - `'+-N hours'`
+    - `'+-N minutes'`
+    - `'+-N seconds'`
+
+- Format string substitutions:
+
+    - `%Y` returns the year (YYYY)
+    - `%m` returns the month (01-12)
+    - `%d` returns the day of month (01-31)
+    - `%H` returns the hour (00-23)
+    - `%M` returns the minute (00-59)
+    - `%S` returns the second (00-59)
+
+Let’s get started!
+
+1. [Introduction](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/3.%20Window/2.%20Math/1.%20intro.sql)
+2. [Math Operators](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/3.%20Window/2.%20Math/2.%20math.sql)
+3. [Abs](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/3.%20Window/2.%20Math/3.%20abs.sql)
+4. [Cast](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/3.%20Window/2.%20Math/4.%20cast.sql)
+5. [Date and Time Functions I](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/3.%20Window/2.%20Math/5.%20date1.sql)
+6. [Date and Time Functions II](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/3.%20Window/2.%20Math/6.%20date2.sql)
+7. [Date and Time Functions III](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/3.%20Window/2.%20Math/7.%20date3.sql)
+
+</details>
+
+### **d. SQL Interview Prep**
+
+<details><summary>Details</summary>
+
+#### **1) Interview Prep Problems**
+
+1. [Code Challenge 1](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/4.%20Interview/1.sql)
+2. [Code Challenge 2](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/4.%20Interview/2.sql)
+3. [Code Challenge 3](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/4.%20Interview/3.sql)
+4. [Code Challenge 4](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/4.%20Interview/4.sql)
+5. [Code Challenge 5](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/4.%20Interview/5.sql)
+6. [Code Challenge 6](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/4.%20Interview/6.sql)
+7. [Code Challenge 7](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/4.%20Interview/7.sql)
+8. [Code Challenge 8](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/4.%20Interview/8.sql)
+9. [Code Challenge 9](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/4.%20Interview/9.sql)
+10. [Code Challenge 10](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/4.%20Interview/10.sql)
+11. [Code Challenge 11](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/4.%20Interview/11.sql)
+12. [Code Challenge 12](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/4.%20Interview/12.sql)
+13. [Code Challenge 13](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/4.%20Interview/13.sql)
+14. [Code Challenge 14](Data%20Scientist%20Career%20Path/14.%20SQL%20for%20Interview%20Prep/4.%20Interview/14.sql)
+
+#### **2) Common SQL Interview Questions**
+
+1. What is SQL?
+
+    SQL, which stands for Structured Query Language, is a programming language to communicate with data stored in a relational database management system.
+
+    Its syntax is similar to English, making it easy to write, read, and interpret. It allows you to write queries which define the subset of data you are seeking. You can save these queries, refine them, share them, and run them on different databases.
+
+2. What is a database?
+
+    A database is a set of data stored in a computer, where the data is structured in a way that makes it easily accessible.
+
+3. What is a relational database?
+
+    A relational database is a type of database. It uses a structure that allows us to identify and access data in relation to other pieces of data in the database.
+
+    Data in a relational database is often organized as tables.
+
+4. What is a RDBMS?
+
+    A relational database management system (RDBMS) is a program that allows you to create, update, and administer a relational database.
+
+    Most relational database management systems use SQL language to access the databases.
+
+    The most popular RDBMS is MySQL. Others include PostgreSQL, Oracle DB, SQL Server, and SQLite.
+
+5. What is a table?
+
+    A table is a collection of data organized into rows and columns. They are sometimes referred to as “relations”.
+
+    They can have hundreds, thousands, and sometimes even millions of rows of data.
+
+6. What is a row and column in a table?
+
+    A row is a single record of data in a table.
+
+    A column is a set of data values of a particular type.
+
+7. What is a data type?
+
+    A data type is an attribute that specifies the type of data a column holds.
+
+    Every column of a database has a data type.
+
+    Some common data types are `INTEGER`, `TEXT`, `DATE`, `REAL`.
+
+8. What is a primary key and foreign key?
+
+    A **primary key** is a column that uniquely identifies each row of a table.
+
+    Primary keys must satisfy the following requirements: No value can be `NULL`, each value must be unique, and a table cannot have more than one primary key column.
+
+    For example, in a `customers` table, the primary key would be `customer_id`.
+
+    A **foreign key** is the primary key for one table that appears in a different table. For example if there was also an `orders` table, each order can store the customer, such that the `customer_id` column would be the foreign key.
+
+9. What is the difference between ALTER and UPDATE?
+
+    The `ALTER` statement is used to add a new column to a table. It changes the table structure.
+
+    The `UPDATE` statement is used to edit a row in the table. It changes existing records in the table.
+
+10. What is a query?
+
+    A query is a SQL statement used to retrieve information stored in a database.
+
+    They allow us to communicate with the database by asking questions and returning a result set with data relevant to the question.
+
+11. What is a subquery?
+
+    A subquery is an internal query nested inside of an external query.
+
+    They can nested inside of `SELECT`, `INSERT`, `UPDATE`, or `DELETE` statements.
+
+    When a subquery is present, it will be executed before the external statement is run.
+
+12. What are constraints?
+
+    Constraints are a set of rules used to tell the database to limit the type of data that can be stored for the columns. They tell the database to reject inserted data that does not adhere to the restriction.
+
+    They add information about how a column can be used, and are invoked after the data type for a column.
+
+    Some examples of constraints are:
+
+    `PRIMARY KEY`, which uniquely identifies each row and requires each value to be unique. `UNIQUE`, which requires every value in the column to be different. `NOT NULL`, which requires columns to have a value. DEFAULT, which takes an additional argument which will be the assumed value for an inserted row if the new row does not specify a value for that column.
+
+13. What is a statement?
+
+    A statement is text that the database recognizes as a valid command.
+
+    They can be used to perform tasks like altering he structure of a table, updating data, or retrieving data from a database.
+
+    The structure of a statement can vary, but each must end with a semi-colon `;`. The number of lines used for a statement does not matter, and it can be written as a single line or split into multiple lines to make it easier to read.
+
+14. How do you check if a field does not have a value or has a value?
+
+    When a field has no value, it is indicated with a `NULL` value.
+
+    To check if a field does not have a value, you can use `IS NULL` as the condition: 
+    
+    ```sql
+    WHERE col IS NULL
+    ```
+
+    To check if a field has a value, you can use `IS NOT NULL` as the condition: 
+    
+    ```sql
+    WHERE col IS NOT NULL
+    ```
+
+15. What is the difference between DISTINCT and UNIQUE?
+
+    `DISTINCT` is a keyword used when we want to return unique values in the output. It filters out all duplicate values in the specified column.
+
+    `UNIQUE` is a constraint used to ensure that all values of a column are different. It is similar to `PRIMARY KEY`, except that a table can have many different `UNIQUE` columns.
+
+16. What are aggregate functions used for?
+
+    Aggregate functions are used to perform a calculation on one or more values, and returns a single value of more meaningful information.
+
+    Some aggregate functions are `COUNT()`, `SUM()`, `MAX()`, `MIN()`, `AVG()`, and `ROUND()`.
+
+17. What is a join?
+
+    A join is a way to combine rows from two or more tables, based on a related column between them.
+
+18. What is the difference between an INNER JOIN and LEFT JOIN?
+
+    An `INNER JOIN` is used to include combined rows from two tables that match the `ON` condition. The final result does not include rows with no match for the `ON` condition.
+
+    A `LEFT JOIN` is used to keep all rows from the first table, regardless of whether there is a matching row in the second table for the `ON` condition.
+
+19. What is the purpose of windows functions?
+
+    Windows functions are used when you want to maintain the values of your original table while displaying grouped or summative information alongside. It is similar to aggregate functions, but does not reduce the number of rows in the result by combining or grouping them into a few result.
+
+20. What are indexes and why are they needed?
+
+    Indexes are a powerful tool used in the background of a database to speed up querying, by acting as a lookup table for data.
+
+    They are needed to efficiently store data for quicker retrieval, which can be paramount to the success of large tech companies which need to process on the scale of petabytes of data each day.
+
+</details>
+
+</details>
+
+---
+
+<details><summary>Certificate 📃</summary>
+
+<p align="center">
+  <img src="Data%20Scientist%20Career%20Path/Certificate.png">
+</p>
+
+</details>
+
+---

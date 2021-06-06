@@ -1,0 +1,6 @@
+SELECT * 
+FROM bonus_songs
+UNION
+SELECT * 
+FROM songs
+LIMIT 10;

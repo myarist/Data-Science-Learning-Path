@@ -1,0 +1,5 @@
+SELECT '2017-01-01' AS 'month'
+UNION
+SELECT '2017-02-01' AS 'month'
+UNION
+SELECT '2017-03-01' AS 'month';
