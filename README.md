@@ -3132,7 +3132,7 @@ In this article, you will learn about hierarchical cluster analysis. This is hel
 
 </details>
 
-## **13. Foundations of Machine Learning: Unsupervised Learning**
+## **13. Foundations of Machine Learning: Deep Learning**
 
 <details><summary>Details</summary>
 
