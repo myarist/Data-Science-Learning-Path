@@ -2414,7 +2414,7 @@ In this documentation, you will learn about the spaCy library for Natural Langua
 
 </details>
 
-## **11. Foundations of Machine Learning: Supervised Learning**
+## **11. Supervised Learning**
 
 <details><summary>Details</summary>
 
@@ -3051,7 +3051,7 @@ In this documentation, you will learn about the parameters, attributes, and meth
 
 </details>
 
-## **12. Foundations of Machine Learning: Unsupervised Learning**
+## **12. Unsupervised Learning**
 
 <details><summary>Details</summary>
 
@@ -3132,7 +3132,7 @@ In this article, you will learn about hierarchical cluster analysis. This is hel
 
 </details>
 
-## **13. Foundations of Machine Learning: Deep Learning**
+## **13. Deep Learning**
 
 <details><summary>Details</summary>
 
