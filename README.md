@@ -2168,7 +2168,7 @@ In this resource, you will learn about different data visualization methods incl
 
 ### **c. Advanced Graphing with Seaborn**
 
-<!-- <details><summary>Details</summary> -->
+<details><summary>Details</summary>
 
 **1) Introduction to Seaborn**
 
@@ -3127,8 +3127,6 @@ In this documentation, you will learn scikit-Learn’s methods for k-means clust
 → [What is Hierarchical Clustering](https://www.displayr.com/what-is-hierarchical-clustering/)
 
 In this article, you will learn about hierarchical cluster analysis. This is helpful if you want to divide the data into clusters, or groups of similar items.
-
-</details>
 
 </details>
 
